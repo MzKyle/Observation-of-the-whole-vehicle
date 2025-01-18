@@ -1,0 +1,27 @@
+[01m[K/home/kyle/RM/tracker/traker/test_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In member function ‘[01m[Kvoid rm_serial_driver::RMSerialDriver::receiveData()[m[K’:
+[01m[K/home/kyle/RM/tracker/traker/test_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:158:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rm_serial_driver::ReceivePacket[m[K’ has no member named ‘[01m[Kcurrent_v[m[K’
+  158 |           current_velocity.velocity = packet.[01;31m[Kcurrent_v[m[K;
+      |                                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kyle/RM/tracker/traker/test_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In member function ‘[01m[Kvoid rm_serial_driver::RMSerialDriver::sendData(auto_aim_interfaces::msg::Send_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kyle/RM/tracker/traker/test_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:190:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rm_serial_driver::SendPacket[m[K’ has no member named ‘[01m[Kis_fire[m[K’
+  190 |     packet.[01;31m[Kis_fire[m[K = msg->is_fire;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/home/kyle/RM/tracker/traker/test_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:196:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rm_serial_driver::SendPacket[m[K’ has no member named ‘[01m[Kpitch[m[K’
+  196 |     packet.[01;31m[Kpitch[m[K = msg->pitch;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/home/kyle/RM/tracker/traker/test_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:204:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rm_serial_driver::SendPacket[m[K’ has no member named ‘[01m[Kpitch[m[K’
+  204 |     std::cout << "pitch: " << packet.[01;31m[Kpitch[m[K << "yaw: " << packet.yaw << std::endl;
+      |                                      [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:35[m[K,
+                 from [01m[K/home/kyle/RM/tracker/traker/test_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:4[m[K,
+                 from [01m[K/home/kyle/RM/tracker/traker/test_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:4[m[K:
+[01m[K/home/kyle/RM/tracker/traker/test_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:210:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rm_serial_driver::SendPacket[m[K’ has no member named ‘[01m[Kpitch[m[K’
+  210 |     RCLCPP_INFO(get_logger(), "[Send] pitch %f!", packet.[01;31m[Kpitch[m[K);
+      |                                                          [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rm_serial_driver.dir/build.make:76：CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/rm_serial_driver.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

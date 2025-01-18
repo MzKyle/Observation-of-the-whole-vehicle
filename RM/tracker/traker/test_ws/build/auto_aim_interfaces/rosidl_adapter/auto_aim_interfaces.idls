@@ -1,0 +1,10 @@
+/home/kyle/RM/tracker/traker/test_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armor.idl
+/home/kyle/RM/tracker/traker/test_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armors.idl
+/home/kyle/RM/tracker/traker/test_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Target.idl
+/home/kyle/RM/tracker/traker/test_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Send.idl
+/home/kyle/RM/tracker/traker/test_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugLight.idl
+/home/kyle/RM/tracker/traker/test_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugLights.idl
+/home/kyle/RM/tracker/traker/test_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugArmor.idl
+/home/kyle/RM/tracker/traker/test_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugArmors.idl
+/home/kyle/RM/tracker/traker/test_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/TrackerInfo.idl
+/home/kyle/RM/tracker/traker/test_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Velocity.idl

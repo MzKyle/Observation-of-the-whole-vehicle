@@ -1,0 +1,45 @@
+[0.007s] Invoking command in '/home/kyle/RM/tracker/traker/test_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker/traker/test_ws/src/rm_gimbal_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description
+[0.039s] -- The C compiler identification is GNU 11.4.0
+[0.074s] -- The CXX compiler identification is GNU 11.4.0
+[0.078s] -- Detecting C compiler ABI info
+[0.124s] -- Detecting C compiler ABI info - done
+[0.130s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.130s] -- Detecting C compile features
+[0.130s] -- Detecting C compile features - done
+[0.132s] -- Detecting CXX compiler ABI info
+[0.191s] -- Detecting CXX compiler ABI info - done
+[0.195s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.196s] -- Detecting CXX compile features
+[0.196s] -- Detecting CXX compile features - done
+[0.197s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.284s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.316s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.334s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.378s] -- Added test 'lint_cmake' to check CMake code style
+[0.379s] -- Added test 'xmllint' to check XML markup files
+[0.380s] -- Configuring done
+[0.381s] -- Generating done
+[0.382s] -- Build files have been written to: /home/kyle/RM/tracker/traker/test_ws/build/rm_gimbal_description
+[0.384s] Invoked command in '/home/kyle/RM/tracker/traker/test_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker/traker/test_ws/src/rm_gimbal_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description
+[0.385s] Invoking command in '/home/kyle/RM/tracker/traker/test_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker/traker/test_ws/build/rm_gimbal_description -- -j32 -l32
+[0.412s] Invoked command in '/home/kyle/RM/tracker/traker/test_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker/traker/test_ws/build/rm_gimbal_description -- -j32 -l32
+[0.418s] Invoking command in '/home/kyle/RM/tracker/traker/test_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker/traker/test_ws/build/rm_gimbal_description
+[0.421s] -- Install configuration: ""
+[0.422s] -- Execute custom install script
+[0.422s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/urdf/rm_gimbal.urdf.xacro
+[0.427s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/ament_index/resource_index/package_run_dependencies/rm_gimbal_description
+[0.432s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/ament_index/resource_index/parent_prefix_path/rm_gimbal_description
+[0.437s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.sh
+[0.443s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.dsv
+[0.449s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.sh
+[0.453s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.dsv
+[0.459s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.bash
+[0.465s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.sh
+[0.470s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.zsh
+[0.478s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.dsv
+[0.487s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv
+[0.495s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/ament_index/resource_index/packages/rm_gimbal_description
+[0.501s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig.cmake
+[0.508s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig-version.cmake
+[0.514s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.xml
+[0.522s] Invoked command in '/home/kyle/RM/tracker/traker/test_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker/traker/test_ws/build/rm_gimbal_description

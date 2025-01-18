@@ -1,0 +1,29 @@
+{
+    "configurations": [
+      {
+        "name": "linux-gcc-x64",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/usr/local/include/opencv4"
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/g++",
+        "cStandard": "c17",
+        "cppStandard": "gnu++17",
+        "intelliSenseMode": "linux-gcc-x64",
+        "configurationProvider": "ms-vscode.cmake-tools"
+      },
+      {
+        "name": "/usr/local/include/",
+        "includePath": [
+          "${workspaceFolder}/**"
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/g++",
+        "cStandard": "c17",
+        "cppStandard": "gnu++17",
+        "intelliSenseMode": "linux-gcc-x64"
+      }
+    ],
+    "version": 4
+  }

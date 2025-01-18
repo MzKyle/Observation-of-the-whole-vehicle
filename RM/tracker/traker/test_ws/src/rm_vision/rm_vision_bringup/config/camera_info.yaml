@@ -1,0 +1,26 @@
+image_width: 1280
+image_height: 1024
+camera_name: narrow_stereo
+camera_matrix: #相机矩阵
+  rows: 3
+  cols: 3
+  data: [1.0319716478557593e+03,0.,3.1950000000000000e+02,
+          0.,1.0319716478557593e+03,2.3950000000000000e+02,
+          0.,0.,1.]
+distortion_model: plumb_bob
+distortion_coefficients: #畸变模型和系数
+  rows: 1
+  cols: 5
+  data: [ -1.4057871975131714e-01,1.5359512681658622e+00,0.,0.,-7.8903746571283877e+00]
+rectification_matrix: #矫正矩阵
+  rows: 3
+  cols: 3
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
+projection_matrix: #投影矩阵
+  rows: 3
+  cols: 4
+  data: [2204.52026,    0.     ,  628.07014,    0.     ,
+            0.     , 2211.08789,  522.49725,    0.     ,
+            0.     ,    0.     ,    1.     ,    0.     ]

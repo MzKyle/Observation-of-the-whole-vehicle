@@ -1,0 +1,16 @@
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/urdf/rm_gimbal.urdf.xacro
+/home/lz/test_ws/install/rm_gimbal_description/share/ament_index/resource_index/package_run_dependencies/rm_gimbal_description
+/home/lz/test_ws/install/rm_gimbal_description/share/ament_index/resource_index/parent_prefix_path/rm_gimbal_description
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.sh
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.dsv
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.sh
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.dsv
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.bash
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.sh
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.zsh
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.dsv
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv
+/home/lz/test_ws/install/rm_gimbal_description/share/ament_index/resource_index/packages/rm_gimbal_description
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig.cmake
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig-version.cmake
+/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.xml

@@ -1,0 +1,81 @@
+[0.007s] Invoking command in '/home/kyle/RM/tracker/traker/test_ws/build/armor_executor': CMAKE_PREFIX_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces:/home/kyle/RM/tracker/traker/test_ws/install/rm_vision_bringup:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver:/home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description:/home/kyle/RM/tracker/traker/test_ws/install/rm_auto_aim:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces/lib:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver/lib:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake /home/kyle/RM/tracker/traker/test_ws/src/rm_auto_aim/armor_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker/traker/test_ws/install/armor_executor
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.068s] -- The CXX compiler identification is GNU 11.4.0
+[0.073s] -- Detecting C compiler ABI info
+[0.119s] -- Detecting C compiler ABI info - done
+[0.123s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.123s] -- Detecting C compile features
+[0.124s] -- Detecting C compile features - done
+[0.125s] -- Detecting CXX compiler ABI info
+[0.176s] -- Detecting CXX compiler ABI info - done
+[0.180s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.180s] -- Detecting CXX compile features
+[0.180s] -- Detecting CXX compile features - done
+[0.181s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.275s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.306s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.376s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.378s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.383s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.389s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.422s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.478s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.498s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.526s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.530s] -- Looking for pthread.h
+[0.578s] -- Looking for pthread.h - found
+[0.578s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.627s] -- Found Threads: TRUE  
+[0.718s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.719s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[0.719s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.769s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.781s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.781s] -- Configured cppcheck include dirs: /home/kyle/RM/tracker/traker/test_ws/src/rm_auto_aim/armor_executor/include
+[0.781s] -- Configured cppcheck exclude dirs and/or files: 
+[0.781s] -- Added test 'lint_cmake' to check CMake code style
+[0.782s] -- Added test 'xmllint' to check XML markup files
+[0.782s] -- Added test 'clang_format' to check C / C++ code style
+[0.784s] -- Configuring done
+[0.792s] -- Generating done
+[0.795s] -- Build files have been written to: /home/kyle/RM/tracker/traker/test_ws/build/armor_executor
+[0.802s] Invoked command in '/home/kyle/RM/tracker/traker/test_ws/build/armor_executor' returned '0': CMAKE_PREFIX_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces:/home/kyle/RM/tracker/traker/test_ws/install/rm_vision_bringup:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver:/home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description:/home/kyle/RM/tracker/traker/test_ws/install/rm_auto_aim:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces/lib:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver/lib:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake /home/kyle/RM/tracker/traker/test_ws/src/rm_auto_aim/armor_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker/traker/test_ws/install/armor_executor
+[0.802s] Invoking command in '/home/kyle/RM/tracker/traker/test_ws/build/armor_executor': CMAKE_PREFIX_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces:/home/kyle/RM/tracker/traker/test_ws/install/rm_vision_bringup:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver:/home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description:/home/kyle/RM/tracker/traker/test_ws/install/rm_auto_aim:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces/lib:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver/lib:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --build /home/kyle/RM/tracker/traker/test_ws/build/armor_executor -- -j32 -l32
+[0.840s] [ 25%] [32mBuilding CXX object CMakeFiles/armor_executor_node.dir/rclcpp_components/node_main_armor_executor_node.cpp.o[0m
+[0.840s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_executor.dir/src/SolveTrajectory.cpp.o[0m
+[1.369s] [ 75%] [32m[1mLinking CXX shared library libarmor_executor.so[0m
+[1.631s] [ 75%] Built target armor_executor
+[3.004s] [100%] [32m[1mLinking CXX executable armor_executor_node[0m
+[3.102s] [100%] Built target armor_executor_node
+[3.113s] Invoked command in '/home/kyle/RM/tracker/traker/test_ws/build/armor_executor' returned '0': CMAKE_PREFIX_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces:/home/kyle/RM/tracker/traker/test_ws/install/rm_vision_bringup:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver:/home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description:/home/kyle/RM/tracker/traker/test_ws/install/rm_auto_aim:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces/lib:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver/lib:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --build /home/kyle/RM/tracker/traker/test_ws/build/armor_executor -- -j32 -l32
+[3.114s] Invoking command in '/home/kyle/RM/tracker/traker/test_ws/build/armor_executor': CMAKE_PREFIX_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces:/home/kyle/RM/tracker/traker/test_ws/install/rm_vision_bringup:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver:/home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description:/home/kyle/RM/tracker/traker/test_ws/install/rm_auto_aim:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces/lib:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver/lib:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --install /home/kyle/RM/tracker/traker/test_ws/build/armor_executor
+[3.122s] -- Install configuration: ""
+[3.122s] -- Execute custom install script
+[3.122s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/lib/armor_executor/armor_executor_node
+[3.132s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/include/armor_executor/SolveTrajectory.hpp
+[3.140s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/environment/library_path.sh
+[3.148s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/environment/library_path.dsv
+[3.154s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/lib/libarmor_executor.so
+[3.161s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/ament_index/resource_index/package_run_dependencies/armor_executor
+[3.169s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/ament_index/resource_index/parent_prefix_path/armor_executor
+[3.176s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/environment/ament_prefix_path.sh
+[3.184s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/environment/ament_prefix_path.dsv
+[3.191s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/environment/path.sh
+[3.198s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/environment/path.dsv
+[3.206s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/local_setup.bash
+[3.215s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/local_setup.sh
+[3.223s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/local_setup.zsh
+[3.231s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/local_setup.dsv
+[3.240s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/package.dsv
+[3.248s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/ament_index/resource_index/packages/armor_executor
+[3.253s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/ament_index/resource_index/rclcpp_components/armor_executor
+[3.261s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.267s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.274s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/cmake/ament_cmake_export_libraries-extras.cmake
+[3.280s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/cmake/armor_executorConfig.cmake
+[3.286s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/cmake/armor_executorConfig-version.cmake
+[3.293s] -- Symlinking: /home/kyle/RM/tracker/traker/test_ws/install/armor_executor/share/armor_executor/package.xml
+[3.303s] Invoked command in '/home/kyle/RM/tracker/traker/test_ws/build/armor_executor' returned '0': CMAKE_PREFIX_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces:/home/kyle/RM/tracker/traker/test_ws/install/rm_vision_bringup:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver:/home/kyle/RM/tracker/traker/test_ws/install/rm_gimbal_description:/home/kyle/RM/tracker/traker/test_ws/install/rm_auto_aim:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker/traker/test_ws/install/auto_aim_interfaces/lib:/home/kyle/RM/tracker/traker/test_ws/install/rm_serial_driver/lib:/home/kyle/RM/tracker/traker/test_ws/install/hik_camera/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_tracker/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_executor/lib:/home/kyle/RM/tracker/traker/test_ws/install/armor_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --install /home/kyle/RM/tracker/traker/test_ws/build/armor_executor

@@ -1,0 +1,751 @@
+[0.066s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.066s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x721870348700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7218703481c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7218703481c0>>)
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.177s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lz/test_ws'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_auto_aim/armor_detector' with type 'ros.ament_cmake' and name 'armor_detector'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_executor) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_executor) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_executor) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_executor) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_executor) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_executor) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_executor) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_executor) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_executor) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_auto_aim/armor_executor' with type 'ros.ament_cmake' and name 'armor_executor'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_auto_aim/armor_tracker' with type 'ros.ament_cmake' and name 'armor_tracker'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_auto_aim/auto_aim_interfaces' with type 'ros.ament_cmake' and name 'auto_aim_interfaces'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_auto_aim/rm_auto_aim' with type 'ros.ament_cmake' and name 'rm_auto_aim'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_gimbal_description' with type 'ros.ament_cmake' and name 'rm_gimbal_description'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_serial_driver' with type 'ros.ament_cmake' and name 'rm_serial_driver'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_vision/rm_vision_bringup' with type 'ros.ament_cmake' and name 'rm_vision_bringup'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_hik_camera' with type 'ros.ament_cmake' and name 'hik_camera'
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.227s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/lz/test_ws/install
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/humble
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'auto_aim_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lz/test_ws/build/auto_aim_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lz/test_ws/install/auto_aim_interfaces', 'merge_install': False, 'path': '/home/lz/test_ws/src/rm_auto_aim/auto_aim_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'hik_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lz/test_ws/build/hik_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lz/test_ws/install/hik_camera', 'merge_install': False, 'path': '/home/lz/test_ws/src/ros2_hik_camera', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'rm_gimbal_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lz/test_ws/build/rm_gimbal_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lz/test_ws/install/rm_gimbal_description', 'merge_install': False, 'path': '/home/lz/test_ws/src/rm_gimbal_description', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'armor_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lz/test_ws/build/armor_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lz/test_ws/install/armor_detector', 'merge_install': False, 'path': '/home/lz/test_ws/src/rm_auto_aim/armor_detector', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_executor' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_executor' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_executor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_executor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_executor' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_executor' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_executor' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_executor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_executor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'armor_executor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lz/test_ws/build/armor_executor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lz/test_ws/install/armor_executor', 'merge_install': False, 'path': '/home/lz/test_ws/src/rm_auto_aim/armor_executor', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'rm_serial_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lz/test_ws/build/rm_serial_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lz/test_ws/install/rm_serial_driver', 'merge_install': False, 'path': '/home/lz/test_ws/src/rm_serial_driver', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'armor_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lz/test_ws/build/armor_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lz/test_ws/install/armor_tracker', 'merge_install': False, 'path': '/home/lz/test_ws/src/rm_auto_aim/armor_tracker', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'rm_auto_aim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lz/test_ws/build/rm_auto_aim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lz/test_ws/install/rm_auto_aim', 'merge_install': False, 'path': '/home/lz/test_ws/src/rm_auto_aim/rm_auto_aim', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'rm_vision_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lz/test_ws/build/rm_vision_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lz/test_ws/install/rm_vision_bringup', 'merge_install': False, 'path': '/home/lz/test_ws/src/rm_vision/rm_vision_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.256s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lz/test_ws/src/rm_auto_aim/auto_aim_interfaces' with build type 'ament_cmake'
+[0.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lz/test_ws/src/rm_auto_aim/auto_aim_interfaces'
+[0.259s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lz/test_ws/src/ros2_hik_camera' with build type 'ament_cmake'
+[0.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lz/test_ws/src/ros2_hik_camera'
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lz/test_ws/src/rm_gimbal_description' with build type 'ament_cmake'
+[0.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lz/test_ws/src/rm_gimbal_description'
+[0.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lz/test_ws/build/auto_aim_interfaces -- -j12 -l12
+[0.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lz/test_ws/build/hik_camera -- -j12 -l12
+[0.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lz/test_ws/build/rm_gimbal_description -- -j12 -l12
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lz/test_ws/build/rm_gimbal_description -- -j12 -l12
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lz/test_ws/build/hik_camera -- -j12 -l12
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lz/test_ws/build/rm_gimbal_description
+[0.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_gimbal_description)
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lz/test_ws/build/rm_gimbal_description
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description' for CMake module files
+[0.357s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description' for CMake config files
+[0.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_gimbal_description', 'cmake_prefix_path')
+[0.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.ps1'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.dsv'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.sh'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description/bin'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description/lib/pkgconfig/rm_gimbal_description.pc'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description/lib/python3.10/site-packages'
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description/bin'
+[0.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.ps1'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.sh'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.bash'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.zsh'
+[0.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/rm_gimbal_description/share/colcon-core/packages/rm_gimbal_description)
+[0.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lz/test_ws/build/hik_camera
+[0.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hik_camera)
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera' for CMake module files
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lz/test_ws/build/hik_camera
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera' for CMake config files
+[0.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'cmake_prefix_path')
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.ps1'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.dsv'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.sh'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera/lib'
+[0.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'ld_library_path_lib')
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.ps1'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.dsv'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.sh'
+[0.380s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera/bin'
+[0.380s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera/lib/pkgconfig/hik_camera.pc'
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera/lib/python3.10/site-packages'
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera/bin'
+[0.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/hik_camera/share/hik_camera/package.ps1'
+[0.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/hik_camera/share/hik_camera/package.dsv'
+[0.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/hik_camera/share/hik_camera/package.sh'
+[0.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/hik_camera/share/hik_camera/package.bash'
+[0.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/hik_camera/share/hik_camera/package.zsh'
+[0.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/hik_camera/share/colcon-core/packages/hik_camera)
+[0.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_gimbal_description)
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description' for CMake module files
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description' for CMake config files
+[0.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_gimbal_description', 'cmake_prefix_path')
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.dsv'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.sh'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description/bin'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description/lib/pkgconfig/rm_gimbal_description.pc'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description/lib/python3.10/site-packages'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_gimbal_description/bin'
+[0.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.ps1'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.sh'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.bash'
+[0.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.zsh'
+[0.389s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/rm_gimbal_description/share/colcon-core/packages/rm_gimbal_description)
+[0.408s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hik_camera)
+[0.409s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera' for CMake module files
+[0.409s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera' for CMake config files
+[0.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'cmake_prefix_path')
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.ps1'
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.dsv'
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.sh'
+[0.411s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera/lib'
+[0.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'ld_library_path_lib')
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.ps1'
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.dsv'
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.sh'
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera/bin'
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera/lib/pkgconfig/hik_camera.pc'
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera/lib/python3.10/site-packages'
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/hik_camera/bin'
+[0.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/hik_camera/share/hik_camera/package.ps1'
+[0.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/hik_camera/share/hik_camera/package.dsv'
+[0.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/hik_camera/share/hik_camera/package.sh'
+[0.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/hik_camera/share/hik_camera/package.bash'
+[0.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/hik_camera/share/hik_camera/package.zsh'
+[0.414s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/hik_camera/share/colcon-core/packages/hik_camera)
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lz/test_ws/build/auto_aim_interfaces -- -j12 -l12
+[0.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lz/test_ws/build/auto_aim_interfaces
+[0.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_aim_interfaces)
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces' for CMake module files
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces' for CMake config files
+[0.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lz/test_ws/build/auto_aim_interfaces
+[0.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'cmake_prefix_path')
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.ps1'
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.dsv'
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.sh'
+[0.803s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces/lib'
+[0.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'ld_library_path_lib')
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.sh'
+[0.803s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces/bin'
+[0.803s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces/lib/pkgconfig/auto_aim_interfaces.pc'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces/lib/python3.10/site-packages'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces/bin'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.ps1'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.sh'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.bash'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.zsh'
+[0.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/auto_aim_interfaces/share/colcon-core/packages/auto_aim_interfaces)
+[1.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_aim_interfaces)
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces' for CMake module files
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces' for CMake config files
+[1.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'cmake_prefix_path')
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.ps1'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.dsv'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.sh'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces/lib'
+[1.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'ld_library_path_lib')
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.sh'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces/bin'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces/lib/pkgconfig/auto_aim_interfaces.pc'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces/lib/python3.10/site-packages'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/auto_aim_interfaces/bin'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.ps1'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.sh'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.bash'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.zsh'
+[1.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/auto_aim_interfaces/share/colcon-core/packages/auto_aim_interfaces)
+[1.018s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lz/test_ws/src/rm_auto_aim/armor_executor' with build type 'ament_cmake'
+[1.018s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lz/test_ws/src/rm_auto_aim/armor_executor'
+[1.018s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.018s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.020s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lz/test_ws/src/rm_auto_aim/armor_detector' with build type 'ament_cmake'
+[1.020s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lz/test_ws/src/rm_auto_aim/armor_detector'
+[1.021s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.021s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.023s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lz/test_ws/src/rm_serial_driver' with build type 'ament_cmake'
+[1.023s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lz/test_ws/src/rm_serial_driver'
+[1.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/armor_executor': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/armor_executor -- -j12 -l12
+[1.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/armor_detector': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/armor_detector -- -j12 -l12
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/rm_serial_driver': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/rm_serial_driver -- -j12 -l12
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/armor_executor' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/armor_executor -- -j12 -l12
+[1.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/armor_executor': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/armor_executor
+[1.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/armor_detector' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/armor_detector -- -j12 -l12
+[1.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armor_executor)
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor' for CMake module files
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor' for CMake config files
+[1.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/armor_executor' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/armor_executor
+[1.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_executor', 'cmake_prefix_path')
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/cmake_prefix_path.ps1'
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/cmake_prefix_path.dsv'
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/cmake_prefix_path.sh'
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor/lib'
+[1.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_executor', 'ld_library_path_lib')
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/ld_library_path_lib.ps1'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/ld_library_path_lib.dsv'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/ld_library_path_lib.sh'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor/bin'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor/lib/pkgconfig/armor_executor.pc'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor/lib/python3.10/site-packages'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor/bin'
+[1.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_executor/share/armor_executor/package.ps1'
+[1.131s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/armor_executor/share/armor_executor/package.dsv'
+[1.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_executor/share/armor_executor/package.sh'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_executor/share/armor_executor/package.bash'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_executor/share/armor_executor/package.zsh'
+[1.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/armor_executor/share/colcon-core/packages/armor_executor)
+[1.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armor_executor)
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor' for CMake module files
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor' for CMake config files
+[1.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_executor', 'cmake_prefix_path')
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/cmake_prefix_path.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/cmake_prefix_path.dsv'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/cmake_prefix_path.sh'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor/lib'
+[1.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_executor', 'ld_library_path_lib')
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/ld_library_path_lib.ps1'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/ld_library_path_lib.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_executor/share/armor_executor/hook/ld_library_path_lib.sh'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor/bin'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor/lib/pkgconfig/armor_executor.pc'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor/lib/python3.10/site-packages'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_executor/bin'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_executor/share/armor_executor/package.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/armor_executor/share/armor_executor/package.dsv'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_executor/share/armor_executor/package.sh'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_executor/share/armor_executor/package.bash'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_executor/share/armor_executor/package.zsh'
+[1.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/armor_executor/share/colcon-core/packages/armor_executor)
+[1.162s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lz/test_ws/src/rm_auto_aim/armor_tracker' with build type 'ament_cmake'
+[1.162s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lz/test_ws/src/rm_auto_aim/armor_tracker'
+[1.162s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.162s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/armor_detector': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/armor_detector
+[1.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/armor_tracker': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/armor_tracker -- -j12 -l12
+[1.175s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armor_detector)
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector' for CMake module files
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector' for CMake config files
+[1.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_detector', 'cmake_prefix_path')
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/cmake_prefix_path.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/cmake_prefix_path.dsv'
+[1.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/cmake_prefix_path.sh'
+[1.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/armor_detector' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/armor_detector
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector/lib'
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_detector', 'ld_library_path_lib')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/ld_library_path_lib.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/ld_library_path_lib.dsv'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/ld_library_path_lib.sh'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector/bin'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector/lib/pkgconfig/armor_detector.pc'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector/lib/python3.10/site-packages'
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector/bin'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_detector/share/armor_detector/package.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/armor_detector/share/armor_detector/package.dsv'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_detector/share/armor_detector/package.sh'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_detector/share/armor_detector/package.bash'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_detector/share/armor_detector/package.zsh'
+[1.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/armor_detector/share/colcon-core/packages/armor_detector)
+[1.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armor_detector)
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector' for CMake module files
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector' for CMake config files
+[1.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_detector', 'cmake_prefix_path')
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/cmake_prefix_path.ps1'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/cmake_prefix_path.dsv'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/cmake_prefix_path.sh'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector/lib'
+[1.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_detector', 'ld_library_path_lib')
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/ld_library_path_lib.ps1'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/ld_library_path_lib.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_detector/share/armor_detector/hook/ld_library_path_lib.sh'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector/bin'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector/lib/pkgconfig/armor_detector.pc'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector/lib/python3.10/site-packages'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_detector/bin'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_detector/share/armor_detector/package.ps1'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/armor_detector/share/armor_detector/package.dsv'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_detector/share/armor_detector/package.sh'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_detector/share/armor_detector/package.bash'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_detector/share/armor_detector/package.zsh'
+[1.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/armor_detector/share/colcon-core/packages/armor_detector)
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/armor_tracker' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/armor_tracker -- -j12 -l12
+[1.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/armor_tracker': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/armor_tracker
+[1.279s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armor_tracker)
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker' for CMake module files
+[1.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/armor_tracker' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/armor_tracker
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker' for CMake config files
+[1.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_tracker', 'cmake_prefix_path')
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/cmake_prefix_path.ps1'
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/cmake_prefix_path.dsv'
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/cmake_prefix_path.sh'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker/lib'
+[1.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_tracker', 'ld_library_path_lib')
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/ld_library_path_lib.ps1'
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/ld_library_path_lib.dsv'
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/ld_library_path_lib.sh'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker/bin'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker/lib/pkgconfig/armor_tracker.pc'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker/lib/python3.10/site-packages'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker/bin'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/package.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/package.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/package.sh'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/package.bash'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/package.zsh'
+[1.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/armor_tracker/share/colcon-core/packages/armor_tracker)
+[1.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armor_tracker)
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker' for CMake module files
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker' for CMake config files
+[1.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_tracker', 'cmake_prefix_path')
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/cmake_prefix_path.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/cmake_prefix_path.dsv'
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/cmake_prefix_path.sh'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker/lib'
+[1.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_tracker', 'ld_library_path_lib')
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/ld_library_path_lib.ps1'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/ld_library_path_lib.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/hook/ld_library_path_lib.sh'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker/bin'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker/lib/pkgconfig/armor_tracker.pc'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker/lib/python3.10/site-packages'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/armor_tracker/bin'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/package.ps1'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/package.dsv'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/package.sh'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/package.bash'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/armor_tracker/share/armor_tracker/package.zsh'
+[1.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/armor_tracker/share/colcon-core/packages/armor_tracker)
+[1.321s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lz/test_ws/src/rm_auto_aim/rm_auto_aim' with build type 'ament_cmake'
+[1.321s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lz/test_ws/src/rm_auto_aim/rm_auto_aim'
+[1.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/rm_auto_aim': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/rm_auto_aim -- -j12 -l12
+[1.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/rm_auto_aim' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/rm_auto_aim -- -j12 -l12
+[1.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/rm_auto_aim': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/rm_auto_aim
+[1.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_auto_aim)
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim' for CMake module files
+[1.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/rm_auto_aim' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/rm_auto_aim
+[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim' for CMake config files
+[1.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_auto_aim', 'cmake_prefix_path')
+[1.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/hook/cmake_prefix_path.ps1'
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/hook/cmake_prefix_path.dsv'
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/hook/cmake_prefix_path.sh'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim/bin'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim/lib/pkgconfig/rm_auto_aim.pc'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim/lib/python3.10/site-packages'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim/bin'
+[1.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/package.ps1'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/package.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/package.sh'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/package.bash'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/package.zsh'
+[1.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/rm_auto_aim/share/colcon-core/packages/rm_auto_aim)
+[1.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_auto_aim)
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim' for CMake module files
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim' for CMake config files
+[1.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_auto_aim', 'cmake_prefix_path')
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/hook/cmake_prefix_path.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/hook/cmake_prefix_path.dsv'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/hook/cmake_prefix_path.sh'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim/bin'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim/lib/pkgconfig/rm_auto_aim.pc'
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim/lib/python3.10/site-packages'
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_auto_aim/bin'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/package.ps1'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/package.dsv'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/package.sh'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/package.bash'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_auto_aim/share/rm_auto_aim/package.zsh'
+[1.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/rm_auto_aim/share/colcon-core/packages/rm_auto_aim)
+[10.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/rm_serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/rm_serial_driver -- -j12 -l12
+[10.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/rm_serial_driver': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/rm_serial_driver
+[10.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_serial_driver)
+[10.657s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver' for CMake module files
+[10.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/rm_serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/rm_serial_driver
+[10.657s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver' for CMake config files
+[10.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'cmake_prefix_path')
+[10.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.ps1'
+[10.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.dsv'
+[10.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.sh'
+[10.659s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver/lib'
+[10.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'ld_library_path_lib')
+[10.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.ps1'
+[10.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.dsv'
+[10.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.sh'
+[10.661s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver/bin'
+[10.661s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver/lib/pkgconfig/rm_serial_driver.pc'
+[10.661s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver/lib/python3.10/site-packages'
+[10.661s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver/bin'
+[10.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/package.ps1'
+[10.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/package.dsv'
+[10.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/package.sh'
+[10.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/package.bash'
+[10.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/package.zsh'
+[10.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/rm_serial_driver/share/colcon-core/packages/rm_serial_driver)
+[10.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_serial_driver)
+[10.690s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver' for CMake module files
+[10.690s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver' for CMake config files
+[10.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'cmake_prefix_path')
+[10.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.ps1'
+[10.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.dsv'
+[10.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.sh'
+[10.692s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver/lib'
+[10.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'ld_library_path_lib')
+[10.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.ps1'
+[10.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.dsv'
+[10.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.sh'
+[10.692s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver/bin'
+[10.692s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver/lib/pkgconfig/rm_serial_driver.pc'
+[10.693s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver/lib/python3.10/site-packages'
+[10.693s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_serial_driver/bin'
+[10.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/package.ps1'
+[10.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/package.dsv'
+[10.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/package.sh'
+[10.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/package.bash'
+[10.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_serial_driver/share/rm_serial_driver/package.zsh'
+[10.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/rm_serial_driver/share/colcon-core/packages/rm_serial_driver)
+[10.695s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lz/test_ws/src/rm_vision/rm_vision_bringup' with build type 'ament_cmake'
+[10.695s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lz/test_ws/src/rm_vision/rm_vision_bringup'
+[10.695s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.695s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/rm_vision_bringup': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/rm_vision_bringup -- -j12 -l12
+[10.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/rm_vision_bringup' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/lz/test_ws/build/rm_vision_bringup -- -j12 -l12
+[10.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lz/test_ws/build/rm_vision_bringup': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/rm_vision_bringup
+[10.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_vision_bringup)
+[10.771s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup' for CMake module files
+[10.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lz/test_ws/build/rm_vision_bringup' returned '0': CMAKE_PREFIX_PATH=/home/lz/test_ws/install/rm_auto_aim:/home/lz/test_ws/install/armor_tracker:/home/lz/test_ws/install/rm_serial_driver:/home/lz/test_ws/install/armor_executor:/home/lz/test_ws/install/armor_detector:/home/lz/test_ws/install/auto_aim_interfaces:/home/lz/test_ws/install/rm_vision_bringup:/home/lz/test_ws/install/rm_gimbal_description:/home/lz/test_ws/install/mindvision_camera:/home/lz/test_ws/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/lz/test_ws/install/armor_tracker/lib:/home/lz/test_ws/install/rm_serial_driver/lib:/home/lz/test_ws/install/armor_executor/lib:/home/lz/test_ws/install/armor_detector/lib:/home/lz/test_ws/install/auto_aim_interfaces/lib:/home/lz/test_ws/install/mindvision_camera/lib:/home/lz/test_ws/install/hik_camera/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/lz/test_ws/build/rm_vision_bringup
+[10.771s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup' for CMake config files
+[10.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_vision_bringup', 'cmake_prefix_path')
+[10.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.ps1'
+[10.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.dsv'
+[10.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.sh'
+[10.772s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup/bin'
+[10.772s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup/lib/pkgconfig/rm_vision_bringup.pc'
+[10.772s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup/lib/python3.10/site-packages'
+[10.773s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup/bin'
+[10.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/package.ps1'
+[10.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/package.dsv'
+[10.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/package.sh'
+[10.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/package.bash'
+[10.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/package.zsh'
+[10.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/rm_vision_bringup/share/colcon-core/packages/rm_vision_bringup)
+[10.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_vision_bringup)
+[10.793s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup' for CMake module files
+[10.794s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup' for CMake config files
+[10.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_vision_bringup', 'cmake_prefix_path')
+[10.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.ps1'
+[10.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.dsv'
+[10.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.sh'
+[10.795s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup/bin'
+[10.795s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup/lib/pkgconfig/rm_vision_bringup.pc'
+[10.795s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup/lib/python3.10/site-packages'
+[10.795s] Level 1:colcon.colcon_core.environment:checking '/home/lz/test_ws/install/rm_vision_bringup/bin'
+[10.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/package.ps1'
+[10.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/package.dsv'
+[10.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/package.sh'
+[10.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/package.bash'
+[10.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/lz/test_ws/install/rm_vision_bringup/share/rm_vision_bringup/package.zsh'
+[10.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lz/test_ws/install/rm_vision_bringup/share/colcon-core/packages/rm_vision_bringup)
+[10.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.797s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.801s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.801s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.802s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.810s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lz/test_ws/install/local_setup.ps1'
+[10.812s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lz/test_ws/install/_local_setup_util_ps1.py'
+[10.814s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lz/test_ws/install/setup.ps1'
+[10.815s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lz/test_ws/install/local_setup.sh'
+[10.816s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lz/test_ws/install/_local_setup_util_sh.py'
+[10.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lz/test_ws/install/setup.sh'
+[10.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lz/test_ws/install/local_setup.bash'
+[10.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lz/test_ws/install/setup.bash'
+[10.818s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lz/test_ws/install/local_setup.zsh'
+[10.818s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lz/test_ws/install/setup.zsh'

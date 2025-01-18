@@ -1,0 +1,8 @@
+source;share/rm_auto_aim/hook/cmake_prefix_path.ps1
+source;share/rm_auto_aim/hook/cmake_prefix_path.dsv
+source;share/rm_auto_aim/hook/cmake_prefix_path.sh
+source;share/rm_auto_aim/local_setup.bash
+source;share/rm_auto_aim/local_setup.dsv
+source;share/rm_auto_aim/local_setup.ps1
+source;share/rm_auto_aim/local_setup.sh
+source;share/rm_auto_aim/local_setup.zsh
