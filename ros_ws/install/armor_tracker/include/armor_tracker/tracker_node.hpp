@@ -1,1 +1,0 @@
-/home/kyle/ros_ws/rm_auto_aim/armor_tracker/include/armor_tracker/tracker_node.hpp

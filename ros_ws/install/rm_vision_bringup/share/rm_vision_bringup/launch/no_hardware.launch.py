@@ -1,1 +1,0 @@
-/home/kyle/ros_ws/rm_vision/rm_vision_bringup/launch/no_hardware.launch.py
