@@ -1,0 +1,1 @@
+/home/kyle/ros_ws/build/auto_aim_interfaces/ament_cmake_python/auto_aim_interfaces/auto_aim_interfaces.egg-info/top_level.txt

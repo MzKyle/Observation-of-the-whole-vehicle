@@ -1,0 +1,1 @@
+/home/kyle/ros_ws/build/rm_vision_bringup/ament_cmake_core/rm_vision_bringupConfig-version.cmake

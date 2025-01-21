@@ -1,0 +1,15 @@
+setup.py
+auto_aim_interfaces/__init__.py
+auto_aim_interfaces.egg-info/PKG-INFO
+auto_aim_interfaces.egg-info/SOURCES.txt
+auto_aim_interfaces.egg-info/dependency_links.txt
+auto_aim_interfaces.egg-info/top_level.txt
+auto_aim_interfaces/msg/__init__.py
+auto_aim_interfaces/msg/_armor.py
+auto_aim_interfaces/msg/_armors.py
+auto_aim_interfaces/msg/_debug_armor.py
+auto_aim_interfaces/msg/_debug_armors.py
+auto_aim_interfaces/msg/_debug_light.py
+auto_aim_interfaces/msg/_debug_lights.py
+auto_aim_interfaces/msg/_target.py
+auto_aim_interfaces/msg/_tracker_info.py

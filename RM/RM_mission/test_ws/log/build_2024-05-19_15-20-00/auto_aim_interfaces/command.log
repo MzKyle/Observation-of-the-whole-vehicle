@@ -1,6 +1,0 @@
-Invoking command in '/home/lz/test_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lz/test_ws/src/rm_auto_aim/auto_aim_interfaces -DCMAKE_INSTALL_PREFIX=/home/lz/test_ws/install/auto_aim_interfaces
-Invoked command in '/home/lz/test_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lz/test_ws/src/rm_auto_aim/auto_aim_interfaces -DCMAKE_INSTALL_PREFIX=/home/lz/test_ws/install/auto_aim_interfaces
-Invoking command in '/home/lz/test_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lz/test_ws/build/auto_aim_interfaces -- -j12 -l12
-Invoked command in '/home/lz/test_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lz/test_ws/build/auto_aim_interfaces -- -j12 -l12
-Invoking command in '/home/lz/test_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lz/test_ws/build/auto_aim_interfaces
-Invoked command in '/home/lz/test_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lz/test_ws/build/auto_aim_interfaces

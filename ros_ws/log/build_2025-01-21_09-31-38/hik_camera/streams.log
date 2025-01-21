@@ -1,0 +1,85 @@
+[0.007s] Invoking command in '/home/kyle/ros_ws/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kyle/ros_ws/ros2_hik_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/ros_ws/install/hik_camera
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.124s] -- Detecting C compiler ABI info - done
+[0.130s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.130s] -- Detecting C compile features
+[0.131s] -- Detecting C compile features - done
+[0.132s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.186s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.279s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.311s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.404s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.406s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.410s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.416s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.453s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.455s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.517s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.533s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.559s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.565s] -- Looking for pthread.h
+[0.616s] -- Looking for pthread.h - found
+[0.617s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.666s] -- Found Threads: TRUE  
+[0.761s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.773s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.773s] -- Configured cppcheck include dirs: /home/kyle/ros_ws/ros2_hik_camera/hikSDK/include
+[0.774s] -- Configured cppcheck exclude dirs and/or files: 
+[0.774s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.774s] -- Added test 'lint_cmake' to check CMake code style
+[0.775s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.775s] -- Added test 'xmllint' to check XML markup files
+[0.776s] -- Configuring done
+[0.783s] -- Generating done
+[0.785s] -- Build files have been written to: /home/kyle/ros_ws/build/hik_camera
+[0.790s] Invoked command in '/home/kyle/ros_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kyle/ros_ws/ros2_hik_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/ros_ws/install/hik_camera
+[0.791s] Invoking command in '/home/kyle/ros_ws/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kyle/ros_ws/build/hik_camera -- -j32 -l32
+[0.822s] [ 25%] [32mBuilding CXX object CMakeFiles/hik_camera_node.dir/rclcpp_components/node_main_hik_camera_node.cpp.o[0m
+[0.822s] [ 50%] [32mBuilding CXX object CMakeFiles/hik_camera.dir/src/hik_camera_node.cpp.o[0m
+[2.910s] [ 75%] [32m[1mLinking CXX executable hik_camera_node[0m
+[3.003s] [ 75%] Built target hik_camera_node
+[3.110s] [100%] [32m[1mLinking CXX shared library libhik_camera.so[0m
+[3.196s] [100%] Built target hik_camera
+[3.204s] Invoked command in '/home/kyle/ros_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kyle/ros_ws/build/hik_camera -- -j32 -l32
+[3.204s] Invoking command in '/home/kyle/ros_ws/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kyle/ros_ws/build/hik_camera
+[3.207s] -- Install configuration: ""
+[3.207s] -- Execute custom install script
+[3.208s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/lib/libFormatConversion.so
+[3.214s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/lib/libMVRender.so
+[3.218s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/lib/libMediaProcess.so
+[3.224s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/lib/libMvCameraControl.so
+[3.230s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/lib/libMvUsb3vTL.so
+[3.235s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/lib/hik_camera/hik_camera_node
+[3.241s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/environment/library_path.sh
+[3.245s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/environment/library_path.dsv
+[3.252s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/lib/libhik_camera.so
+[3.258s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/config/camera_info.yaml
+[3.266s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/config/camera_params.yaml
+[3.276s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/launch/hik_camera.launch.py
+[3.282s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/ament_index/resource_index/package_run_dependencies/hik_camera
+[3.287s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/ament_index/resource_index/parent_prefix_path/hik_camera
+[3.290s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/environment/ament_prefix_path.sh
+[3.295s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/environment/ament_prefix_path.dsv
+[3.299s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/environment/path.sh
+[3.305s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/environment/path.dsv
+[3.311s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/local_setup.bash
+[3.315s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/local_setup.sh
+[3.319s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/local_setup.zsh
+[3.324s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/local_setup.dsv
+[3.328s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/package.dsv
+[3.334s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/ament_index/resource_index/packages/hik_camera
+[3.340s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/ament_index/resource_index/rclcpp_components/hik_camera
+[3.348s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.358s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[3.367s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig.cmake
+[3.377s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig-version.cmake
+[3.386s] -- Symlinking: /home/kyle/ros_ws/install/hik_camera/share/hik_camera/package.xml
+[3.396s] Invoked command in '/home/kyle/ros_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kyle/ros_ws/build/hik_camera

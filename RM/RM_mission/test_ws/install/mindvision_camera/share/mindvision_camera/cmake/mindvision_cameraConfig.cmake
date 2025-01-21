@@ -1,1 +1,0 @@
-/home/lz/test_ws/build/mindvision_camera/ament_cmake_core/mindvision_cameraConfig.cmake

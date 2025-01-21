@@ -1,0 +1,1 @@
+/home/kyle/ros_ws/rm_auto_aim/auto_aim_interfaces/msg/Armors.msg

@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target armor_tracker_node[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_tracker[0m
+[ 33%] Built target armor_tracker_node
+[100%] Built target armor_tracker
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/lib/armor_tracker/armor_tracker_node
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/include/armor_tracker/extended_kalman_filter.hpp
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/include/armor_tracker/tracker.hpp
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/include/armor_tracker/tracker_node.hpp
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/environment/library_path.sh
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/environment/library_path.dsv
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/lib/libarmor_tracker.so
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/ament_index/resource_index/package_run_dependencies/armor_tracker
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/ament_index/resource_index/parent_prefix_path/armor_tracker
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/environment/ament_prefix_path.sh
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/environment/ament_prefix_path.dsv
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/environment/path.sh
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/environment/path.dsv
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/local_setup.bash
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/local_setup.sh
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/local_setup.zsh
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/local_setup.dsv
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/package.dsv
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/ament_index/resource_index/packages/armor_tracker
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/ament_index/resource_index/rclcpp_components/armor_tracker
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/cmake/armor_trackerConfig.cmake
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/cmake/armor_trackerConfig-version.cmake
+-- Symlinking: /home/kyle/ros_ws/install/armor_tracker/share/armor_tracker/package.xml

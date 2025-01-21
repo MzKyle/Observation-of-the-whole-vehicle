@@ -1,0 +1,71 @@
+[0.017s] Invoking command in '/home/kyle/ros_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:/home/kyle/study/ROS/ws01_plumbing/install/cpp04_param:/home/kyle/study/ROS/ws01_plumbing/install/cpp03_action:/home/kyle/study/ROS/ws01_plumbing/install/cpp02_service:/home/kyle/study/ROS/ws01_plumbing/install/cpp01_topic:/home/kyle/study/ROS/ws01_plumbing/install/base_interfaces_demo:/home/kyle/study/ROS/ws01_plumbing/base_interfaces_demo/install/base_interfaces_demo:/home/kyle/study/ROS/ws00_helloworld/install/pkg01_helloworld_cpp:/home/kyle/study/ROS/ws00_helloworld/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kyle/ros_ws/rm_auto_aim/armor_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/ros_ws/install/armor_detector
+[0.086s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.253s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.254s] -- Detecting C compile features
+[0.254s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.357s] -- Detecting CXX compile features
+[0.357s] -- Detecting CXX compile features - done
+[0.360s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.566s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.637s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.687s] -- Found OpenCV: /home/kyle/environment (found version "4.5.4") 
+[0.812s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.818s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.827s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.841s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.860s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.911s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.914s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.031s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.067s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.127s] -- Looking for pthread.h
+[1.209s] -- Looking for pthread.h - found
+[1.210s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.301s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.303s] -- Found Threads: TRUE  
+[1.529s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.531s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.531s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.620s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.643s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.646s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.661s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.661s] -- Configured cppcheck include dirs: /home/kyle/ros_ws/rm_auto_aim/armor_detector/include
+[1.661s] -- Configured cppcheck exclude dirs and/or files: 
+[1.663s] -- Added test 'lint_cmake' to check CMake code style
+[1.663s] -- Added test 'xmllint' to check XML markup files
+[1.666s] -- Added test 'clang_format' to check C / C++ code style
+[1.668s] -- Configuring done
+[1.708s] -- Generating done
+[1.720s] -- Build files have been written to: /home/kyle/ros_ws/build/armor_detector
+[1.732s] Invoked command in '/home/kyle/ros_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:/home/kyle/study/ROS/ws01_plumbing/install/cpp04_param:/home/kyle/study/ROS/ws01_plumbing/install/cpp03_action:/home/kyle/study/ROS/ws01_plumbing/install/cpp02_service:/home/kyle/study/ROS/ws01_plumbing/install/cpp01_topic:/home/kyle/study/ROS/ws01_plumbing/install/base_interfaces_demo:/home/kyle/study/ROS/ws01_plumbing/base_interfaces_demo/install/base_interfaces_demo:/home/kyle/study/ROS/ws00_helloworld/install/pkg01_helloworld_cpp:/home/kyle/study/ROS/ws00_helloworld/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kyle/ros_ws/rm_auto_aim/armor_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/ros_ws/install/armor_detector
+[1.735s] Invoking command in '/home/kyle/ros_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:/home/kyle/study/ROS/ws01_plumbing/install/cpp04_param:/home/kyle/study/ROS/ws01_plumbing/install/cpp03_action:/home/kyle/study/ROS/ws01_plumbing/install/cpp02_service:/home/kyle/study/ROS/ws01_plumbing/install/cpp01_topic:/home/kyle/study/ROS/ws01_plumbing/install/base_interfaces_demo:/home/kyle/study/ROS/ws01_plumbing/base_interfaces_demo/install/base_interfaces_demo:/home/kyle/study/ROS/ws00_helloworld/install/pkg01_helloworld_cpp:/home/kyle/study/ROS/ws00_helloworld/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kyle/ros_ws/build/armor_detector -- -j32 -l32
+[1.800s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.802s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.804s] [ 20%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o[0m
+[1.804s] [ 33%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o[0m
+[1.804s] [ 33%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[1.807s] [ 40%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector.cpp.o[0m
+[1.808s] [ 46%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[2.427s] [ 53%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.529s] [ 53%] Built target gtest_main
+[5.233s] [ 60%] [32m[1mLinking CXX executable armor_detector_node[0m
+[5.378s] [ 60%] Built target armor_detector_node
+[6.689s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.793s] [ 66%] Built target gtest
+[20.038s] [ 73%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[21.165s] [ 73%] Built target armor_detector
+[21.194s] [ 80%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[21.196s] [ 86%] [32mBuilding CXX object CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o[0m
+[23.452s] [ 93%] [32m[1mLinking CXX executable test_number_cls[0m
+[23.923s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[24.286s] [ 93%] Built target test_number_cls
+[26.362s] [100%] [32m[1mLinking CXX executable test_node_startup[0m
+[27.177s] [100%] Built target test_node_startup

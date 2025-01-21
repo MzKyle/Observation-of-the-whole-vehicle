@@ -1,0 +1,48 @@
+[0.017s] Invoking command in '/home/kyle/ros_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:/home/kyle/study/ROS/ws01_plumbing/install/cpp04_param:/home/kyle/study/ROS/ws01_plumbing/install/cpp03_action:/home/kyle/study/ROS/ws01_plumbing/install/cpp02_service:/home/kyle/study/ROS/ws01_plumbing/install/cpp01_topic:/home/kyle/study/ROS/ws01_plumbing/install/base_interfaces_demo:/home/kyle/study/ROS/ws01_plumbing/base_interfaces_demo/install/base_interfaces_demo:/home/kyle/study/ROS/ws00_helloworld/install/pkg01_helloworld_cpp:/home/kyle/study/ROS/ws00_helloworld/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kyle/ros_ws/build/armor_detector -- -j32 -l32
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target armor_detector_node[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target armor_detector[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.090s] [ 13%] Built target armor_detector_node
+[0.093s] [ 26%] Built target gtest_main
+[0.094s] [ 40%] Built target gtest
+[0.105s] [ 73%] Built target armor_detector
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target test_number_cls[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target test_node_startup[0m
+[0.135s] [ 86%] Built target test_number_cls
+[0.145s] [100%] Built target test_node_startup
+[0.156s] Invoked command in '/home/kyle/ros_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:/home/kyle/study/ROS/ws01_plumbing/install/cpp04_param:/home/kyle/study/ROS/ws01_plumbing/install/cpp03_action:/home/kyle/study/ROS/ws01_plumbing/install/cpp02_service:/home/kyle/study/ROS/ws01_plumbing/install/cpp01_topic:/home/kyle/study/ROS/ws01_plumbing/install/base_interfaces_demo:/home/kyle/study/ROS/ws01_plumbing/base_interfaces_demo/install/base_interfaces_demo:/home/kyle/study/ROS/ws00_helloworld/install/pkg01_helloworld_cpp:/home/kyle/study/ROS/ws00_helloworld/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kyle/ros_ws/build/armor_detector -- -j32 -l32
+[0.158s] Invoking command in '/home/kyle/ros_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:/home/kyle/study/ROS/ws01_plumbing/install/cpp04_param:/home/kyle/study/ROS/ws01_plumbing/install/cpp03_action:/home/kyle/study/ROS/ws01_plumbing/install/cpp02_service:/home/kyle/study/ROS/ws01_plumbing/install/cpp01_topic:/home/kyle/study/ROS/ws01_plumbing/install/base_interfaces_demo:/home/kyle/study/ROS/ws01_plumbing/base_interfaces_demo/install/base_interfaces_demo:/home/kyle/study/ROS/ws00_helloworld/install/pkg01_helloworld_cpp:/home/kyle/study/ROS/ws00_helloworld/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kyle/ros_ws/build/armor_detector
+[0.166s] -- Install configuration: ""
+[0.166s] -- Execute custom install script
+[0.167s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/lib/armor_detector/armor_detector_node
+[0.176s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/include/armor_detector/armor.hpp
+[0.188s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/include/armor_detector/detector.hpp
+[0.198s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/include/armor_detector/detector_node.hpp
+[0.207s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/include/armor_detector/number_classifier.hpp
+[0.218s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/include/armor_detector/pnp_solver.hpp
+[0.230s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/environment/library_path.sh
+[0.240s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[0.253s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/lib/libarmor_detector.so
+[0.266s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/model/label.txt
+[0.277s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/model/mlp.onnx
+[0.287s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[0.298s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[0.309s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[0.320s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[0.329s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/environment/path.sh
+[0.342s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/environment/path.dsv
+[0.353s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/local_setup.bash
+[0.362s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/local_setup.sh
+[0.373s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/local_setup.zsh
+[0.386s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/local_setup.dsv
+[0.396s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/package.dsv
+[0.410s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[0.422s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[0.432s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.443s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.453s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[0.462s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[0.475s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[0.485s] -- Symlinking: /home/kyle/ros_ws/install/armor_detector/share/armor_detector/package.xml
+[0.496s] Invoked command in '/home/kyle/ros_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces:/home/kyle/study/ROS/ws01_plumbing/install/cpp04_param:/home/kyle/study/ROS/ws01_plumbing/install/cpp03_action:/home/kyle/study/ROS/ws01_plumbing/install/cpp02_service:/home/kyle/study/ROS/ws01_plumbing/install/cpp01_topic:/home/kyle/study/ROS/ws01_plumbing/install/base_interfaces_demo:/home/kyle/study/ROS/ws01_plumbing/base_interfaces_demo/install/base_interfaces_demo:/home/kyle/study/ROS/ws00_helloworld/install/pkg01_helloworld_cpp:/home/kyle/study/ROS/ws00_helloworld/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/ros_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kyle/ros_ws/build/armor_detector

@@ -1,0 +1,604 @@
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In member function ‘[01m[Kvoid rm_serial_driver::RMSerialDriver::receiveData()[m[K’:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:183:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[K}[m[K’ token
+  183 |     [01;31m[K}[m[K catch (const std::exception & ex) {
+      |     [01;31m[K^[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:183:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K}[m[K’ token
+  183 |     [01;31m[K}[m[K catch (const std::exception & ex) {
+      |     [01;31m[K^[m[K
+      |     [32m[K([m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:183:5:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[K}[m[K’ token
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:182:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+  182 |       }
+      |        [01;31m[K^[m[K
+      |        [32m[K)[m[K
+  183 |     [32m[K}[m[K catch (const std::exception & ex) {
+      |     [32m[K~[m[K   
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:183:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K}[m[K’ token
+  183 |     [01;31m[K}[m[K catch (const std::exception & ex) {
+      |     [01;31m[K^[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:183:7:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcatch[m[K’
+  183 |     } [01;31m[Kcatch[m[K (const std::exception & ex) {
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K At global scope:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:191:6:[m[K [01;31m[Kerror: [m[K‘[01m[KRMSerialDriver[m[K’ has not been declared
+  191 | void [01;31m[KRMSerialDriver[m[K::sendData(const auto_aim_interfaces::msg::Target::SharedPtr msg)
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In function ‘[01m[Kvoid sendData(auto_aim_interfaces::msg::Target_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:198:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSendPacket[m[K’ was not declared in this scope; did you mean ‘[01m[Krm_serial_driver::SendPacket[m[K’?
+  198 |     [01;31m[KSendPacket[m[K packet;
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krm_serial_driver::SendPacket[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:22[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/include/rm_serial_driver/packet.hpp:28:8:[m[K [01;36m[Knote: [m[K‘[01m[Krm_serial_driver::SendPacket[m[K’ declared here
+   28 | struct [01;36m[KSendPacket[m[K
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:199:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpacket[m[K’ was not declared in this scope; did you mean ‘[01m[Ksocket[m[K’?
+  199 |     [01;31m[Kpacket[m[K.tracking = msg->tracking;
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ksocket[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:228:33:[m[K [01;31m[Kerror: [m[K‘[01m[KtoVector[m[K’ was not declared in this scope; did you mean ‘[01m[Krm_serial_driver::toVector[m[K’?
+  228 |     std::vector<uint8_t> data = [01;31m[KtoVector[m[K(packet);
+      |                                 [01;31m[K^~~~~~~~[m[K
+      |                                 [32m[Krm_serial_driver::toVector[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:22[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/include/rm_serial_driver/packet.hpp:56:29:[m[K [01;36m[Knote: [m[K‘[01m[Krm_serial_driver::toVector[m[K’ declared here
+   56 | inline std::vector<uint8_t> [01;36m[KtoVector[m[K(const SendPacket & data)
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:230:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_driver_[m[K’ was not declared in this scope; did you mean ‘[01m[Krm_serial_driver[m[K’?
+  230 |     [01;31m[Kserial_driver_[m[K->port()->send(data);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |     [32m[Krm_serial_driver[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:233:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  233 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "[Send] packet.tracking %d!", packet.tracking);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:233:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  233 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] packet.tracking %d!", packet.tracking);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:233:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  233 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] packet.tracking %d!", packet.tracking);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:233:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  233 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] packet.tracking %d!", packet.tracking);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:234:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  234 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "[Send] packet.yaw %f!", packet.yaw);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:234:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  234 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] packet.yaw %f!", packet.yaw);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:234:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  234 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] packet.yaw %f!", packet.yaw);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:234:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  234 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] packet.yaw %f!", packet.yaw);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:235:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  235 |     RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "----------------------------");
+      |                  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:235:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  235 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "----------------------------");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:235:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  235 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "----------------------------");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:235:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  235 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "----------------------------");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:236:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  236 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "[Send] aim_x %f!", packet.x);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:236:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  236 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] aim_x %f!", packet.x);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:236:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  236 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] aim_x %f!", packet.x);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:236:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  236 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] aim_x %f!", packet.x);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:237:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  237 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "[Send] aim_y %f!", packet.y);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:237:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  237 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] aim_y %f!", packet.y);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:237:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  237 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] aim_y %f!", packet.y);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:237:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  237 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] aim_y %f!", packet.y);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:238:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  238 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "[Send] aim_z %f!", packet.z);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:238:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  238 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] aim_z %f!", packet.z);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:238:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  238 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] aim_z %f!", packet.z);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:238:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  238 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] aim_z %f!", packet.z);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:240:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  240 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "-------------------------------------------------------------");
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:240:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  240 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "-------------------------------------------------------------");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:240:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  240 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "-------------------------------------------------------------");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:240:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  240 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "-------------------------------------------------------------");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:241:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  241 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "[Send] yaw %f!", packet.yaw);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:241:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  241 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] yaw %f!", packet.yaw);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:241:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  241 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] yaw %f!", packet.yaw);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:241:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  241 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "[Send] yaw %f!", packet.yaw);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:242:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  242 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "-------------------------------------------------------------");
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:242:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  242 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "-------------------------------------------------------------");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:242:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  242 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "-------------------------------------------------------------");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:242:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  242 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "-------------------------------------------------------------");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:246:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  246 |     latency.data = ([01;31m[Kthis[m[K->now() - msg->header.stamp).seconds() * 1000.0;
+      |                     [01;31m[K^~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:247:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  247 |     RCLCPP_DEBUG_STREAM([01;31m[Kget_logger[m[K(), "Total latency: " + std::to_string(latency.data) + "ms");
+      |                         [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:247:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Total latency: " + std::to_string(latency.data) + "ms");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:247:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Total latency: " + std::to_string(latency.data) + "ms");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:247:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Total latency: " + std::to_string(latency.data) + "ms");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:248:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klatency_pub_[m[K’ was not declared in this scope
+  248 |     [01;31m[Klatency_pub_[m[K->publish(latency);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:250:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  250 |     RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "Error while sending data: %s", ex.what());
+      |                  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:250:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  250 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Error while sending data: %s", ex.what());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:250:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  250 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Error while sending data: %s", ex.what());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:250:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  250 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Error while sending data: %s", ex.what());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:251:5:[m[K [01;31m[Kerror: [m[K‘[01m[KreopenPort[m[K’ was not declared in this scope
+  251 |     [01;31m[KreopenPort[m[K();
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K At global scope:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:255:6:[m[K [01;31m[Kerror: [m[K‘[01m[KRMSerialDriver[m[K’ has not been declared
+  255 | void [01;31m[KRMSerialDriver[m[K::getParams()
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In function ‘[01m[Kvoid getParams()[m[K’:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:267:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice_name_[m[K’ was not declared in this scope
+  267 |     [01;31m[Kdevice_name_[m[K = declare_parameter<std::string>("device_name", "");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:267:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter[m[K’ was not declared in this scope
+  267 |     device_name_ = [01;31m[Kdeclare_parameter[m[K<std::string>("device_name", "");
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:267:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  267 |     device_name_ = declare_parameter<std::string[01;31m[K>[m[K("device_name", "");
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:267:51:[m[K [01;31m[Kerror: [m[Kleft operand of comma operator has no effect [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Werror=unused-value]8;;[m[K]
+  267 |     device_name_ = declare_parameter<std::string>([01;31m[K"device_name"[m[K, "");
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:269:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  269 |     RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "The device name provided was invalid");
+      |                  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:269:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  269 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The device name provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:269:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  269 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The device name provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:269:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  269 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The device name provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:274:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter[m[K’ was not declared in this scope
+  274 |     baud_rate = [01;31m[Kdeclare_parameter[m[K<int>("baud_rate", 0);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:274:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  274 |     baud_rate = declare_parameter<[01;31m[Kint[m[K>("baud_rate", 0);
+      |                                   [01;31m[K^~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:276:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  276 |     RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "The baud_rate provided was invalid");
+      |                  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:276:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  276 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The baud_rate provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:276:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  276 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The baud_rate provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:276:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  276 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The baud_rate provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:281:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter[m[K’ was not declared in this scope
+  281 |     const auto fc_string = [01;31m[Kdeclare_parameter[m[K<std::string>("flow_control", "");
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:281:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  281 |     const auto fc_string = declare_parameter<std::string[01;31m[K>[m[K("flow_control", "");
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:281:59:[m[K [01;31m[Kerror: [m[Kleft operand of comma operator has no effect [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Werror=unused-value]8;;[m[K]
+  281 |     const auto fc_string = declare_parameter<std::string>([01;31m[K"flow_control"[m[K, "");
+      |                                                           [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:294:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  294 |     RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "The flow_control provided was invalid");
+      |                  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:294:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  294 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The flow_control provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:294:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  294 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The flow_control provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:294:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  294 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The flow_control provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:299:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter[m[K’ was not declared in this scope
+  299 |     const auto pt_string = [01;31m[Kdeclare_parameter[m[K<std::string>("parity", "");
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:299:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  299 |     const auto pt_string = declare_parameter<std::string[01;31m[K>[m[K("parity", "");
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:299:59:[m[K [01;31m[Kerror: [m[Kleft operand of comma operator has no effect [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Werror=unused-value]8;;[m[K]
+  299 |     const auto pt_string = declare_parameter<std::string>([01;31m[K"parity"[m[K, "");
+      |                                                           [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:311:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  311 |     RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "The parity provided was invalid");
+      |                  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:311:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  311 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The parity provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:311:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  311 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The parity provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:311:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  311 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The parity provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:316:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter[m[K’ was not declared in this scope
+  316 |     const auto sb_string = [01;31m[Kdeclare_parameter[m[K<std::string>("stop_bits", "");
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:316:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  316 |     const auto sb_string = declare_parameter<std::string[01;31m[K>[m[K("stop_bits", "");
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:316:59:[m[K [01;31m[Kerror: [m[Kleft operand of comma operator has no effect [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Werror=unused-value]8;;[m[K]
+  316 |     const auto sb_string = declare_parameter<std::string>([01;31m[K"stop_bits"[m[K, "");
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:328:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  328 |     RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "The stop_bits provided was invalid");
+      |                  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:328:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  328 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The stop_bits provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:328:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  328 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The stop_bits provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:328:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  328 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "The stop_bits provided was invalid");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:332:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice_config_[m[K’ was not declared in this scope
+  332 |   [01;31m[Kdevice_config_[m[K =
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K At global scope:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:336:6:[m[K [01;31m[Kerror: [m[K‘[01m[KRMSerialDriver[m[K’ has not been declared
+  336 | void [01;31m[KRMSerialDriver[m[K::reopenPort()
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In function ‘[01m[Kvoid reopenPort()[m[K’:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:338:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  338 |   RCLCPP_WARN([01;31m[Kget_logger[m[K(), "Attempting to reopen port");
+      |               [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:338:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  338 |   [01;31m[KRCLCPP_WARN[m[K(get_logger(), "Attempting to reopen port");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:338:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  338 |   [01;31m[KRCLCPP_WARN[m[K(get_logger(), "Attempting to reopen port");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:338:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  338 |   [01;31m[KRCLCPP_WARN[m[K(get_logger(), "Attempting to reopen port");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:340:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_driver_[m[K’ was not declared in this scope; did you mean ‘[01m[Krm_serial_driver[m[K’?
+  340 |     if ([01;31m[Kserial_driver_[m[K->port()->is_open()) {
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |         [32m[Krm_serial_driver[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:343:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_driver_[m[K’ was not declared in this scope; did you mean ‘[01m[Krm_serial_driver[m[K’?
+  343 |     [01;31m[Kserial_driver_[m[K->port()->open();
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |     [32m[Krm_serial_driver[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:344:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  344 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Successfully reopened port");
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:344:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  344 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully reopened port");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:344:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  344 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully reopened port");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:344:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  344 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully reopened port");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:346:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  346 |     RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "Error while reopening port: %s", ex.what());
+      |                  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:346:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  346 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Error while reopening port: %s", ex.what());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:346:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  346 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Error while reopening port: %s", ex.what());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:346:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  346 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Error while reopening port: %s", ex.what());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K At global scope:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:354:6:[m[K [01;31m[Kerror: [m[K‘[01m[KRMSerialDriver[m[K’ has not been declared
+  354 | void [01;31m[KRMSerialDriver[m[K::setParam(const rclcpp::Parameter & param)
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In function ‘[01m[Kvoid setParam(const rclcpp::Parameter&)[m[K’:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:356:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kdetector_param_client_[m[K’ was not declared in this scope
+  356 |   if (![01;31m[Kdetector_param_client_[m[K->service_is_ready()) {
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:357:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  357 |     RCLCPP_WARN([01;31m[Kget_logger[m[K(), "Service not ready, skipping parameter set");
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:357:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  357 |     [01;31m[KRCLCPP_WARN[m[K(get_logger(), "Service not ready, skipping parameter set");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:357:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  357 |     [01;31m[KRCLCPP_WARN[m[K(get_logger(), "Service not ready, skipping parameter set");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:357:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  357 |     [01;31m[KRCLCPP_WARN[m[K(get_logger(), "Service not ready, skipping parameter set");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:362:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_param_future_[m[K’ was not declared in this scope
+  362 |     ![01;31m[Kset_param_future_[m[K.valid() ||
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:364:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  364 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Setting detect_color to %ld...", param.as_int());
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:364:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  364 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Setting detect_color to %ld...", param.as_int());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:364:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  364 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Setting detect_color to %ld...", param.as_int());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:364:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  364 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Setting detect_color to %ld...", param.as_int());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:365:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kdetector_param_client_[m[K’ was not declared in this scope
+  365 |     set_param_future_ = [01;31m[Kdetector_param_client_[m[K->set_parameters(
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:366:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  366 |       {param}, [[01;31m[Kthis[m[K, param](const ResultFuturePtr & results) {
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:366:36:[m[K [01;31m[Kerror: [m[K‘[01m[KResultFuturePtr[m[K’ does not name a type
+  366 |       {param}, [this, param](const [01;31m[KResultFuturePtr[m[K & results) {
+      |                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In lambda function:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:375:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+  375 |       })[01;31m[K;[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In function ‘[01m[Kvoid setParam(const rclcpp::Parameter&)[m[K’:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:375:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  375 |       })[01;31m[K;[m[K
+      |         [01;31m[K^[m[K
+      |         [32m[K)[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:365:63:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  365 |     set_param_future_ = detector_param_client_->set_parameters[01;36m[K([m[K
+      |                                                               [01;36m[K^[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K At global scope:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:379:6:[m[K [01;31m[Kerror: [m[K‘[01m[KRMSerialDriver[m[K’ has not been declared
+  379 | void [01;31m[KRMSerialDriver[m[K::resetTracker()
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In function ‘[01m[Kvoid resetTracker()[m[K’:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:381:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kreset_tracker_client_[m[K’ was not declared in this scope
+  381 |   if (![01;31m[Kreset_tracker_client_[m[K->service_is_ready()) {
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:382:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  382 |     RCLCPP_WARN([01;31m[Kget_logger[m[K(), "Service not ready, skipping tracker reset");
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:382:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  382 |     [01;31m[KRCLCPP_WARN[m[K(get_logger(), "Service not ready, skipping tracker reset");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:382:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  382 |     [01;31m[KRCLCPP_WARN[m[K(get_logger(), "Service not ready, skipping tracker reset");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:382:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  382 |     [01;31m[KRCLCPP_WARN[m[K(get_logger(), "Service not ready, skipping tracker reset");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:387:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kreset_tracker_client_[m[K’ was not declared in this scope
+  387 |   [01;31m[Kreset_tracker_client_[m[K->async_send_request(request);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:388:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  388 |   RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Reset tracker!");
+      |               [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:7[m[K:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:388:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  388 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Reset tracker!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:388:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  388 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Reset tracker!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:388:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  388 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Reset tracker!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:[m[K At global scope:
+[01m[K/home/kyle/ros_ws/rm_serial_driver/src/rm_serial_driver.cpp:391:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  391 | [01;31m[K}[m[K  // namespace rm_serial_driver
+      | [01;31m[K^[m[K
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/rm_serial_driver.dir/build.make:76：CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/rm_serial_driver.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

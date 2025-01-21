@@ -1,0 +1,381 @@
+[0.009s] Invoking command in '/home/kyle/ros_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kyle/ros_ws/rm_auto_aim/auto_aim_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/ros_ws/install/auto_aim_interfaces
+[0.048s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting C compiler ABI info
+[0.131s] -- Detecting C compiler ABI info - done
+[0.135s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.135s] -- Detecting C compile features
+[0.135s] -- Detecting C compile features - done
+[0.136s] -- Detecting CXX compiler ABI info
+[0.187s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.191s] -- Detecting CXX compile features
+[0.191s] -- Detecting CXX compile features - done
+[0.192s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.280s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.315s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.338s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.342s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.350s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.409s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.598s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.740s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.923s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.935s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.936s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.951s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.951s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.951s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.951s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.962s] -- Found PythonExtra: .so  
+[1.002s] -- Configuring done
+[1.023s] -- Generating done
+[1.029s] -- Build files have been written to: /home/kyle/ros_ws/build/auto_aim_interfaces
+[1.035s] Invoked command in '/home/kyle/ros_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kyle/ros_ws/rm_auto_aim/auto_aim_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/ros_ws/install/auto_aim_interfaces
+[1.036s] Invoking command in '/home/kyle/ros_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kyle/ros_ws/build/auto_aim_interfaces -- -j32 -l32
+[1.062s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.069s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.080s] [  2%] Built target ament_cmake_python_symlink_auto_aim_interfaces
+[1.226s] running egg_info
+[1.226s] creating auto_aim_interfaces.egg-info
+[1.226s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[1.226s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[1.226s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[1.226s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.228s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.228s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.246s] [  2%] Built target ament_cmake_python_build_auto_aim_interfaces_egg
+[1.419s] [  2%] Built target auto_aim_interfaces__cpp
+[1.428s] [  3%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o[0m
+[1.429s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.429s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.430s] [  6%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armors__functions.c.o[0m
+[1.430s] [  8%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armor__functions.c.o[0m
+[1.430s] [  9%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/tracker_info__functions.c.o[0m
+[1.430s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.430s] [ 12%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__functions.c.o[0m
+[1.431s] [ 12%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o[0m
+[1.431s] [ 13%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o[0m
+[1.431s] [ 14%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o[0m
+[1.482s] [ 16%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_generator_c.so[0m
+[1.511s] [ 16%] Built target auto_aim_interfaces__rosidl_generator_c
+[1.521s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.521s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.521s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.695s] [ 20%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[1.696s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[1.696s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[1.696s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[1.696s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[1.696s] [ 26%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[1.697s] [ 27%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[1.698s] [ 28%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[1.738s] [ 29%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp.o[0m
+[1.739s] [ 31%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp.o[0m
+[1.740s] [ 34%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__type_support.cpp.o[0m
+[1.740s] [ 34%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armors__type_support.cpp.o[0m
+[1.740s] [ 34%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/target__type_support.cpp.o[0m
+[1.741s] [ 36%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp.o[0m
+[1.741s] [ 36%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp.o[0m
+[1.742s] [ 37%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp.o[0m
+[1.801s] [ 39%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o[0m
+[1.801s] [ 40%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[1.801s] [ 41%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o[0m
+[1.801s] [ 42%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[1.801s] [ 43%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o[0m
+[1.804s] [ 44%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armor__type_support.cpp.o[0m
+[1.806s] [ 45%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/tracker_info__type_support.cpp.o[0m
+[1.808s] [ 47%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armors__type_support.cpp.o[0m
+[1.830s] [ 48%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[1.830s] [ 49%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[1.831s] [ 50%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[1.835s] [ 51%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[1.836s] [ 52%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[1.839s] [ 54%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[1.878s] [ 55%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[1.879s] [ 56%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[1.919s] [ 57%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_c.so[0m
+[1.993s] [ 57%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[2.035s] [ 58%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/target__type_support.c.o[0m
+[2.035s] [ 59%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armors__type_support.c.o[0m
+[2.036s] [ 60%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_light__type_support.c.o[0m
+[2.036s] [ 62%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armor__type_support.c.o[0m
+[2.042s] [ 63%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/tracker_info__type_support.c.o[0m
+[2.042s] [ 64%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armors__type_support.c.o[0m
+[2.042s] [ 65%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armor__type_support.c.o[0m
+[2.044s] [ 66%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_lights__type_support.c.o[0m
+[2.063s] [ 72%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_light__type_support_c.cpp.o[0m
+[2.064s] [ 72%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[2.064s] [ 72%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[2.064s] [ 72%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armors__type_support_c.cpp.o[0m
+[2.064s] [ 72%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_lights__type_support_c.cpp.o[0m
+[2.068s] [ 73%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armors__type_support_c.cpp.o[0m
+[2.069s] [ 74%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armor__type_support_c.cpp.o[0m
+[2.082s] [ 75%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/tracker_info__type_support_c.cpp.o[0m
+[2.088s] [ 77%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_cpp.so[0m
+[2.112s] [ 78%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.143s] [ 78%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[2.158s] [ 78%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[2.277s] [ 79%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.345s] [ 79%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[2.405s] [ 80%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.439s] [ 81%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.451s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.489s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[2.505s] [ 81%] Built target auto_aim_interfaces
+[2.521s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.958s] [ 82%] Built target auto_aim_interfaces__py
+[2.973s] [ 86%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armors_s.c.o[0m
+[2.973s] [ 86%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armor_s.c.o[0m
+[2.973s] [ 86%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_light_s.c.o[0m
+[2.973s] [ 87%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armors_s.c.o[0m
+[2.973s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_tracker_info_s.c.o[0m
+[2.973s] [ 89%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_target_s.c.o[0m
+[2.974s] [ 90%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armor_s.c.o[0m
+[2.975s] [ 91%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_lights_s.c.o[0m
+[3.058s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so[0m
+[3.086s] [ 93%] Built target auto_aim_interfaces__rosidl_generator_py
+[3.100s] [ 94%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.101s] [ 95%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.101s] [ 96%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.160s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.160s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.162s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.185s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.185s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.187s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[3.194s] Invoked command in '/home/kyle/ros_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kyle/ros_ws/build/auto_aim_interfaces -- -j32 -l32
+[3.195s] Invoking command in '/home/kyle/ros_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kyle/ros_ws/build/auto_aim_interfaces
+[3.199s] -- Install configuration: ""
+[3.199s] -- Execute custom install script
+[3.199s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+[3.206s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.h
+[3.210s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.h
+[3.215s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.h
+[3.221s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.h
+[3.227s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.h
+[3.232s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.h
+[3.238s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.h
+[3.245s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.h
+[3.248s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.h
+[3.253s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.h
+[3.262s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.h
+[3.270s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.h
+[3.278s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.h
+[3.285s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.h
+[3.289s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.h
+[3.293s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.h
+[3.297s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.h
+[3.301s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.h
+[3.307s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.h
+[3.312s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.h
+[3.317s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.h
+[3.322s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.h
+[3.327s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.h
+[3.332s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.h
+[3.337s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.h
+[3.343s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.h
+[3.352s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.h
+[3.358s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.h
+[3.368s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.h
+[3.378s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.h
+[3.387s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.394s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.h
+[3.403s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.h
+[3.411s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.sh
+[3.419s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv
+[3.430s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[3.441s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[3.451s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[3.461s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[3.470s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[3.479s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[3.487s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[3.496s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_c.h
+[3.505s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.514s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[3.524s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[3.534s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[3.542s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[3.551s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[3.558s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[3.566s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[3.576s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_c.h
+[3.586s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.595s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.hpp
+[3.604s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.hpp
+[3.613s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.hpp
+[3.622s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.hpp
+[3.631s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.hpp
+[3.639s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp
+[3.649s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__builder.hpp
+[3.657s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.hpp
+[3.666s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__traits.hpp
+[3.676s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.hpp
+[3.685s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__builder.hpp
+[3.695s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.hpp
+[3.704s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__traits.hpp
+[3.712s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.hpp
+[3.722s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__builder.hpp
+[3.731s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp
+[3.740s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp
+[3.748s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.hpp
+[3.756s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp
+[3.766s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp
+[3.774s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp
+[3.781s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.hpp
+[3.790s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__builder.hpp
+[3.800s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp
+[3.808s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp
+[3.816s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.hpp
+[3.824s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp
+[3.833s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp
+[3.841s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp
+[3.850s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.hpp
+[3.860s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__builder.hpp
+[3.865s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.hpp
+[3.872s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__traits.hpp
+[3.881s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.hpp
+[3.890s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__builder.hpp
+[3.899s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.hpp
+[3.909s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__traits.hpp
+[3.918s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.hpp
+[3.927s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.937s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.hpp
+[3.945s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.hpp
+[3.955s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[3.964s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[3.972s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[3.980s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[3.989s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[3.999s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[4.007s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[4.016s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.026s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.036s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[4.045s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[4.053s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[4.063s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[4.071s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[4.081s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[4.090s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[4.099s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_cpp.hpp
+[4.111s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh
+[4.121s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv
+[4.130s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.139s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.148s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.158s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.169s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py
+[4.176s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c
+[4.184s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.194s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.203s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.212s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.221s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.230s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so
+[4.240s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py
+[4.250s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py
+[4.259s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor_s.c
+[4.266s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py
+[4.276s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors_s.c
+[4.284s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py
+[4.289s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor_s.c
+[4.298s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py
+[4.307s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors_s.c
+[4.317s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py
+[4.327s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light_s.c
+[4.336s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py
+[4.345s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights_s.c
+[4.353s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py
+[4.363s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target_s.c
+[4.370s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py
+[4.378s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info_s.c
+[4.389s] -- Up-to-date symlink: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.389s] -- Up-to-date symlink: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.389s] -- Up-to-date symlink: /home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.389s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.idl
+[4.399s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.idl
+[4.409s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.idl
+[4.415s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.idl
+[4.423s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.idl
+[4.432s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.idl
+[4.441s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.idl
+[4.451s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.idl
+[4.461s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.msg
+[4.471s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.msg
+[4.477s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.msg
+[4.484s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.msg
+[4.490s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.msg
+[4.499s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.msg
+[4.508s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.msg
+[4.516s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.msg
+[4.526s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces
+[4.535s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces
+[4.544s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.sh
+[4.553s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv
+[4.562s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.sh
+[4.570s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv
+[4.579s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash
+[4.589s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh
+[4.598s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh
+[4.607s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv
+[4.615s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv
+[4.625s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces
+[4.634s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.644s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.655s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.665s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.674s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.683s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.693s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.703s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake
+[4.714s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake
+[4.725s] -- Symlinking: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml
+[4.733s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so
+[4.733s] -- Set runtime path of "/home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so" to ""
+[4.733s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.734s] -- Set runtime path of "/home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.734s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so
+[4.734s] -- Set runtime path of "/home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.734s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so
+[4.734s] -- Set runtime path of "/home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so" to ""
+[4.735s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.735s] -- Set runtime path of "/home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.735s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.736s] -- Set runtime path of "/home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.736s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so
+[4.736s] -- Set runtime path of "/home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.774s] Listing '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces'...
+[4.774s] Compiling '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py'...
+[4.774s] Listing '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg'...
+[4.774s] Compiling '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py'...
+[4.774s] Compiling '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py'...
+[4.774s] Compiling '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py'...
+[4.774s] Compiling '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py'...
+[4.774s] Compiling '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py'...
+[4.774s] Compiling '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py'...
+[4.774s] Compiling '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py'...
+[4.774s] Compiling '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py'...
+[4.774s] Compiling '/home/kyle/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py'...
+[4.776s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so
+[4.777s] -- Set runtime path of "/home/kyle/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so" to ""
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cppExport.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.777s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake
+[4.778s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.778s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport.cmake
+[4.778s] -- Installing: /home/kyle/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.780s] Invoked command in '/home/kyle/ros_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kyle/ros_ws/build/auto_aim_interfaces

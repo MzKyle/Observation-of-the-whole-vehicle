@@ -1,0 +1,1 @@
+/home/kyle/ros_ws/build/armor_tracker/ament_cmake_environment_hooks/local_setup.sh
