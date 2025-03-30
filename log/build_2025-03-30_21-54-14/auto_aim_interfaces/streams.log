@@ -1,0 +1,544 @@
+[0.017s] Invoking command in '/home/kyle/RM/tracker_2024/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.246s] -- Detecting CXX compile features
+[0.246s] -- Detecting CXX compile features - done
+[0.248s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.595s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.650s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.659s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.724s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.949s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.096s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.310s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.311s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.329s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.329s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.329s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.329s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.347s] -- Found PythonExtra: .so  
+[1.392s] -- Configuring done
+[1.424s] -- Generating done
+[1.430s] -- Build files have been written to: /home/kyle/RM/tracker_2024/build/auto_aim_interfaces
+[1.436s] Invoked command in '/home/kyle/RM/tracker_2024/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces
+[1.437s] Invoking command in '/home/kyle/RM/tracker_2024/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/auto_aim_interfaces -- -j32 -l32
+[1.467s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.473s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.480s] [  1%] Built target ament_cmake_python_copy_auto_aim_interfaces
+[1.722s] running egg_info
+[1.723s] creating auto_aim_interfaces.egg-info
+[1.732s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[1.732s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[1.732s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[1.733s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.759s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.759s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.788s] [  1%] Built target ament_cmake_python_build_auto_aim_interfaces_egg
+[1.935s] [  1%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o[0m
+[1.935s] [  5%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o[0m
+[1.935s] [  5%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o[0m
+[1.935s] [  5%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__functions.c.o[0m
+[1.935s] [  6%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/tracker_info__functions.c.o[0m
+[1.935s] [  6%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/velocity__functions.c.o[0m
+[1.935s] [  6%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o[0m
+[1.935s] [  7%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armors__functions.c.o[0m
+[1.936s] [  9%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/send__functions.c.o[0m
+[1.936s] [  9%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/referee__functions.c.o[0m
+[1.936s] [ 10%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armor__functions.c.o[0m
+[1.937s] [ 11%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/time_info__functions.c.o[0m
+[1.981s] [ 12%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_generator_c.so[0m
+[2.017s] [ 12%] Built target auto_aim_interfaces__rosidl_generator_c
+[2.027s] [ 14%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.027s] [ 14%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.027s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.098s] [ 15%] Built target auto_aim_interfaces__cpp
+[2.106s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.106s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.107s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.571s] [ 18%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[2.589s] [ 19%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[2.589s] [ 19%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[2.590s] [ 20%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[2.591s] [ 20%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[2.591s] [ 21%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[2.596s] [ 22%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[2.599s] [ 23%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/velocity__type_support.cpp.o[0m
+[2.603s] [ 24%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/time_info__type_support.cpp.o[0m
+[2.603s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[2.606s] [ 26%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/referee__type_support.cpp.o[0m
+[2.611s] [ 27%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/send__type_support.cpp.o[0m
+[2.684s] [ 28%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armors__type_support.cpp.o[0m
+[2.686s] [ 28%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__type_support.cpp.o[0m
+[2.690s] [ 29%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_c.so[0m
+[2.690s] [ 31%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp.o[0m
+[2.691s] [ 32%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp.o[0m
+[2.691s] [ 33%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp.o[0m
+[2.701s] [ 33%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/target__type_support.cpp.o[0m
+[2.701s] [ 33%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp.o[0m
+[2.701s] [ 35%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/velocity__type_support.cpp.o[0m
+[2.701s] [ 35%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/time_info__type_support.cpp.o[0m
+[2.704s] [ 36%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/referee__type_support.cpp.o[0m
+[2.706s] [ 37%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/send__type_support.cpp.o[0m
+[2.706s] [ 38%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp.o[0m
+[2.715s] [ 39%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[2.715s] [ 40%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[2.716s] [ 41%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[2.726s] [ 41%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[2.730s] [ 42%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[2.739s] [ 43%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[2.741s] [ 44%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[2.759s] [ 45%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[2.761s] [ 45%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[2.763s] [ 46%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[2.767s] [ 46%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[2.768s] [ 47%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armor__type_support.c.o[0m
+[2.769s] [ 48%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armors__type_support_c.cpp.o[0m
+[2.776s] [ 49%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_light__type_support_c.cpp.o[0m
+[2.776s] [ 50%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armors__type_support.c.o[0m
+[2.777s] [ 51%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/target__type_support.c.o[0m
+[2.777s] [ 52%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/time_info__type_support.cpp.o[0m
+[2.778s] [ 53%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_lights__type_support_c.cpp.o[0m
+[2.781s] [ 53%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_light__type_support.c.o[0m
+[2.787s] [ 54%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/velocity__type_support.cpp.o[0m
+[2.802s] [ 55%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[2.844s] [ 56%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o[0m
+[2.856s] [ 56%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/send__type_support.cpp.o[0m
+[2.857s] [ 57%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[2.877s] [ 58%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_lights__type_support.c.o[0m
+[2.953s] [ 59%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armor__type_support.c.o[0m
+[3.021s] [ 60%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armors__type_support.c.o[0m
+[3.033s] [ 61%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/tracker_info__type_support.c.o[0m
+[3.042s] [ 62%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armor__type_support_c.cpp.o[0m
+[3.067s] [ 63%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/time_info__type_support.c.o[0m
+[3.074s] [ 64%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/referee__type_support.cpp.o[0m
+[3.091s] [ 65%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o[0m
+[3.097s] [ 66%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o[0m
+[3.106s] [ 66%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armor__type_support.cpp.o[0m
+[3.111s] [ 67%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/velocity__type_support.c.o[0m
+[3.122s] [ 68%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armors__type_support.cpp.o[0m
+[3.125s] [ 69%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armors__type_support_c.cpp.o[0m
+[3.132s] [ 70%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/tracker_info__type_support.cpp.o[0m
+[3.133s] [ 71%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/time_info__type_support.cpp.o[0m
+[3.149s] [ 71%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/send__type_support.c.o[0m
+[3.157s] [ 72%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/velocity__type_support.cpp.o[0m
+[3.160s] [ 73%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/referee__type_support.c.o[0m
+[3.163s] [ 74%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/tracker_info__type_support_c.cpp.o[0m
+[3.170s] [ 75%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/send__type_support.cpp.o[0m
+[3.170s] [ 75%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/referee__type_support.cpp.o[0m
+[3.174s] [ 76%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/send__type_support_c.cpp.o[0m
+[3.174s] [ 76%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/time_info__type_support_c.cpp.o[0m
+[3.176s] [ 77%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/velocity__type_support_c.cpp.o[0m
+[3.187s] [ 78%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/referee__type_support_c.cpp.o[0m
+[3.208s] [ 79%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.258s] [ 79%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[3.300s] [ 80%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.305s] [ 81%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_cpp.so[0m
+[3.351s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[3.395s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[3.490s] [ 82%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.519s] [ 83%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.544s] [ 83%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[3.570s] [ 83%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.587s] [ 83%] Built target auto_aim_interfaces
+[3.603s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.256s] [ 84%] Built target auto_aim_interfaces__py
+[4.271s] [ 85%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armors_s.c.o[0m
+[4.272s] [ 86%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_tracker_info_s.c.o[0m
+[4.272s] [ 87%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armor_s.c.o[0m
+[4.272s] [ 87%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_target_s.c.o[0m
+[4.272s] [ 89%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_light_s.c.o[0m
+[4.273s] [ 89%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_lights_s.c.o[0m
+[4.273s] [ 90%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_referee_s.c.o[0m
+[4.273s] [ 91%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armor_s.c.o[0m
+[4.273s] [ 92%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armors_s.c.o[0m
+[4.274s] [ 93%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_time_info_s.c.o[0m
+[4.274s] [ 93%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_velocity_s.c.o[0m
+[4.274s] [ 94%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_send_s.c.o[0m
+[4.361s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so[0m
+[4.400s] [ 95%] Built target auto_aim_interfaces__rosidl_generator_py
+[4.421s] [ 96%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.422s] [ 97%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.422s] [ 96%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.491s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.492s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.514s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.517s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.517s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.543s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[4.552s] Invoked command in '/home/kyle/RM/tracker_2024/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/auto_aim_interfaces -- -j32 -l32
+[4.554s] Invoking command in '/home/kyle/RM/tracker_2024/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/auto_aim_interfaces
+[4.560s] -- Install configuration: ""
+[4.560s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+[4.560s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.560s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.560s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.h
+[4.560s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.h
+[4.560s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.h
+[4.560s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.h
+[4.560s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.h
+[4.560s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.h
+[4.560s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/velocity.h
+[4.560s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/send.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/time_info.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.c
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.c
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__struct.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.c
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__struct.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__type_support.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__functions.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__functions.c
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.c
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__functions.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__struct.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__functions.c
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__type_support.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__functions.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.c
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.h
+[4.561s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__type_support.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__type_support.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.c
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__struct.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__functions.c
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__functions.c
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.c
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__functions.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.c
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/referee.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.sh
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so
+[4.562s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so" to ""
+[4.562s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.562s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.562s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[4.562s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__rosidl_typesupport_fastrtps_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__rosidl_typesupport_fastrtps_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__rosidl_typesupport_fastrtps_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.563s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.563s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.563s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.563s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.c
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__type_support.c
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.c
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.c
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__type_support.c
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.c
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__type_support.c
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_introspection_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__rosidl_typesupport_introspection_c.h
+[4.563s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__type_support.c
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.c
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.c
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_c.h
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.c
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__rosidl_typesupport_introspection_c.h
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__rosidl_typesupport_introspection_c.h
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.c
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so
+[4.564s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so
+[4.564s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so" to ""
+[4.564s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.564s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.hpp
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.hpp
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/time_info.hpp
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.hpp
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.hpp
+[4.564s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.hpp
+[4.564s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__builder.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__builder.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__builder.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__struct.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__builder.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__traits.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__builder.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__struct.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__type_support.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__struct.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__builder.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__type_support.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__traits.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__traits.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__traits.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__traits.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__type_support.hpp
+[4.565s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__traits.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__builder.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__builder.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__struct.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__builder.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__type_support.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__traits.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__traits.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__builder.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/velocity.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/referee.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/send.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.hpp
+[4.566s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.566s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.566s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[4.566s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/dds_fastrtps
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__rosidl_typesupport_fastrtps_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__rosidl_typesupport_fastrtps_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.567s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.567s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.567s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.567s] -- Up-to-date: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__rosidl_typesupport_introspection_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__type_support.cpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__rosidl_typesupport_introspection_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.cpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/velocity__type_support.cpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[4.567s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.cpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_introspection_cpp.hpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.cpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/referee__type_support.cpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__type_support.cpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__rosidl_typesupport_introspection_cpp.hpp
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.568s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so
+[4.568s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-2.0.0-py3.10.egg-info
+[4.568s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-2.0.0-py3.10.egg-info/dependency_links.txt
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-2.0.0-py3.10.egg-info/PKG-INFO
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-2.0.0-py3.10.egg-info/SOURCES.txt
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-2.0.0-py3.10.egg-info/top_level.txt
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_time_info.py
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_referee.py
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target_s.c
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_time_info_s.c
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_send_s.c
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors_s.c
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor_s.c
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info_s.c
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_send.py
+[4.569s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light_s.c
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_referee_s.c
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor_s.c
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_velocity.py
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights_s.c
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors_s.c
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_velocity_s.c
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.570s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.596s] Listing '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py'...
+[4.596s] Listing '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_referee.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_send.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_time_info.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py'...
+[4.596s] Compiling '/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_velocity.py'...
+[4.598s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.598s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.598s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.599s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.599s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.599s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.599s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so
+[4.599s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so" to ""
+[4.599s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.idl
+[4.599s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.idl
+[4.599s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.idl
+[4.599s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.idl
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.idl
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.idl
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.idl
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.idl
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TimeInfo.idl
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Velocity.idl
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Send.idl
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Referee.idl
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.msg
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.msg
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.msg
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.msg
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.msg
+[4.600s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.msg
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.msg
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.msg
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TimeInfo.msg
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Velocity.msg
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Send.msg
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Referee.msg
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.sh
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.sh
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv
+[4.601s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash
+[4.602s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh
+[4.602s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh
+[4.602s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv
+[4.602s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv
+[4.602s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces
+[4.602s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport.cmake
+[4.602s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.602s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.602s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cppExport.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport.cmake
+[4.603s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.604s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.604s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.604s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.604s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.604s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.604s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.604s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.604s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake
+[4.604s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake
+[4.604s] -- Installing: /home/kyle/RM/tracker_2024/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml
+[4.606s] Invoked command in '/home/kyle/RM/tracker_2024/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/auto_aim_interfaces

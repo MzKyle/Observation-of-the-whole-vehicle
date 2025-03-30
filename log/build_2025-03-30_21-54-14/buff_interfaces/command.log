@@ -1,0 +1,6 @@
+Invoking command in '/home/kyle/RM/tracker_2024/build/buff_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/buff_interfaces
+Invoked command in '/home/kyle/RM/tracker_2024/build/buff_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/buff_interfaces
+Invoking command in '/home/kyle/RM/tracker_2024/build/buff_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/buff_interfaces -- -j32 -l32
+Invoked command in '/home/kyle/RM/tracker_2024/build/buff_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/buff_interfaces -- -j32 -l32
+Invoking command in '/home/kyle/RM/tracker_2024/build/buff_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/buff_interfaces
+Invoked command in '/home/kyle/RM/tracker_2024/build/buff_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/buff_interfaces

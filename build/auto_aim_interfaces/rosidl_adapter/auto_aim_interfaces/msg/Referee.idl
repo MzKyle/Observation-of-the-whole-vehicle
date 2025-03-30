@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from auto_aim_interfaces/msg/Referee.msg
+// generated code does not contain a copyright notice
+
+
+module auto_aim_interfaces {
+  module msg {
+    struct Referee {
+      uint32 event_data;
+
+      @verbatim (language="comment", text=
+        "uint16 team")
+      uint16 time;
+
+      @verbatim (language="comment", text=
+        "uint8 race")
+      uint32 rfid;
+
+      uint16 base_hp;
+
+      uint16 sentry_hp;
+
+      @verbatim (language="comment", text=
+        "uint8 ballet_remain" "\n"
+        "uint8 arm")
+      uint16 outpost_hp;
+
+      uint16 projectile_allowance_17mm;
+    };
+  };
+};

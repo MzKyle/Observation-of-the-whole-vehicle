@@ -1,0 +1,87 @@
+[0.014s] Invoking command in '/home/kyle/RM/tracker_2024/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_auto_record-main -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/rm_auto_record
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.177s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.180s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.236s] -- Detecting CXX compile features
+[0.236s] -- Detecting CXX compile features - done
+[0.237s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.581s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.704s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.707s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.711s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.717s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.764s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.766s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.832s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.853s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.883s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.887s] -- Looking for pthread.h
+[0.937s] -- Looking for pthread.h - found
+[0.938s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.983s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.984s] -- Found Threads: TRUE  
+[1.071s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.081s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.081s] -- Configured cppcheck include dirs: /home/kyle/RM/tracker_2024/src/rm_auto_record-main/include
+[1.081s] -- Configured cppcheck exclude dirs and/or files: 
+[1.081s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.082s] -- Configured cpplint exclude dirs and/or files: 
+[1.082s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.082s] -- Added test 'lint_cmake' to check CMake code style
+[1.082s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.082s] -- Added test 'xmllint' to check XML markup files
+[1.084s] -- Configuring done
+[1.091s] -- Generating done
+[1.093s] -- Build files have been written to: /home/kyle/RM/tracker_2024/build/rm_auto_record
+[1.099s] Invoked command in '/home/kyle/RM/tracker_2024/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_auto_record-main -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/rm_auto_record
+[1.100s] Invoking command in '/home/kyle/RM/tracker_2024/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/rm_auto_record -- -j32 -l32
+[1.131s] [ 25%] [32mBuilding CXX object CMakeFiles/rm_auto_record_node.dir/rclcpp_components/node_main_rm_auto_record_node.cpp.o[0m
+[1.131s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_auto_record.dir/src/record_node.cpp.o[0m
+[3.393s] [ 75%] [32m[1mLinking CXX executable rm_auto_record_node[0m
+[3.496s] [ 75%] Built target rm_auto_record_node
+[10.976s] [100%] [32m[1mLinking CXX shared library librm_auto_record.so[0m
+[11.510s] [100%] Built target rm_auto_record
+[11.521s] Invoked command in '/home/kyle/RM/tracker_2024/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/rm_auto_record -- -j32 -l32
+[11.522s] Invoking command in '/home/kyle/RM/tracker_2024/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/rm_auto_record
+[11.530s] -- Install configuration: ""
+[11.530s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/lib/rm_auto_record/rm_auto_record_node
+[11.530s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/rm_auto_record/lib/rm_auto_record/rm_auto_record_node" to ""
+[11.530s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/include
+[11.530s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/include/rm_auto_record
+[11.531s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/include/rm_auto_record/record_node.hpp
+[11.531s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/environment/library_path.sh
+[11.531s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/environment/library_path.dsv
+[11.531s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/lib/librm_auto_record.so
+[11.538s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/rm_auto_record/lib/librm_auto_record.so" to ""
+[11.538s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/config
+[11.538s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/config/node_params.yaml
+[11.538s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/launch
+[11.538s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/launch/auto_record.launch.py
+[11.539s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/ament_index/resource_index/package_run_dependencies/rm_auto_record
+[11.539s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/ament_index/resource_index/parent_prefix_path/rm_auto_record
+[11.539s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/environment/ament_prefix_path.sh
+[11.539s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/environment/ament_prefix_path.dsv
+[11.539s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/environment/path.sh
+[11.539s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/environment/path.dsv
+[11.539s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/local_setup.bash
+[11.539s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/local_setup.sh
+[11.539s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/local_setup.zsh
+[11.540s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/local_setup.dsv
+[11.540s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/package.dsv
+[11.540s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/ament_index/resource_index/packages/rm_auto_record
+[11.540s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/ament_index/resource_index/rclcpp_components/rm_auto_record
+[11.540s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.540s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.540s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/cmake/ament_cmake_export_libraries-extras.cmake
+[11.540s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/cmake/rm_auto_recordConfig.cmake
+[11.540s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/cmake/rm_auto_recordConfig-version.cmake
+[11.540s] -- Installing: /home/kyle/RM/tracker_2024/install/rm_auto_record/share/rm_auto_record/package.xml
+[11.542s] Invoked command in '/home/kyle/RM/tracker_2024/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/rm_auto_record

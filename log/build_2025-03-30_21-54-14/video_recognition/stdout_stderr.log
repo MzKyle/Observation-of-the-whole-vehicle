@@ -1,0 +1,21 @@
+running egg_info
+creating ../../build/video_recognition/video_recognition.egg-info
+writing ../../build/video_recognition/video_recognition.egg-info/PKG-INFO
+writing dependency_links to ../../build/video_recognition/video_recognition.egg-info/dependency_links.txt
+writing requirements to ../../build/video_recognition/video_recognition.egg-info/requires.txt
+writing top-level names to ../../build/video_recognition/video_recognition.egg-info/top_level.txt
+writing manifest file '../../build/video_recognition/video_recognition.egg-info/SOURCES.txt'
+reading manifest file '../../build/video_recognition/video_recognition.egg-info/SOURCES.txt'
+writing manifest file '../../build/video_recognition/video_recognition.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/kyle/RM/tracker_2024/install/video_recognition/share/ament_index
+creating /home/kyle/RM/tracker_2024/install/video_recognition/share/ament_index/resource_index
+creating /home/kyle/RM/tracker_2024/install/video_recognition/share/ament_index/resource_index/packages
+copying resource/video_recognition -> /home/kyle/RM/tracker_2024/install/video_recognition/share/ament_index/resource_index/packages
+copying package.xml -> /home/kyle/RM/tracker_2024/install/video_recognition/share/video_recognition
+running install_egg_info
+Copying ../../build/video_recognition/video_recognition.egg-info to /home/kyle/RM/tracker_2024/install/video_recognition/lib/python3.10/site-packages/video_recognition-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kyle/RM/tracker_2024/build/video_recognition/install.log'

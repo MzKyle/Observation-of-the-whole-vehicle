@@ -1,0 +1,157 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ab500eb6222c5cc7172a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "armor_detector",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_detector-e6f9c9fbb409626ba89f.json",
+					"name" : "armor_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_detector_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_detector_node-a29f76560c6752be41b2.json",
+					"name" : "armor_detector_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_detector_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_detector_uninstall-13509882ebfad71b89f8.json",
+					"name" : "armor_detector_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-35e9098b82ab06d10e1c.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-77ce86aabc54af96c028.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_node_startup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_node_startup-6c37f32a49cb30391588.json",
+					"name" : "test_node_startup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_number_cls::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_number_cls-7be3bc32c29b4eac428d.json",
+					"name" : "test_number_cls",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-036a4851885c46a585a5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kyle/RM/tracker_2024/build/armor_detector",
+		"source" : "/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

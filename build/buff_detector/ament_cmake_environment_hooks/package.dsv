@@ -1,0 +1,4 @@
+source;share/buff_detector/local_setup.bash
+source;share/buff_detector/local_setup.dsv
+source;share/buff_detector/local_setup.sh
+source;share/buff_detector/local_setup.zsh

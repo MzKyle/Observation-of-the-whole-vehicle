@@ -1,0 +1,17 @@
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/launch/rm_buff_bringup.launch.py
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/config/launch_params.yaml
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/ament_index/resource_index/package_run_dependencies/rm_buff_bringup
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/ament_index/resource_index/parent_prefix_path/rm_buff_bringup
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/environment/ament_prefix_path.sh
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/environment/ament_prefix_path.dsv
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/environment/path.sh
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/environment/path.dsv
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/local_setup.bash
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/local_setup.sh
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/local_setup.zsh
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/local_setup.dsv
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/package.dsv
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/ament_index/resource_index/packages/rm_buff_bringup
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/cmake/rm_buff_bringupConfig.cmake
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/cmake/rm_buff_bringupConfig-version.cmake
+/home/kyle/RM/tracker_2024/install/rm_buff_bringup/share/rm_buff_bringup/package.xml

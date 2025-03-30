@@ -1,0 +1,6 @@
+Invoking command in '/home/kyle/RM/tracker_2024/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_gimbal_description-main -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/rm_gimbal_description
+Invoked command in '/home/kyle/RM/tracker_2024/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_gimbal_description-main -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/rm_gimbal_description
+Invoking command in '/home/kyle/RM/tracker_2024/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/rm_gimbal_description -- -j32 -l32
+Invoked command in '/home/kyle/RM/tracker_2024/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/rm_gimbal_description -- -j32 -l32
+Invoking command in '/home/kyle/RM/tracker_2024/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/rm_gimbal_description
+Invoked command in '/home/kyle/RM/tracker_2024/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/rm_gimbal_description

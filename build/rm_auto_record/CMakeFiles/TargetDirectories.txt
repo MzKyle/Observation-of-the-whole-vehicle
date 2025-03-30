@@ -1,0 +1,11 @@
+/home/kyle/RM/tracker_2024/build/rm_auto_record/CMakeFiles/uninstall.dir
+/home/kyle/RM/tracker_2024/build/rm_auto_record/CMakeFiles/rm_auto_record_uninstall.dir
+/home/kyle/RM/tracker_2024/build/rm_auto_record/CMakeFiles/rm_auto_record.dir
+/home/kyle/RM/tracker_2024/build/rm_auto_record/CMakeFiles/rm_auto_record_node.dir
+/home/kyle/RM/tracker_2024/build/rm_auto_record/CMakeFiles/test.dir
+/home/kyle/RM/tracker_2024/build/rm_auto_record/CMakeFiles/edit_cache.dir
+/home/kyle/RM/tracker_2024/build/rm_auto_record/CMakeFiles/rebuild_cache.dir
+/home/kyle/RM/tracker_2024/build/rm_auto_record/CMakeFiles/list_install_components.dir
+/home/kyle/RM/tracker_2024/build/rm_auto_record/CMakeFiles/install.dir
+/home/kyle/RM/tracker_2024/build/rm_auto_record/CMakeFiles/install/local.dir
+/home/kyle/RM/tracker_2024/build/rm_auto_record/CMakeFiles/install/strip.dir

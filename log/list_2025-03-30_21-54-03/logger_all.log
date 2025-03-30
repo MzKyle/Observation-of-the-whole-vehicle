@@ -1,0 +1,298 @@
+[0.072s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/kyle/RM/tracker_2024']
+[0.072s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/kyle/RM/tracker_2024'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e6e624553c0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7e6e6254d5a0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7e6e6254d5a0>>)
+[0.229s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.229s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.229s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.229s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.229s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.229s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/kyle/RM/tracker_2024'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extension 'ignore'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extension 'ignore_ament_install'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extensions ['colcon_pkg']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extension 'colcon_pkg'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extensions ['colcon_meta']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extension 'colcon_meta'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extensions ['ros']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extension 'ros'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extensions ['cmake', 'python']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extension 'cmake'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extension 'python'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extensions ['python_setup_py']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024) by extension 'python_setup_py'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/log) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/log) by extension 'ignore'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/log) ignored
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extension 'ignore'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extension 'ignore_ament_install'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extensions ['colcon_pkg']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extension 'colcon_pkg'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extensions ['colcon_meta']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extension 'colcon_meta'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extensions ['ros']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extension 'ros'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extensions ['cmake', 'python']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extension 'cmake'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extension 'python'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extensions ['python_setup_py']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src) by extension 'python_setup_py'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extension 'ignore'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extension 'ignore_ament_install'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extensions ['colcon_pkg']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extension 'colcon_pkg'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extensions ['colcon_meta']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extension 'colcon_meta'
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extensions ['ros']
+[0.237s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extension 'ros'
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extensions ['cmake', 'python']
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extension 'cmake'
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extension 'python'
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extensions ['python_setup_py']
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim) by extension 'python_setup_py'
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector) by extension 'ignore'
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector) by extension 'ignore_ament_install'
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector) by extensions ['colcon_pkg']
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector) by extension 'colcon_pkg'
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector) by extensions ['colcon_meta']
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector) by extension 'colcon_meta'
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector) by extensions ['ros']
+[0.238s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector) by extension 'ros'
+[0.240s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector' with type 'ros.ament_cmake' and name 'armor_detector'
+[0.240s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_executor) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_executor) by extension 'ignore'
+[0.240s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_executor) by extension 'ignore_ament_install'
+[0.240s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_executor) by extensions ['colcon_pkg']
+[0.240s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_executor) by extension 'colcon_pkg'
+[0.240s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_executor) by extensions ['colcon_meta']
+[0.240s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_executor) by extension 'colcon_meta'
+[0.240s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_executor) by extensions ['ros']
+[0.240s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_executor) by extension 'ros'
+[0.241s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_executor' with type 'ros.ament_cmake' and name 'armor_executor'
+[0.241s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker) by extension 'ignore'
+[0.241s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker) by extension 'ignore_ament_install'
+[0.241s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker) by extensions ['colcon_pkg']
+[0.241s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker) by extension 'colcon_pkg'
+[0.241s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker) by extensions ['colcon_meta']
+[0.241s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker) by extension 'colcon_meta'
+[0.241s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker) by extensions ['ros']
+[0.241s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker) by extension 'ros'
+[0.242s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker' with type 'ros.ament_cmake' and name 'armor_tracker'
+[0.242s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces) by extension 'ignore'
+[0.242s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces) by extension 'ignore_ament_install'
+[0.242s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces) by extensions ['colcon_pkg']
+[0.242s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces) by extension 'colcon_pkg'
+[0.242s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces) by extensions ['colcon_meta']
+[0.242s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces) by extension 'colcon_meta'
+[0.242s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces) by extensions ['ros']
+[0.242s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces) by extension 'ros'
+[0.243s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces' with type 'ros.ament_cmake' and name 'auto_aim_interfaces'
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/rm_auto_aim) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/rm_auto_aim) by extension 'ignore'
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/rm_auto_aim) by extension 'ignore_ament_install'
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/rm_auto_aim) by extensions ['colcon_pkg']
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/rm_auto_aim) by extension 'colcon_pkg'
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/rm_auto_aim) by extensions ['colcon_meta']
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/rm_auto_aim) by extension 'colcon_meta'
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/rm_auto_aim) by extensions ['ros']
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_aim/rm_auto_aim) by extension 'ros'
+[0.243s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_auto_aim/rm_auto_aim' with type 'ros.ament_cmake' and name 'rm_auto_aim'
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_record-main) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_record-main) by extension 'ignore'
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_record-main) by extension 'ignore_ament_install'
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_record-main) by extensions ['colcon_pkg']
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_record-main) by extension 'colcon_pkg'
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_record-main) by extensions ['colcon_meta']
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_record-main) by extension 'colcon_meta'
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_record-main) by extensions ['ros']
+[0.243s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_auto_record-main) by extension 'ros'
+[0.244s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_auto_record-main' with type 'ros.ament_cmake' and name 'rm_auto_record'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extension 'ignore'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extension 'ignore_ament_install'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extensions ['colcon_pkg']
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extension 'colcon_pkg'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extensions ['colcon_meta']
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extension 'colcon_meta'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extensions ['ros']
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extension 'ros'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extensions ['cmake', 'python']
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extension 'cmake'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extension 'python'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extensions ['python_setup_py']
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main) by extension 'python_setup_py'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector) by extension 'ignore'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector) by extension 'ignore_ament_install'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector) by extensions ['colcon_pkg']
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector) by extension 'colcon_pkg'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector) by extensions ['colcon_meta']
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector) by extension 'colcon_meta'
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector) by extensions ['ros']
+[0.244s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector) by extension 'ros'
+[0.245s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector' with type 'ros.ament_cmake' and name 'buff_detector'
+[0.245s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces) by extension 'ignore'
+[0.245s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces) by extension 'ignore_ament_install'
+[0.245s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces) by extensions ['colcon_pkg']
+[0.245s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces) by extension 'colcon_pkg'
+[0.245s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces) by extensions ['colcon_meta']
+[0.245s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces) by extension 'colcon_meta'
+[0.245s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces) by extensions ['ros']
+[0.245s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces) by extension 'ros'
+[0.245s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces' with type 'ros.ament_cmake' and name 'buff_interfaces'
+[0.245s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_tracker) by extension 'ignore'
+[0.246s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_tracker) by extension 'ignore_ament_install'
+[0.246s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_tracker) by extensions ['colcon_pkg']
+[0.246s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_tracker) by extension 'colcon_pkg'
+[0.246s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_tracker) by extensions ['colcon_meta']
+[0.246s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_tracker) by extension 'colcon_meta'
+[0.246s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_tracker) by extensions ['ros']
+[0.246s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_tracker) by extension 'ros'
+[0.246s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_tracker' with type 'ros.ament_cmake' and name 'buff_tracker'
+[0.246s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extension 'ignore'
+[0.246s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extension 'ignore_ament_install'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extensions ['colcon_pkg']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extension 'colcon_pkg'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extensions ['colcon_meta']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extension 'colcon_meta'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extensions ['ros']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extension 'ros'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extensions ['cmake', 'python']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extension 'cmake'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extension 'python'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extensions ['python_setup_py']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs) by extension 'python_setup_py'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extension 'ignore'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extension 'ignore_ament_install'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extensions ['colcon_pkg']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extension 'colcon_pkg'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extensions ['colcon_meta']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extension 'colcon_meta'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extensions ['ros']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extension 'ros'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extensions ['cmake', 'python']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extension 'cmake'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extension 'python'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extensions ['python_setup_py']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/docs/picture) by extension 'python_setup_py'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extension 'ignore'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extension 'ignore_ament_install'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extensions ['colcon_pkg']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extension 'colcon_pkg'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extensions ['colcon_meta']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extension 'colcon_meta'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extensions ['ros']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extension 'ros'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extensions ['cmake', 'python']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extension 'cmake'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extension 'python'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extensions ['python_setup_py']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/example) by extension 'python_setup_py'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff) by extension 'ignore'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff) by extension 'ignore_ament_install'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff) by extensions ['colcon_pkg']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff) by extension 'colcon_pkg'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff) by extensions ['colcon_meta']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff) by extension 'colcon_meta'
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff) by extensions ['ros']
+[0.247s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff) by extension 'ros'
+[0.248s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff' with type 'ros.ament_cmake' and name 'rm_buff'
+[0.248s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff_bringup) by extension 'ignore'
+[0.248s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff_bringup) by extension 'ignore_ament_install'
+[0.248s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff_bringup) by extensions ['colcon_pkg']
+[0.248s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff_bringup) by extension 'colcon_pkg'
+[0.248s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff_bringup) by extensions ['colcon_meta']
+[0.248s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff_bringup) by extension 'colcon_meta'
+[0.248s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff_bringup) by extensions ['ros']
+[0.248s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff_bringup) by extension 'ros'
+[0.248s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_buff-main/rm_buff_bringup' with type 'ros.ament_cmake' and name 'rm_buff_bringup'
+[0.248s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_gimbal_description-main) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_gimbal_description-main) by extension 'ignore'
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_gimbal_description-main) by extension 'ignore_ament_install'
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_gimbal_description-main) by extensions ['colcon_pkg']
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_gimbal_description-main) by extension 'colcon_pkg'
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_gimbal_description-main) by extensions ['colcon_meta']
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_gimbal_description-main) by extension 'colcon_meta'
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_gimbal_description-main) by extensions ['ros']
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_gimbal_description-main) by extension 'ros'
+[0.249s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_gimbal_description-main' with type 'ros.ament_cmake' and name 'rm_gimbal_description'
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_serial_driver-main) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_serial_driver-main) by extension 'ignore'
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_serial_driver-main) by extension 'ignore_ament_install'
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_serial_driver-main) by extensions ['colcon_pkg']
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_serial_driver-main) by extension 'colcon_pkg'
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_serial_driver-main) by extensions ['colcon_meta']
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_serial_driver-main) by extension 'colcon_meta'
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_serial_driver-main) by extensions ['ros']
+[0.249s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_serial_driver-main) by extension 'ros'
+[0.250s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_serial_driver-main' with type 'ros.ament_cmake' and name 'rm_serial_driver'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extension 'ignore'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extension 'ignore_ament_install'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extensions ['colcon_pkg']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extension 'colcon_pkg'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extensions ['colcon_meta']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extension 'colcon_meta'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extensions ['ros']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extension 'ros'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extensions ['cmake', 'python']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extension 'cmake'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extension 'python'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extensions ['python_setup_py']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision) by extension 'python_setup_py'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extension 'ignore'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extension 'ignore_ament_install'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extensions ['colcon_pkg']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extension 'colcon_pkg'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extensions ['colcon_meta']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extension 'colcon_meta'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extensions ['ros']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extension 'ros'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extensions ['cmake', 'python']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extension 'cmake'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extension 'python'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extensions ['python_setup_py']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/docs) by extension 'python_setup_py'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/rm_vision_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/rm_vision_bringup) by extension 'ignore'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/rm_vision_bringup) by extension 'ignore_ament_install'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/rm_vision_bringup) by extensions ['colcon_pkg']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/rm_vision_bringup) by extension 'colcon_pkg'
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/rm_vision_bringup) by extensions ['colcon_meta']
+[0.250s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/rm_vision_bringup) by extension 'colcon_meta'
+[0.251s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/rm_vision_bringup) by extensions ['ros']
+[0.251s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/rm_vision/rm_vision_bringup) by extension 'ros'
+[0.251s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/rm_vision/rm_vision_bringup' with type 'ros.ament_cmake' and name 'rm_vision_bringup'
+[0.251s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/ros2_hik_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/ros2_hik_camera) by extension 'ignore'
+[0.251s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/ros2_hik_camera) by extension 'ignore_ament_install'
+[0.251s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/ros2_hik_camera) by extensions ['colcon_pkg']
+[0.251s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/ros2_hik_camera) by extension 'colcon_pkg'
+[0.251s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/ros2_hik_camera) by extensions ['colcon_meta']
+[0.251s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/ros2_hik_camera) by extension 'colcon_meta'
+[0.251s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/ros2_hik_camera) by extensions ['ros']
+[0.251s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/ros2_hik_camera) by extension 'ros'
+[0.252s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/ros2_hik_camera' with type 'ros.ament_cmake' and name 'hik_camera'
+[0.252s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/video_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/video_recognition) by extension 'ignore'
+[0.252s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/video_recognition) by extension 'ignore_ament_install'
+[0.252s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/video_recognition) by extensions ['colcon_pkg']
+[0.252s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/video_recognition) by extension 'colcon_pkg'
+[0.252s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/video_recognition) by extensions ['colcon_meta']
+[0.252s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/video_recognition) by extension 'colcon_meta'
+[0.252s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/video_recognition) by extensions ['ros']
+[0.252s] colcon.colcon_core.package_identification Level 1 _identify(/home/kyle/RM/tracker_2024/src/video_recognition) by extension 'ros'
+[0.252s] colcon.colcon_core.package_identification DEBUG Package '/home/kyle/RM/tracker_2024/src/video_recognition' with type 'ros.ament_python' and name 'video_recognition'
+[0.252s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults

@@ -1,0 +1,96 @@
+[0.006s] Invoking command in '/home/kyle/RM/tracker_2024/build/buff_detector': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/buff_detector
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.089s] -- The CXX compiler identification is GNU 11.4.0
+[0.093s] -- Detecting C compiler ABI info
+[0.142s] -- Detecting C compiler ABI info - done
+[0.146s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.146s] -- Detecting C compile features
+[0.146s] -- Detecting C compile features - done
+[0.148s] -- Detecting CXX compiler ABI info
+[0.202s] -- Detecting CXX compiler ABI info - done
+[0.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.206s] -- Detecting CXX compile features
+[0.207s] -- Detecting CXX compile features - done
+[0.208s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.564s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.627s] -- Found OpenCV: /home/kyle/environment (found version "4.5.4") 
+[0.630s] -- Looking for pthread.h
+[0.679s] -- Looking for pthread.h - found
+[0.679s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.733s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.734s] -- Found Threads: TRUE  
+[0.799s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.801s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.806s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.813s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.859s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.861s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.941s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.966s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.998s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.101s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.101s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.102s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.162s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.172s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.172s] -- Configured cppcheck include dirs: /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector/include
+[1.172s] -- Configured cppcheck exclude dirs and/or files: 
+[1.173s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.173s] -- Added test 'lint_cmake' to check CMake code style
+[1.173s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.173s] -- Added test 'xmllint' to check XML markup files
+[1.174s] -- Configuring done
+[1.184s] -- Generating done
+[1.187s] -- Build files have been written to: /home/kyle/RM/tracker_2024/build/buff_detector
+[1.194s] Invoked command in '/home/kyle/RM/tracker_2024/build/buff_detector' returned '0': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/buff_detector
+[1.194s] Invoking command in '/home/kyle/RM/tracker_2024/build/buff_detector': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/buff_detector -- -j32 -l32
+[1.233s] [ 16%] [32mBuilding CXX object CMakeFiles/buff_detector.dir/src/detector_node.cpp.o[0m
+[1.233s] [ 50%] [32mBuilding CXX object CMakeFiles/buff_detector.dir/src/detector.cpp.o[0m
+[1.233s] [ 50%] [32mBuilding CXX object CMakeFiles/buff_detector_node.dir/rclcpp_components/node_main_buff_detector_node.cpp.o[0m
+[1.234s] [ 66%] [32mBuilding CXX object CMakeFiles/buff_detector.dir/src/pnp_solver.cpp.o[0m
+[3.155s] [ 83%] [32m[1mLinking CXX executable buff_detector_node[0m
+[3.273s] [ 83%] Built target buff_detector_node
+[15.235s] [100%] [32m[1mLinking CXX shared library libbuff_detector.so[0m
+[16.083s] [100%] Built target buff_detector
+[16.094s] Invoked command in '/home/kyle/RM/tracker_2024/build/buff_detector' returned '0': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/buff_detector -- -j32 -l32
+[16.095s] Invoking command in '/home/kyle/RM/tracker_2024/build/buff_detector': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/buff_detector
+[16.101s] -- Install configuration: ""
+[16.101s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/lib/buff_detector/buff_detector_node
+[16.101s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/buff_detector/lib/buff_detector/buff_detector_node" to ""
+[16.101s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/include
+[16.101s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/include/buff_detector
+[16.101s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/include/buff_detector/detector_node.hpp
+[16.101s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/include/buff_detector/pnp_solver.hpp
+[16.101s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/include/buff_detector/blade.hpp
+[16.101s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/include/buff_detector/detector.hpp
+[16.101s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/environment/library_path.sh
+[16.101s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/environment/library_path.dsv
+[16.101s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/lib/libbuff_detector.so
+[16.108s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/buff_detector/lib/libbuff_detector.so" to ""
+[16.108s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/models
+[16.108s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/models/buff_quantized.bin
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/models/metadata.yaml
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/models/buff_quantized.xml
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/launch
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/launch/buff_detector.launch.py
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/ament_index/resource_index/package_run_dependencies/buff_detector
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/ament_index/resource_index/parent_prefix_path/buff_detector
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/environment/ament_prefix_path.sh
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/environment/ament_prefix_path.dsv
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/environment/path.sh
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/environment/path.dsv
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/local_setup.bash
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/local_setup.sh
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/local_setup.zsh
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/local_setup.dsv
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/package.dsv
+[16.122s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/ament_index/resource_index/packages/buff_detector
+[16.123s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/ament_index/resource_index/rclcpp_components/buff_detector
+[16.123s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.123s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.123s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[16.123s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/cmake/buff_detectorConfig.cmake
+[16.123s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/cmake/buff_detectorConfig-version.cmake
+[16.123s] -- Installing: /home/kyle/RM/tracker_2024/install/buff_detector/share/buff_detector/package.xml
+[16.125s] Invoked command in '/home/kyle/RM/tracker_2024/build/buff_detector' returned '0': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/buff_detector

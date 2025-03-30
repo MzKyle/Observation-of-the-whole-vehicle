@@ -1,0 +1,11 @@
+source;share/armor_executor/hook/cmake_prefix_path.ps1
+source;share/armor_executor/hook/cmake_prefix_path.dsv
+source;share/armor_executor/hook/cmake_prefix_path.sh
+source;share/armor_executor/hook/ld_library_path_lib.ps1
+source;share/armor_executor/hook/ld_library_path_lib.dsv
+source;share/armor_executor/hook/ld_library_path_lib.sh
+source;share/armor_executor/local_setup.bash
+source;share/armor_executor/local_setup.dsv
+source;share/armor_executor/local_setup.ps1
+source;share/armor_executor/local_setup.sh
+source;share/armor_executor/local_setup.zsh

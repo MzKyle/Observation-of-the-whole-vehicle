@@ -1,0 +1,109 @@
+[0.006s] Invoking command in '/home/kyle/RM/tracker_2024/build/armor_detector': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/armor_detector
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.146s] -- Detecting C compile features - done
+[0.148s] -- Detecting CXX compiler ABI info
+[0.198s] -- Detecting CXX compiler ABI info - done
+[0.203s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.203s] -- Detecting CXX compile features
+[0.203s] -- Detecting CXX compile features - done
+[0.204s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.590s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.651s] -- Found OpenCV: /home/kyle/environment (found version "4.5.4") 
+[0.711s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.714s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.718s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.732s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.755s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.756s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.814s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.842s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.883s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.890s] -- Looking for pthread.h
+[0.944s] -- Looking for pthread.h - found
+[0.945s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.011s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.012s] -- Found Threads: TRUE  
+[1.199s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.200s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.200s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.251s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.262s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.263s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.270s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.270s] -- Configured cppcheck include dirs: /home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector/include
+[1.270s] -- Configured cppcheck exclude dirs and/or files: 
+[1.270s] -- Added test 'lint_cmake' to check CMake code style
+[1.271s] -- Added test 'xmllint' to check XML markup files
+[1.272s] -- Added test 'clang_format' to check C / C++ code style
+[1.273s] -- Configuring done
+[1.290s] -- Generating done
+[1.297s] -- Build files have been written to: /home/kyle/RM/tracker_2024/build/armor_detector
+[1.305s] Invoked command in '/home/kyle/RM/tracker_2024/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/armor_detector
+[1.307s] Invoking command in '/home/kyle/RM/tracker_2024/build/armor_detector': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/armor_detector -- -j32 -l32
+[1.349s] [  6%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o[0m
+[1.350s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.351s] [ 20%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector.cpp.o[0m
+[1.351s] [ 26%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o[0m
+[1.351s] [ 33%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[1.352s] [ 40%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[1.352s] [ 46%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.978s] [ 53%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.038s] [ 53%] Built target gtest_main
+[3.629s] [ 60%] [32m[1mLinking CXX executable armor_detector_node[0m
+[3.774s] [ 60%] Built target armor_detector_node
+[4.319s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.456s] [ 66%] Built target gtest
+[15.482s] [ 73%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[16.282s] [ 73%] Built target armor_detector
+[16.302s] [ 86%] [32mBuilding CXX object CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o[0m
+[16.302s] [ 86%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[17.756s] [ 93%] [32m[1mLinking CXX executable test_number_cls[0m
+[18.093s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[18.355s] [ 93%] Built target test_number_cls
+[19.532s] [100%] [32m[1mLinking CXX executable test_node_startup[0m
+[20.083s] [100%] Built target test_node_startup
+[20.090s] Invoked command in '/home/kyle/RM/tracker_2024/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/armor_detector -- -j32 -l32
+[20.091s] Invoking command in '/home/kyle/RM/tracker_2024/build/armor_detector': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/armor_detector
+[20.097s] -- Install configuration: ""
+[20.097s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/lib/armor_detector/armor_detector_node
+[20.098s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/armor_detector/lib/armor_detector/armor_detector_node" to ""
+[20.098s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/include
+[20.098s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/include/armor_detector
+[20.098s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/include/armor_detector/detector_node.hpp
+[20.098s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/include/armor_detector/pnp_solver.hpp
+[20.098s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/include/armor_detector/detector.hpp
+[20.098s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/include/armor_detector/number_classifier.hpp
+[20.098s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/include/armor_detector/armor.hpp
+[20.098s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/environment/library_path.sh
+[20.098s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[20.098s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/lib/libarmor_detector.so
+[20.107s] -- Set runtime path of "/home/kyle/RM/tracker_2024/install/armor_detector/lib/libarmor_detector.so" to ""
+[20.107s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/model
+[20.108s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/model/label.txt
+[20.108s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/model/mlp.onnx
+[20.108s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[20.108s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[20.108s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[20.108s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[20.108s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/environment/path.sh
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/environment/path.dsv
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/local_setup.bash
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/local_setup.sh
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/local_setup.zsh
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/local_setup.dsv
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/package.dsv
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[20.109s] -- Installing: /home/kyle/RM/tracker_2024/install/armor_detector/share/armor_detector/package.xml
+[20.111s] Invoked command in '/home/kyle/RM/tracker_2024/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/armor_detector

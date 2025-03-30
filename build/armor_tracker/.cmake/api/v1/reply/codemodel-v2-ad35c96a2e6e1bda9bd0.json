@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-34887935238046eca14b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "armor_tracker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_tracker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_tracker-01597895144d0543f463.json",
+					"name" : "armor_tracker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_tracker_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_tracker_node-a2d616c3e2ebf19b7398.json",
+					"name" : "armor_tracker_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_tracker_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_tracker_uninstall-5872fd43f13a1464e0aa.json",
+					"name" : "armor_tracker_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8fff344813ad15708f62.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kyle/RM/tracker_2024/build/armor_tracker",
+		"source" : "/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

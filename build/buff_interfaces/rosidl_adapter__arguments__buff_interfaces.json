@@ -1,0 +1,12 @@
+{
+  "package_name": "buff_interfaces",
+  "non_idl_tuples": [
+    "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/Blade.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/BladeArray.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/DebugBlade.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/DebugBladeArray.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/Rune.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/RuneInfo.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/TimeInfo.msg"
+  ]
+}

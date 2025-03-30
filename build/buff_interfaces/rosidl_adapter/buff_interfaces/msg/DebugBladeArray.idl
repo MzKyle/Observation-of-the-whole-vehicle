@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from buff_interfaces/msg/DebugBladeArray.msg
+// generated code does not contain a copyright notice
+
+#include "buff_interfaces/msg/DebugBlade.idl"
+
+module buff_interfaces {
+  module msg {
+    struct DebugBladeArray {
+      sequence<buff_interfaces::msg::DebugBlade> blades;
+    };
+  };
+};

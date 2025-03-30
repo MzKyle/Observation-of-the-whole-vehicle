@@ -1,0 +1,14 @@
+msg/Blade.idl
+msg/Blade.msg
+msg/BladeArray.idl
+msg/BladeArray.msg
+msg/DebugBlade.idl
+msg/DebugBlade.msg
+msg/DebugBladeArray.idl
+msg/DebugBladeArray.msg
+msg/Rune.idl
+msg/Rune.msg
+msg/RuneInfo.idl
+msg/RuneInfo.msg
+msg/TimeInfo.idl
+msg/TimeInfo.msg

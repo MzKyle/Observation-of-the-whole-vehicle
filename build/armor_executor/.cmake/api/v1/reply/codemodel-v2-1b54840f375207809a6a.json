@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2d95b40a5a7673d72eeb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "armor_executor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_executor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_executor-755ae88cd361c0b03c1b.json",
+					"name" : "armor_executor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_executor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_executor_node-3c081bd8a532d72cf259.json",
+					"name" : "armor_executor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_executor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_executor_uninstall-23dff269253095754699.json",
+					"name" : "armor_executor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-aa8bdeffa2cdb8c6dee1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kyle/RM/tracker_2024/build/armor_executor",
+		"source" : "/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_executor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

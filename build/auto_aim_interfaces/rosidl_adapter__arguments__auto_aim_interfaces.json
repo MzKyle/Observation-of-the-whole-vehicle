@@ -1,0 +1,17 @@
+{
+  "package_name": "auto_aim_interfaces",
+  "non_idl_tuples": [
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/Armor.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/Armors.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/Target.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/DebugLight.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/DebugLights.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/DebugArmor.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/DebugArmors.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/TrackerInfo.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/TimeInfo.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/Velocity.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/Send.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_auto_aim/auto_aim_interfaces:msg/Referee.msg"
+  ]
+}

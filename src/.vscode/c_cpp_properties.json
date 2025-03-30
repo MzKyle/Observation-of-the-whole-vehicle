@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kyle/RM/tracker_2024/install/rm_serial_driver/include/**",
+        "/home/kyle/RM/tracker_2024/install/rm_auto_record/include/**",
+        "/home/kyle/RM/tracker_2024/install/buff_tracker/include/**",
+        "/home/kyle/RM/tracker_2024/install/buff_detector/include/**",
+        "/home/kyle/RM/tracker_2024/install/buff_interfaces/include/**",
+        "/home/kyle/RM/tracker_2024/install/armor_tracker/include/**",
+        "/home/kyle/RM/tracker_2024/install/armor_detector/include/**",
+        "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_detector/include/**",
+        "/home/kyle/RM/tracker_2024/src/rm_auto_aim/armor_tracker/include/**",
+        "/home/kyle/RM/tracker_2024/src/rm_auto_record-main/include/**",
+        "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_detector/include/**",
+        "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_tracker/include/**",
+        "/home/kyle/RM/tracker_2024/src/rm_serial_driver-main/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

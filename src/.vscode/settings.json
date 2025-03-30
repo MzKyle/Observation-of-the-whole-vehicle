@@ -1,0 +1,19 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/kyle/RM/tracker_2024/build/video_recognition",
+        "/home/kyle/RM/tracker_2024/install/video_recognition/lib/python3.10/site-packages",
+        "/home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages",
+        "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kyle/RM/tracker_2024/build/video_recognition",
+        "/home/kyle/RM/tracker_2024/install/video_recognition/lib/python3.10/site-packages",
+        "/home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages",
+        "/home/kyle/RM/tracker_2024/install/auto_aim_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

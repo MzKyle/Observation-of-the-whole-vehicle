@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4ebc6ec7d8f74f7463e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_serial_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver-1a3fcda3c910ae0acb64.json",
+					"name" : "rm_serial_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_node-fe5ce22b2321ddfc0670.json",
+					"name" : "rm_serial_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_uninstall-6ff566a8ac55efa738d9.json",
+					"name" : "rm_serial_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-685abbfaffc71adaf5a7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kyle/RM/tracker_2024/build/rm_serial_driver",
+		"source" : "/home/kyle/RM/tracker_2024/src/rm_serial_driver-main"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

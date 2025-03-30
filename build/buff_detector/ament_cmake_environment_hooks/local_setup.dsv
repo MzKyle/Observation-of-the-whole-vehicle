@@ -1,0 +1,3 @@
+source;share/buff_detector/environment/ament_prefix_path.sh
+source;share/buff_detector/environment/library_path.sh
+source;share/buff_detector/environment/path.sh

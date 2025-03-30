@@ -1,0 +1,6 @@
+Invoking command in '/home/kyle/RM/tracker_2024/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_auto_record-main -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/rm_auto_record
+Invoked command in '/home/kyle/RM/tracker_2024/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kyle/RM/tracker_2024/src/rm_auto_record-main -DCMAKE_INSTALL_PREFIX=/home/kyle/RM/tracker_2024/install/rm_auto_record
+Invoking command in '/home/kyle/RM/tracker_2024/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/rm_auto_record -- -j32 -l32
+Invoked command in '/home/kyle/RM/tracker_2024/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kyle/RM/tracker_2024/build/rm_auto_record -- -j32 -l32
+Invoking command in '/home/kyle/RM/tracker_2024/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/rm_auto_record
+Invoked command in '/home/kyle/RM/tracker_2024/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kyle/RM/tracker_2024/build/rm_auto_record

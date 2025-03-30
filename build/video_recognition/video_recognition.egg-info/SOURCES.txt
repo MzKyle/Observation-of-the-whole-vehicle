@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+../../build/video_recognition/video_recognition.egg-info/PKG-INFO
+../../build/video_recognition/video_recognition.egg-info/SOURCES.txt
+../../build/video_recognition/video_recognition.egg-info/dependency_links.txt
+../../build/video_recognition/video_recognition.egg-info/requires.txt
+../../build/video_recognition/video_recognition.egg-info/top_level.txt
+../../build/video_recognition/video_recognition.egg-info/zip-safe
+resource/video_recognition
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

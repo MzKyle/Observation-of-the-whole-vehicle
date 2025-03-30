@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ac512cd5ab577ab8926c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_auto_record",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_auto_record::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_auto_record-b502491a51af57eae7eb.json",
+					"name" : "rm_auto_record",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_auto_record_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_auto_record_node-472b5dff3060f650331e.json",
+					"name" : "rm_auto_record_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_auto_record_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_auto_record_uninstall-ded83081b0be87e92716.json",
+					"name" : "rm_auto_record_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6ad3a3e9380bdfd5f81b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kyle/RM/tracker_2024/build/rm_auto_record",
+		"source" : "/home/kyle/RM/tracker_2024/src/rm_auto_record-main"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,4 @@
+source;share/rm_buff/local_setup.bash
+source;share/rm_buff/local_setup.dsv
+source;share/rm_buff/local_setup.sh
+source;share/rm_buff/local_setup.zsh

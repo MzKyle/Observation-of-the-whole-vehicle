@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "auto_aim_interfaces__py",
+		"source" : "/home/kyle/RM/tracker_2024/build/auto_aim_interfaces/auto_aim_interfaces__py"
+	}
+}
