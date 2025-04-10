@@ -10,12 +10,20 @@ module buff_interfaces {
     struct RuneInfo {
       std_msgs::msg::Header header;
 
+      @verbatim (language="comment", text=
+        "扇叶位置信息")
       geometry_msgs::msg::Point blade;
 
+      @verbatim (language="comment", text=
+        "中心位置信息")
       geometry_msgs::msg::Point center;
 
+      @verbatim (language="comment", text=
+        "速度信息")
       double speed;
 
+      @verbatim (language="comment", text=
+        "预测速度")
       double predicted_speed;
     };
   };

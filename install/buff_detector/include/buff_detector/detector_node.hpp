@@ -39,9 +39,9 @@ private:
   void taskCallback(const std_msgs::msg::String::SharedPtr task_msg);
 
   // Camera info part
-  rclcpp::Subscription<sensor_msgs::msg::CameraInfo>::SharedPtr cam_info_sub_;
-  cv::Point2f cam_center_;
-  std::shared_ptr<sensor_msgs::msg::CameraInfo> cam_info_;
+  rclcpp::Subscription<sensor_msgs::msg::CameraInfo>::SharedPtr cam_info_sub_;  //接收相机信息
+  cv::Point2f cam_center_;     //用于存储相机图像的中心点
+  std::shared_ptr<sensor_msgs::msg::CameraInfo> cam_info_;   //存储相机信息
 
   // PnP Solver
   std::unique_ptr<PnPSolver> pnp_solver_;

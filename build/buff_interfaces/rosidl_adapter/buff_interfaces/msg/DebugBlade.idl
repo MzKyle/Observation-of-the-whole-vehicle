@@ -8,22 +8,36 @@
 module buff_interfaces {
   module msg {
     struct DebugBlade {
+      @verbatim (language="comment", text=
+        "矩形框左上角的坐标")
       double x;
 
       double y;
 
+      @verbatim (language="comment", text=
+        "矩形框的宽度和高度")
       double width;
 
       double height;
 
+      @verbatim (language="comment", text=
+        "大小符")
       int64 label;
 
+      @verbatim (language="comment", text=
+        "目标检测的置信度")
       double prob;
 
+      @verbatim (language="comment", text=
+        "位姿信息")
       geometry_msgs::msg::Pose pose;
 
+      @verbatim (language="comment", text=
+        "中心点信息")
       geometry_msgs::msg::Point center;
 
+      @verbatim (language="comment", text=
+        "关键点信息")
       sequence<geometry_msgs::msg::Point> kpt;
     };
   };

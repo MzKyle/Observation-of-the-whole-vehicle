@@ -1,3 +1,4 @@
+﻿// NOLINT: This file starts with a BOM since it contain non-ASCII characters
 // generated from rosidl_generator_c/resource/idl__struct.h.em
 // with input from buff_interfaces:msg/RuneInfo.idl
 // generated code does not contain a copyright notice
@@ -28,9 +29,13 @@ extern "C"
 typedef struct buff_interfaces__msg__RuneInfo
 {
   std_msgs__msg__Header header;
+  /// 扇叶位置信息
   geometry_msgs__msg__Point blade;
+  /// 中心位置信息
   geometry_msgs__msg__Point center;
+  /// 速度信息
   double speed;
+  /// 预测速度
   double predicted_speed;
 } buff_interfaces__msg__RuneInfo;
 

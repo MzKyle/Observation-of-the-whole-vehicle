@@ -1,6 +1,3 @@
-// Copyright (C) 2024 Zheng Yu
-// Licensed under the MIT License.
-
 #include "buff_detector/pnp_solver.hpp"
 
 #include <opencv2/calib3d.hpp>

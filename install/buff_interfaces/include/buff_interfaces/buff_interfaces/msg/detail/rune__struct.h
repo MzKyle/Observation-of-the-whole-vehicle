@@ -1,3 +1,4 @@
+﻿// NOLINT: This file starts with a BOM since it contain non-ASCII characters
 // generated from rosidl_generator_c/resource/idl__struct.h.em
 // with input from buff_interfaces:msg/Rune.idl
 // generated code does not contain a copyright notice
@@ -30,11 +31,19 @@ typedef struct buff_interfaces__msg__Rune
 {
   std_msgs__msg__Header header;
   bool tracking;
+  /// 位置
   geometry_msgs__msg__Point position;
+  /// 速度
   geometry_msgs__msg__Vector3 velocity;
+  /// 极坐标
+  /// 表示从原点到扇叶位置的距离
   double r;
+  /// 从参考轴（通常是 x 轴正方向）逆时针旋转到扇叶位置向量的角度
   double theta;
+  /// 运动参数
+  /// 加速度
   double a;
+  /// 角速度
   double w;
   double b;
   double c;

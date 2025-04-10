@@ -1,6 +1,3 @@
-// Copyright (C) 2024 Zheng Yu
-// Licensed under the MIT License.
-
 #include "buff_detector/detector.hpp"
 #include <iostream>
 
@@ -11,33 +8,33 @@ namespace rm_buff
 {
 Detector::Detector(const std::string model_path) : model_path_(model_path)
 {
-  core_ = ov::Core();
+  core_ = ov::Core();  //创建一个 ov::Core 对象 core_，用于管理 OpenVINO 设备和模型
   model_ = core_.read_model(model_path_);
 
   ov::preprocess::PrePostProcessor ppp(model_);
-  ppp.input().preprocess().convert_layout({0, 3, 1, 2});
+  ppp.input().preprocess().convert_layout({0, 3, 1, 2});//预处理
   // convert layout from [1, 18, 8400] to [1, 8400, 18]
-  ppp.output().postprocess().convert_layout({0, 2, 1});
-  model_ = ppp.build();
+  ppp.output().postprocess().convert_layout({0, 2, 1});//后处理
+  model_ = ppp.build();//应用预处理和后处理设置，并重新构建模型
 
-  compiled_model_ = core_.compile_model(model_, "GPU");
-  infer_request_ = compiled_model_.create_infer_request();
-  input_tensor_ = infer_request_.get_input_tensor(0);
+  compiled_model_ = core_.compile_model(model_, "GPU"); //用 core_ 对象的 compile_model 方法将模型编译到 GPU 设备上，并将编译后的模型存储在 compiled_model_ 中
+  infer_request_ = compiled_model_.create_infer_request(); //使用编译后的模型创建一个推理请求对象
+  input_tensor_ = infer_request_.get_input_tensor(0);//获取推理请求的第一个输入张量，并将其存储在 input_tensor_ 中
 
-  blade_template_ = {
+  blade_template_ = {//初始化装甲板的模板点，存储了扇叶的轮廓信息
     cv::Point2f(138.0, 0.0),   cv::Point2f(25.0, 28.0),   cv::Point2f(12.0, 125.0),
     cv::Point2f(5.0, 235.0),   cv::Point2f(0.0, 345.0),   cv::Point2f(155.0, 381.0),
     cv::Point2f(216.0, 381.0), cv::Point2f(371.0, 345.0), cv::Point2f(366.0, 235.0),
     cv::Point2f(359.0, 125.0), cv::Point2f(346.0, 28.0),  cv::Point2f(233.0, 0.0)};
 
-  corner_template_ = {
+  corner_template_ = {//初始化角点的模板点，存储了扇叶的四个角点信息
     cv::Point2f(25.0, 28.0), cv::Point2f(0.0, 345.0), cv::Point2f(371.0, 345.0),
     cv::Point2f(346.0, 28.0)};
 
-  cv::Point2f center(185.0, 186.0);
+  cv::Point2f center(185.0, 186.0);//中心点，用于后续的模板点变换
 
   // [-160.0, -225.0],[-166.0, -122.0],[165.0, -122.0],[159.0, -225.0]
-  kpt_template_ = {
+  kpt_template_ = {//初始化关键点的模板点，存储了扇叶的关键点信息
     cv::Point2f(26.0, 131.0), cv::Point2f(20.0, 234.0), cv::Point2f(351.0, 234.0),
     cv::Point2f(345.0, 131.0)};
 
@@ -61,7 +58,7 @@ std::vector<Blade> Detector::Detect(cv::Mat & src_img)
   cv::Mat img;
 
   // cv::resize(src_img, img, cv::Size(image_size, image_size));
-  img = letterbox(src_img, image_size, image_size);
+  img = letterbox(src_img, image_size, image_size);  //调用 letterbox 函数对输入图像 src_img 进行处理，使其符合模型输入所需的尺寸
 
   // 一是将图像数据类型转换为 32 位浮点型，二是把图像像素值从 [0, 255] 范围归一化到 [0, 1] 范围。
   img.convertTo(img, CV_32FC3, 1.0 / 255.0);
@@ -76,23 +73,14 @@ std::vector<Blade> Detector::Detect(cv::Mat & src_img)
 
   infer_request_.set_input_tensor(0, input_tensor_);
 
-  // the following method need 10x+ time than above 20240120
-  // auto data = input_tensor_.data<float>();
-  // for (int h = 0; h < image_size; h++) {
-  //   for (int w = 0; w < image_size; w++) {
-  //     for (int c = 0; c < 3; c++) {
-  //       int out_index = c * image_size * image_size + h * image_size + w;
-  //       data[out_index] = float(img.at<cv::Vec3f>(h, w)[c]);
-  //     }
-  //   }
-  // }
 
-  infer_request_.infer();
+
+  infer_request_.infer();//等待模型完成对输入图像的处理
   // infer_request_.start_async();
   // infer_request_.wait();
-  auto output = infer_request_.get_output_tensor(0);
+  auto output = infer_request_.get_output_tensor(0);//获取推理请求的第一个输出张量 output，该张量包含了模型的推理结果
 
-  non_max_suppression(output, conf_threshold, nms_threshold, CLS_NUM, src_img.size());
+  non_max_suppression(output, conf_threshold, nms_threshold, CLS_NUM, src_img.size());//调用 non_max_suppression 函数对模型的输出结果进行非极大值抑制处理
 
   for (size_t i = 0; i < blade_array_.size(); i++) {
     if (!calibrate_kpts(blade_array_[i], src_img)) {
@@ -179,7 +167,7 @@ void Detector::non_max_suppression(
 bool Detector::calibrate_kpts(Blade & blade, cv::Mat & img)
 {
   debug_img = img.clone();
-   cv::rectangle(debug_img, blade.rect, cv::Scalar(0, 255, 0), 20);
+  cv::rectangle(debug_img, blade.rect, cv::Scalar(0, 255, 0), 20);
 
   //
   cv::circle(

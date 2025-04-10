@@ -1,3 +1,4 @@
+﻿// NOLINT: This file starts with a BOM since it contain non-ASCII characters
 // generated from rosidl_generator_c/resource/idl__struct.h.em
 // with input from buff_interfaces:msg/DebugBlade.idl
 // generated code does not contain a copyright notice
@@ -27,14 +28,21 @@ extern "C"
 /// Struct defined in msg/DebugBlade in the package buff_interfaces.
 typedef struct buff_interfaces__msg__DebugBlade
 {
+  /// 矩形框左上角的坐标
   double x;
   double y;
+  /// 矩形框的宽度和高度
   double width;
   double height;
+  /// 大小符
   int64_t label;
+  /// 目标检测的置信度
   double prob;
+  /// 位姿信息
   geometry_msgs__msg__Pose pose;
+  /// 中心点信息
   geometry_msgs__msg__Point center;
+  /// 关键点信息
   geometry_msgs__msg__Point__Sequence kpt;
 } buff_interfaces__msg__DebugBlade;
 

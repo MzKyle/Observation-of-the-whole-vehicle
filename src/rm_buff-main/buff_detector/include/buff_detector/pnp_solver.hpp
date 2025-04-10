@@ -1,6 +1,3 @@
-// Copyright (C) 2024 Zheng Yu
-// Licensed under the MIT License.
-
 #ifndef BUFF_DETECTOR__PNP_SOLVER_HPP_
 #define BUFF_DETECTOR__PNP_SOLVER_HPP_
 

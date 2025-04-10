@@ -1,3 +1,4 @@
+﻿// NOLINT: This file starts with a BOM since it contain non-ASCII characters
 // generated from rosidl_generator_c/resource/idl__struct.h.em
 // with input from buff_interfaces:msg/Blade.idl
 // generated code does not contain a copyright notice
@@ -25,7 +26,9 @@ extern "C"
 typedef struct buff_interfaces__msg__Blade
 {
   int64_t label;
+  /// 检测到的是扇叶的概率
   double prob;
+  /// 扇叶的位姿
   geometry_msgs__msg__Pose pose;
 } buff_interfaces__msg__Blade;
 

@@ -9,8 +9,12 @@ module buff_interfaces {
     struct Blade {
       int64 label;
 
+      @verbatim (language="comment", text=
+        "检测到的是扇叶的概率")
       double prob;
 
+      @verbatim (language="comment", text=
+        "扇叶的位姿")
       geometry_msgs::msg::Pose pose;
     };
   };

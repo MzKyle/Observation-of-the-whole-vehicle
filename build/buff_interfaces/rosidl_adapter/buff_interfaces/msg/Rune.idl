@@ -13,16 +13,30 @@ module buff_interfaces {
 
       boolean tracking;
 
+      @verbatim (language="comment", text=
+        "位置")
       geometry_msgs::msg::Point position;
 
+      @verbatim (language="comment", text=
+        "速度")
       geometry_msgs::msg::Vector3 velocity;
 
+      @verbatim (language="comment", text=
+        "极坐标" "\n"
+        "表示从原点到扇叶位置的距离")
       double r;
 
+      @verbatim (language="comment", text=
+        "从参考轴（通常是 x 轴正方向）逆时针旋转到扇叶位置向量的角度")
       double theta;
 
+      @verbatim (language="comment", text=
+        "运动参数" "\n"
+        "加速度")
       double a;
 
+      @verbatim (language="comment", text=
+        "角速度")
       double w;
 
       double b;
