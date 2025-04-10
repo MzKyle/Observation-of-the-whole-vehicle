@@ -1,6 +1,3 @@
-// Copyright (c) 2022 ChenJun
-// Licensed under the Apache-2.0 License.
-
 #ifndef RM_SERIAL_DRIVER__CRC_HPP_
 #define RM_SERIAL_DRIVER__CRC_HPP_
 

@@ -2,7 +2,7 @@
   ros__parameters:
     device_name: /dev/ttyACM0
     baud_rate: 460800
-    flow_control: none
-    parity: none
-    stop_bits: "1"
+    flow_control: none  #流控制方式
+    parity: none  #设置了串口通信中的奇偶校验位
+    stop_bits: "1"  #指定了每个数据字节后面的停止位数量
 

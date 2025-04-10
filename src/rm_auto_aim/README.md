@@ -2,14 +2,7 @@
 
 ## Overview
 
-RoboMaster 装甲板自瞄算法模块
-
-<img src="docs/rm_vision.svg" alt="rm_vision" width="200" height="200">
-
-该项目为 [rm_vision](https://github.com/FaterYU/rm_vision) 的子模块
-
-若有帮助请Star这个项目，感谢~
-
+RoboMaster 装甲板自瞄算法模块，包含识别器和跟踪器两部分。
 ### License
 
 The source code is released under a [MIT license](rm_auto_aim/LICENSE).

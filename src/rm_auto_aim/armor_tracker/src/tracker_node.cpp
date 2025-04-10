@@ -16,16 +16,16 @@ ArmorTrackerNode::ArmorTrackerNode(const rclcpp::NodeOptions & options)
   max_armor_distance_ = this->declare_parameter("max_armor_distance", 10.0);
 
   // Tracker
-  double max_match_distance = this->declare_parameter("tracker.max_match_distance", 0.15);
+  double max_match_distance = this->declare_parameter("tracker.max_match_distance", 0.15); //两帧最大允许的装甲板距离
   double max_match_yaw_diff_ = this->declare_parameter("tracker.max_match_yaw_diff", 1.0);
   tracker_ = std::make_unique<Tracker>(max_match_distance, max_match_yaw_diff_);
-  tracker_->tracking_thres = this->declare_parameter("tracker.tracking_thres", 5);
-  lost_time_thres_ = this->declare_parameter("tracker.lost_time_thres", 0.3);
+  tracker_->tracking_thres = this->declare_parameter("tracker.tracking_thres", 5);  //跟踪阈值
+  lost_time_thres_ = this->declare_parameter("tracker.lost_time_thres", 0.3);  //丢失时间阈值
 
-  float k = this->declare_parameter("tracker.k", 0.092);
-  int bias_time = this->declare_parameter("tracker.bias_time", 100);
-  float s_bias = this->declare_parameter("tracker.s_bias", 0.19133);
-  float z_bias = this->declare_parameter("tracker.z_bias", 0.21265);
+  float k = this->declare_parameter("tracker.k", 0.092);  //弹道系数
+  int bias_time = this->declare_parameter("tracker.bias_time", 100);  //偏置时间
+  float s_bias = this->declare_parameter("tracker.s_bias", 0.19133);  //枪口前推的距离
+  float z_bias = this->declare_parameter("tracker.z_bias", 0.21265);  //yaw轴电机到枪口水平面的垂直距离
   gaf_solver = std::make_unique<SolveTrajectory>(k, bias_time, s_bias, z_bias);
 
   // EKF
@@ -47,7 +47,7 @@ ArmorTrackerNode::ArmorTrackerNode(const rclcpp::NodeOptions & options)
     // clang-format off
     f <<  1,   dt_, 0,   0,   0,   0,   0,   0,   0,
           0,   1,   0,   0,   0,   0,   0,   0,   0,
-          0,   0,   1,   dt_, 0,   0,   0,   0,   0, 
+          0,   0,   1,   dt_, 0,   0,   0,   0,   0,
           0,   0,   0,   1,   0,   0,   0,   0,   0,
           0,   0,   0,   0,   1,   dt_, 0,   0,   0,
           0,   0,   0,   0,   0,   1,   0,   0,   0,
@@ -143,8 +143,8 @@ ArmorTrackerNode::ArmorTrackerNode(const rclcpp::NodeOptions & options)
   // Change target service
   change_target_srv_ = this->create_service<std_srvs::srv::Trigger>(
     "/tracker/change", [this](
-                         const std_srvs::srv::Trigger::Request::SharedPtr,
-                         std_srvs::srv::Trigger::Response::SharedPtr response) {
+                        const std_srvs::srv::Trigger::Request::SharedPtr,
+                        std_srvs::srv::Trigger::Response::SharedPtr response) {
       tracker_->tracker_state = Tracker::CHANGE_TARGET;
       response->success = true;
       RCLCPP_INFO(this->get_logger(), "Target change!");

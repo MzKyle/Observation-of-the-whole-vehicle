@@ -1,8 +1,9 @@
 # armor_tracker
 
-- [ArmorTrackerNode](#armortrackernode)
+- [armor\_tracker](#armortracker)
+  - [ArmorTrackerNode](#armortrackernode)
+  - [ExtendedKalmanFilter](#extendedkalmanfilter)
   - [Tracker](#tracker)
-    - [KalmanFilter](#kalmanfilter)
 
 ## ArmorTrackerNode
 装甲板处理节点
@@ -107,7 +108,7 @@ $$ s2qyaw = e^{-d_{move}} \cdot (s2qyaw_{max}-s2qyaw_{min})+s2qyaw_{min} $$
 - update:
 
   首先由卡尔曼滤波器得到目标在当前帧的预测位置，然后遍历当前帧中的目标位置与预测位置进行匹配，若当前帧不存在目标或所有目标位置与预测位置的偏差都过大则认为目标丢失，重置卡尔曼滤波器。
-  
+
   最后选取位置相差最小的目标作为最佳匹配项，更新卡尔曼滤波器，将更新后的状态作为跟踪器的结果输出
 
 

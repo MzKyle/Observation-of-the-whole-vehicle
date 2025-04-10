@@ -1,6 +1,3 @@
-// Copyright (C) 2024 Zheng Yu
-// Licensed under the MIT License.
-
 #ifndef BUFF_DETECTOR__BLADE_HPP_
 #define BUFF_DETECTOR__BLADE_HPP_
 
