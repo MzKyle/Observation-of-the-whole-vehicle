@@ -69,7 +69,7 @@ void Tracker::initChange(const Armor & armor_msg)
 
 void Tracker::update(const Armors::SharedPtr & armors_msg)
 {
-  // KF predict
+  //调用EKF进行预测
   Eigen::VectorXd ekf_prediction = ekf.predict();
   RCLCPP_DEBUG(rclcpp::get_logger("armor_tracker"), "EKF predict");
 
@@ -203,19 +203,17 @@ void Tracker::initEKF(const Armor & a)
   // Set initial position at 0.2m behind the target
   target_state = Eigen::VectorXd::Zero(9);
   double r = 0.2;
-  double xc = xa + r * cos(yaw);
-  double yc = ya + r * sin(yaw);
+  double xc = xa + r * cos(yaw); //目标状态的 x 坐标
+  double yc = ya + r * sin(yaw); //目标状态的 y 坐标
   dz = 0, another_r = r;
-  target_state << xc, 0, yc, 0, za, 0, yaw, 0, r;
+  target_state << xc, 0, yc, 0, za, 0, yaw, 0, r;  //计算得到的目标状态信息按顺序填充到目标状态向量 target_state
 
   ekf.setState(target_state);
 }
 
 void Tracker::updateArmorsNum(const Armor & armor)
 {
-  if (armor.type == "large" && (tracked_id == "3" || tracked_id == "4" || tracked_id == "5")) {
-    tracked_armors_num = ArmorsNum::BALANCE_2;
-  } else if (tracked_id == "outpost") {
+  if (tracked_id == "outpost") {
     tracked_armors_num = ArmorsNum::OUTPOST_3;
   } else {
     tracked_armors_num = ArmorsNum::NORMAL_4;
@@ -225,7 +223,7 @@ void Tracker::updateArmorsNum(const Armor & armor)
 void Tracker::handleArmorJump(const Armor & current_armor)
 {
   double yaw = orientationToYaw(current_armor.pose.orientation);
-  target_state(6) = yaw;
+  target_state(6) = yaw;  //更新目标状态向量中的 yaw 值
   updateArmorsNum(current_armor);
   // Only 4 armors has 2 radius and height
   if (tracked_armors_num == ArmorsNum::NORMAL_4) {
@@ -235,11 +233,10 @@ void Tracker::handleArmorJump(const Armor & current_armor)
   }
   RCLCPP_WARN(rclcpp::get_logger("armor_tracker"), "Armor jump!");
 
-  // If position difference is larger than max_match_distance_,
-  // take this case as the ekf diverged, reset the state
-  auto p = current_armor.pose.position;
+  //检查当前装甲板的位置与预测的装甲板位置之间的距离是否超过最大匹配距离 max_match_distance_。如果超过，则认为 EKF 发散，需要重置目标状态向量。
+  auto p = current_armor.pose.position;   //获取当前装甲板的位置信息
   Eigen::Vector3d current_p(p.x, p.y, p.z);
-  Eigen::Vector3d infer_p = getArmorPositionFromState(target_state);
+  Eigen::Vector3d infer_p = getArmorPositionFromState(target_state);  //计算预测的装甲板位置
   if ((current_p - infer_p).norm() > max_match_distance_) {
     double r = target_state(8);
     target_state(0) = p.x + r * cos(yaw);  // xc
@@ -262,14 +259,14 @@ double Tracker::orientationToYaw(const geometry_msgs::msg::Quaternion & q)
   double roll, pitch, yaw;
   tf2::Matrix3x3(tf_q).getRPY(roll, pitch, yaw);
   // Make yaw change continuous (-pi~pi to -inf~inf)
-  yaw = last_yaw_ + angles::shortest_angular_distance(last_yaw_, yaw);
+  yaw = last_yaw_ + angles::shortest_angular_distance(last_yaw_, yaw); //计算上一次的偏航角 last_yaw_ 与当前偏航角 yaw 之间的最短角度差。然后将这个角度差加到上一次的偏航角上，得到一个连续变化的偏航角。
   last_yaw_ = yaw;
   return yaw;
 }
 
 Eigen::Vector3d Tracker::getArmorPositionFromState(const Eigen::VectorXd & x)
 {
-  // Calculate predicted position of the current armor
+  // 根据传入的目标状态向量来计算当前装甲板的预测位置
   double xc = x(0), yc = x(2), za = x(4);
   double yaw = x(6), r = x(8);
   double xa = xc - r * cos(yaw);

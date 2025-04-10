@@ -20,7 +20,7 @@
 namespace rm_auto_aim
 {
 
-enum class ArmorsNum { NORMAL_4 = 4, BALANCE_2 = 2, OUTPOST_3 = 3 }; //normal四个装甲板，wheel leg两个装甲板，前哨站三个装甲板
+enum class ArmorsNum { NORMAL_4 = 4,OUTPOST_3 = 3 }; //normal四个装甲板，2025年wheel leg也改为4个装甲板，前哨站三个装甲板
 
 class Tracker
 {

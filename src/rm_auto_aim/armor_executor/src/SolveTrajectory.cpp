@@ -217,20 +217,7 @@ void SolveTrajectory::fireLogicIsTop(float& pitch, float& yaw, float& aim_x, flo
     //      0
     int idx = 0;
     bool is_fire = false;
-    if (msg->armors_num  == ARMOR_NUM_BALANCE) {
-        calculateArmorPosition(msg , true, false);
-        for (size_t i = 0; i < tmp_yaws.size(); i++) {
-            float tmp_yaw = tmp_yaws[i];
-            if (shouldFire(tmp_yaw, msg->v_yaw, timeDelay)) {
-                is_fire = true;
-                idx = i;
-                if (fireCallback) {
-                    fireCallback(is_fire);
-                }
-                break;
-            }
-        }
-    } else if (msg->armors_num == ARMOR_NUM_OUTPOST) {
+    if (msg->armors_num == ARMOR_NUM_OUTPOST) {
         calculateArmorPosition(msg, false, true);
         for (size_t i = 0; i < tmp_yaws.size(); i++) {
             float tmp_yaw = tmp_yaws[i];
@@ -274,15 +261,7 @@ void SolveTrajectory::fireLogicDefault(float& pitch, float& yaw, float& aim_x, f
     int idx = 0;
     bool is_fire = false;
 
-    if (msg->armors_num  == ARMOR_NUM_BALANCE) {
-        calculateArmorPosition(msg, true, false);
-        // 选择最佳装甲板后统一判断
-        idx = selectArmor(msg, true);
-        is_fire = tmp_yaws[idx] >= min_yaw_in_cycle && tmp_yaws[idx] <= max_yaw_in_cycle;
-        if (fireCallback) {
-            fireCallback(is_fire);
-        }
-    } else if (msg->armors_num == ARMOR_NUM_OUTPOST) {
+    if (msg->armors_num == ARMOR_NUM_OUTPOST) {
         calculateArmorPosition(msg, false, true);
         idx = selectArmor(msg, true);
         is_fire = tmp_yaws[idx] >= min_yaw_in_cycle && tmp_yaws[idx] <= max_yaw_in_cycle;

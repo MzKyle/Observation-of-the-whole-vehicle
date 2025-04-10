@@ -36,7 +36,7 @@ struct SendPacket
   uint8_t header = 0xA5;
   uint8_t state : 2;       // 0-untracking 1-tracking-aim 2-tracking-buff
   uint8_t id : 3;          // aim: 0-outpost 6-guard 7-base
-  uint8_t armors_num : 3;  // 2-balance 3-outpost 4-normal
+  uint8_t armors_num : 3;  // 3-outpost 4-normal
   float x;                 // aim: robot-center || buff: rune-center
   float y;                 // aim: robot-center || buff: rune-center
   float z;                 // aim: robot-center || buff: rune-center
