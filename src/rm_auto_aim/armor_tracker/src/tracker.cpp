@@ -1,4 +1,3 @@
-
 #include "armor_tracker/tracker.hpp"
 
 #include <angles/angles.h>
@@ -17,10 +16,10 @@
 namespace rm_auto_aim
 {
 Tracker::Tracker(double max_match_distance, double max_match_yaw_diff_)
-: tracker_state(LOST),
+: tracker_state(LOST),    //初始化状态为LOST
   tracked_id(std::string("")),
-  measurement(Eigen::VectorXd::Zero(4)),
-  target_state(Eigen::VectorXd::Zero(9)),
+  measurement(Eigen::VectorXd::Zero(4)),  //初始化测量值向量为四维零向量
+  target_state(Eigen::VectorXd::Zero(9)),  //初始化目标状态向量为九维零向量
   max_match_distance_(max_match_distance),
   max_match_yaw_diff_(max_match_yaw_diff_)
 {
@@ -32,8 +31,8 @@ void Tracker::init(const Armors::SharedPtr & armors_msg)
     return;
   }
 
-  // Simply choose the armor that is closest to image center
-  double min_distance = DBL_MAX;
+  //选择距离图像中心最近的装甲板
+  double min_distance = DBL_MAX;  //初始化为 DBL_MAX（表示最大的双精度浮点数），用于记录当前找到的最小距离。
   tracked_armor = armors_msg->armors[0];
   for (const auto & armor : armors_msg->armors) {
     if (armor.distance_to_image_center < min_distance) {
@@ -48,10 +47,10 @@ void Tracker::init(const Armors::SharedPtr & armors_msg)
   tracked_id = tracked_armor.number;
   tracker_state = DETECTING;
 
-  change_count_ = 0;
-  change_thres = 20;
+  change_count_ = 0;  //将更换目标计数器初始化为 0
+  change_thres = 20;  //将更换目标阈值设置为 20
 
-  updateArmorsNum(tracked_armor);
+  updateArmorsNum(tracked_armor);  //根据选中的 tracked_armor 更新跟踪的目标装甲板的数量
 }
 
 void Tracker::initChange(const Armor & armor_msg)
