@@ -32,7 +32,9 @@ typedef struct auto_aim_interfaces__msg__Armor
   rosidl_runtime_c__String number;
   rosidl_runtime_c__String type;
   float distance_to_image_center;
+  /// pose of the armor
   geometry_msgs__msg__Pose pose;
+  /// keypoints of the armor
   geometry_msgs__msg__Point__Sequence kpts;
 } auto_aim_interfaces__msg__Armor;
 

@@ -1,3 +1,4 @@
+﻿// NOLINT: This file starts with a BOM since it contain non-ASCII characters
 // generated from rosidl_generator_c/resource/idl__struct.h.em
 // with input from auto_aim_interfaces:msg/TrackerInfo.idl
 // generated code does not contain a copyright notice
@@ -23,13 +24,13 @@ extern "C"
 
 /// Struct defined in msg/TrackerInfo in the package auto_aim_interfaces.
 /**
-  * Difference between the current measurement and prediction
+  * Difference between the current measurement and prediction 当前测量值和预测值之间的差异
  */
 typedef struct auto_aim_interfaces__msg__TrackerInfo
 {
   double position_diff;
   double yaw_diff;
-  /// Unfiltered position and yaw
+  /// Unfiltered position and yaw  未过滤的位置和偏航角
   geometry_msgs__msg__Point position;
   double yaw;
 } auto_aim_interfaces__msg__TrackerInfo;

@@ -1,7 +1,3 @@
-// Copyright (C) 2022 ChenJun
-// Copyright (C) 2024 Zheng Yu
-// Licensed under the MIT License.
-
 #ifndef ARMOR_PROCESSOR__PROCESSOR_NODE_HPP_
 #define ARMOR_PROCESSOR__PROCESSOR_NODE_HPP_
 
@@ -23,12 +19,12 @@
 #include <vector>
 
 #include "armor_tracker/tracker.hpp"
+#include "armor_executor/SolveTrajectory.hpp"
 #include "auto_aim_interfaces/msg/armors.hpp"
 #include "auto_aim_interfaces/msg/target.hpp"
 #include "auto_aim_interfaces/msg/tracker_info.hpp"
 #include "auto_aim_interfaces/msg/velocity.hpp"
 #include "auto_aim_interfaces/msg/send.hpp"
-#include "armor_executor/SolveTrajectory.hpp"
 
 namespace rm_auto_aim
 {

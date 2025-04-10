@@ -7,14 +7,14 @@
 module auto_aim_interfaces {
   module msg {
     @verbatim (language="comment", text=
-      "Difference between the current measurement and prediction")
+      "Difference between the current measurement and prediction 当前测量值和预测值之间的差异")
     struct TrackerInfo {
       double position_diff;
 
       double yaw_diff;
 
       @verbatim (language="comment", text=
-        "Unfiltered position and yaw")
+        "Unfiltered position and yaw  未过滤的位置和偏航角")
       geometry_msgs::msg::Point position;
 
       double yaw;

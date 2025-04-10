@@ -4,3 +4,11 @@ buff_interfaces.egg-info/PKG-INFO
 buff_interfaces.egg-info/SOURCES.txt
 buff_interfaces.egg-info/dependency_links.txt
 buff_interfaces.egg-info/top_level.txt
+buff_interfaces/msg/__init__.py
+buff_interfaces/msg/_blade.py
+buff_interfaces/msg/_blade_array.py
+buff_interfaces/msg/_debug_blade.py
+buff_interfaces/msg/_debug_blade_array.py
+buff_interfaces/msg/_rune.py
+buff_interfaces/msg/_rune_info.py
+buff_interfaces/msg/_time_info.py

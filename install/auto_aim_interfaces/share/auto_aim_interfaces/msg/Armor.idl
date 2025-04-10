@@ -14,8 +14,12 @@ module auto_aim_interfaces {
 
       float distance_to_image_center;
 
+      @verbatim (language="comment", text=
+        "pose of the armor")
       geometry_msgs::msg::Pose pose;
 
+      @verbatim (language="comment", text=
+        "keypoints of the armor")
       sequence<geometry_msgs::msg::Point> kpts;
     };
   };
