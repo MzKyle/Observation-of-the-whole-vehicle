@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/rune_info__functions.c.o.d"
   "CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.c.o"
   "CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.c.o.d"
+  "CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.c.o"
+  "CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.c.o.d"
   "libbuff_interfaces__rosidl_generator_c.pdb"
   "libbuff_interfaces__rosidl_generator_c.so"
   "rosidl_generator_c/buff_interfaces/msg/blade.h"
@@ -47,9 +49,14 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.h"
   "rosidl_generator_c/buff_interfaces/msg/detail/time_info__struct.h"
   "rosidl_generator_c/buff_interfaces/msg/detail/time_info__type_support.h"
+  "rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.c"
+  "rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.h"
+  "rosidl_generator_c/buff_interfaces/msg/detail/velocity__struct.h"
+  "rosidl_generator_c/buff_interfaces/msg/detail/velocity__type_support.h"
   "rosidl_generator_c/buff_interfaces/msg/rune.h"
   "rosidl_generator_c/buff_interfaces/msg/rune_info.h"
   "rosidl_generator_c/buff_interfaces/msg/time_info.h"
+  "rosidl_generator_c/buff_interfaces/msg/velocity.h"
 )
 
 # Per-language clean rules from dependency scanning.

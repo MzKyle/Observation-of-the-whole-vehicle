@@ -84,6 +84,7 @@ rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesuppo
 rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/buff_interfaces/msg/Rune.idl
 rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/buff_interfaces/msg/RuneInfo.idl
 rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/buff_interfaces/msg/TimeInfo.idl
+rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/buff_interfaces/msg/Velocity.idl
 rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -188,6 +189,12 @@ rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__rosidl_types
 rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp: rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp
 
+rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp: rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp
+
 CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__type_support_c.cpp.o: CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__type_support_c.cpp
 CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__type_support_c.cpp.o: CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
@@ -286,6 +293,20 @@ CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp -o CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp.s
 
+CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.o: CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp
+CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.o: CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyle/RM/tracker_2024/build/buff_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.o -MF CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.o.d -o CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.o -c /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp
+
+CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp > CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.i
+
+CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp -o CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.s
+
 # Object files for target buff_interfaces__rosidl_typesupport_fastrtps_c
 buff_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__type_support_c.cpp.o" \
@@ -294,7 +315,8 @@ buff_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/debug_blade_array__type_support_c.cpp.o" \
 "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/rune__type_support_c.cpp.o" \
 "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/rune_info__type_support_c.cpp.o" \
-"CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp.o"
+"CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp.o" \
+"CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.o"
 
 # External object files for target buff_interfaces__rosidl_typesupport_fastrtps_c
 buff_interfaces__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
@@ -306,6 +328,7 @@ libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/buff_interfaces
 libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/rune__type_support_c.cpp.o
 libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/rune_info__type_support_c.cpp.o
 libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp.o
+libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.o
 libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make
 libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: libbuff_interfaces__rosidl_generator_c.so
 libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
@@ -321,7 +344,7 @@ libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libbui
 libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librcutils.so
 libbuff_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyle/RM/tracker_2024/build/buff_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library libbuff_interfaces__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyle/RM/tracker_2024/build/buff_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library libbuff_interfaces__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -346,6 +369,8 @@ CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typ
 CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/rune_info__type_support_c.cpp
 CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp
+CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp
 	cd /home/kyle/RM/tracker_2024/build/buff_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces /home/kyle/RM/tracker_2024/build/buff_interfaces /home/kyle/RM/tracker_2024/build/buff_interfaces /home/kyle/RM/tracker_2024/build/buff_interfaces/CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/depend
 

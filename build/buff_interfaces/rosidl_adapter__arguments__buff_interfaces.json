@@ -7,6 +7,7 @@
     "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/DebugBladeArray.msg",
     "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/Rune.msg",
     "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/RuneInfo.msg",
-    "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/TimeInfo.msg"
+    "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/TimeInfo.msg",
+    "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces:msg/Velocity.msg"
   ]
 }

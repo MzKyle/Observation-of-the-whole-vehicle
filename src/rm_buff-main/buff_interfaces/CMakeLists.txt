@@ -19,7 +19,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Rune.msg"
   "msg/RuneInfo.msg"
   "msg/TimeInfo.msg"
+  "msg/Velocity.msg"
 
+  
   DEPENDENCIES
     std_msgs
     geometry_msgs

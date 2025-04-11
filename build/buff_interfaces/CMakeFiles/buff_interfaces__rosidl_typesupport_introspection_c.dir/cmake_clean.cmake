@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/rune_info__type_support.c.o.d"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/time_info__type_support.c.o"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/time_info__type_support.c.o.d"
+  "CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__type_support.c.o"
+  "CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__type_support.c.o.d"
   "libbuff_interfaces__rosidl_typesupport_introspection_c.pdb"
   "libbuff_interfaces__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h"
@@ -29,6 +31,8 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/rune_info__type_support.c"
   "rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/time_info__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/time_info__type_support.c"
+  "rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__type_support.c"
 )
 
 # Per-language clean rules from dependency scanning.

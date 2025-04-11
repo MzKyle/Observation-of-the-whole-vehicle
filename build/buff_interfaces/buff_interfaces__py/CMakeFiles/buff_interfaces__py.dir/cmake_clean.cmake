@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/buff_interfaces/msg/_rune_s.c"
   "../rosidl_generator_py/buff_interfaces/msg/_time_info.py"
   "../rosidl_generator_py/buff_interfaces/msg/_time_info_s.c"
+  "../rosidl_generator_py/buff_interfaces/msg/_velocity.py"
+  "../rosidl_generator_py/buff_interfaces/msg/_velocity_s.c"
   "CMakeFiles/buff_interfaces__py"
 )
 

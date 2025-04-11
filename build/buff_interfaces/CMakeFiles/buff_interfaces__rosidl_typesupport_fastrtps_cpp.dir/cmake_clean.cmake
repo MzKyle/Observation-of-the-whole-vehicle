@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/dds_fastrtps/rune_info__type_support.cpp.o.d"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/dds_fastrtps/time_info__type_support.cpp.o"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/dds_fastrtps/time_info__type_support.cpp.o.d"
+  "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/dds_fastrtps/velocity__type_support.cpp.o"
+  "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/dds_fastrtps/velocity__type_support.cpp.o.d"
   "libbuff_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "libbuff_interfaces__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_cpp.hpp"
@@ -24,11 +26,13 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/dds_fastrtps/rune__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/dds_fastrtps/rune_info__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/dds_fastrtps/time_info__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/dds_fastrtps/velocity__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/debug_blade__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/debug_blade_array__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/rune__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/rune_info__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/buff_interfaces/msg/detail/velocity__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

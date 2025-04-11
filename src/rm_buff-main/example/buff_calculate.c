@@ -1,6 +1,3 @@
-// Copyright (C) 2024 Zheng Yu
-// Licensed under the MIT License.
-
 #include "buff_calculate.h"
 
 #include <stdint.h>
@@ -10,9 +7,9 @@
 #define PI 3.1415926
 
 void calcuateBuffPostition(float xc, float yc, float zc, float theta,
-                           int blade_id, float a, float b, float w,
-                           uint64_t cap_timestamp, uint16_t t_offset,
-                           float* target_x, float* target_y, float* target_z) {
+                          int blade_id, float a, float b, float w,
+                          uint64_t cap_timestamp, uint16_t t_offset,
+                          float* target_x, float* target_y, float* target_z) {
   // TODO: obtain self timestamp and set delay
   uint64_t self_timestamp = 1234502;  // ms stamp
   float delay = 0.3;                  // s

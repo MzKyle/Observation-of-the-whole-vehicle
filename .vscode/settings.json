@@ -84,6 +84,17 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp",
-        "eigen": "cpp"
+        "eigen": "cpp",
+        "csetjmp": "cpp",
+        "cfenv": "cpp",
+        "charconv": "cpp",
+        "coroutine": "cpp",
+        "cuchar": "cpp",
+        "rope": "cpp",
+        "slist": "cpp",
+        "scoped_allocator": "cpp",
+        "shared_mutex": "cpp",
+        "valarray": "cpp",
+        "*.txx": "cpp"
     }
 }

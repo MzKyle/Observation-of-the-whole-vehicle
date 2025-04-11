@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/buff_interfaces__rosidl_generator_py.dir/rosidl_generator_py/buff_interfaces/msg/_rune_s.c.o.d"
   "CMakeFiles/buff_interfaces__rosidl_generator_py.dir/rosidl_generator_py/buff_interfaces/msg/_time_info_s.c.o"
   "CMakeFiles/buff_interfaces__rosidl_generator_py.dir/rosidl_generator_py/buff_interfaces/msg/_time_info_s.c.o.d"
+  "CMakeFiles/buff_interfaces__rosidl_generator_py.dir/rosidl_generator_py/buff_interfaces/msg/_velocity_s.c.o"
+  "CMakeFiles/buff_interfaces__rosidl_generator_py.dir/rosidl_generator_py/buff_interfaces/msg/_velocity_s.c.o.d"
   "rosidl_generator_py/buff_interfaces/libbuff_interfaces__rosidl_generator_py.pdb"
   "rosidl_generator_py/buff_interfaces/libbuff_interfaces__rosidl_generator_py.so"
 )

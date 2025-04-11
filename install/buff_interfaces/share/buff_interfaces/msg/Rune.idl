@@ -14,11 +14,11 @@ module buff_interfaces {
       boolean tracking;
 
       @verbatim (language="comment", text=
-        "位置")
+        "xyz位置")
       geometry_msgs::msg::Point position;
 
       @verbatim (language="comment", text=
-        "速度")
+        "xyz速度")
       geometry_msgs::msg::Vector3 velocity;
 
       @verbatim (language="comment", text=
@@ -27,20 +27,24 @@ module buff_interfaces {
       double r;
 
       @verbatim (language="comment", text=
-        "从参考轴（通常是 x 轴正方向）逆时针旋转到扇叶位置向量的角度")
+        "极角")
       double theta;
 
       @verbatim (language="comment", text=
-        "运动参数" "\n"
-        "加速度")
+        "运动参数   spd = a*sin(w*t)+b || spd > 0 ==> clockwise" "\n"
+        "振幅")
       double a;
 
       @verbatim (language="comment", text=
         "角速度")
       double w;
 
+      @verbatim (language="comment", text=
+        "y值偏移量")
       double b;
 
+      @verbatim (language="comment", text=
+        "相位偏移量")
       double c;
 
       int32 offset_id;

@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "armor_executor")
 set(armor_executor_VERSION "0.1.0")
-set(armor_executor_MAINTAINER "Chen Jun <chen.junn@outlook.com>")
+set(armor_executor_MAINTAINER "Kyle <2972689924@qq.com>")
 set(armor_executor_BUILD_DEPENDS "rclcpp" "rclcpp_components" "eigen" "angles" "std_srvs" "geometry_msgs" "visualization_msgs" "message_filters" "tf2_geometry_msgs" "auto_aim_interfaces")
 set(armor_executor_BUILDTOOL_DEPENDS "ament_cmake")
 set(armor_executor_BUILD_EXPORT_DEPENDS "rclcpp" "rclcpp_components" "eigen" "angles" "std_srvs" "geometry_msgs" "visualization_msgs" "message_filters" "tf2_geometry_msgs" "auto_aim_interfaces")

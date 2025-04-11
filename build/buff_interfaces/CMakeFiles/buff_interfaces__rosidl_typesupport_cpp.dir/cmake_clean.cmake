@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/rune_info__type_support.cpp.o.d"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/time_info__type_support.cpp.o"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/time_info__type_support.cpp.o.d"
+  "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/velocity__type_support.cpp.o"
+  "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/velocity__type_support.cpp.o.d"
   "libbuff_interfaces__rosidl_typesupport_cpp.pdb"
   "libbuff_interfaces__rosidl_typesupport_cpp.so"
   "rosidl_typesupport_cpp/buff_interfaces/msg/blade__type_support.cpp"
@@ -22,6 +24,7 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_cpp/buff_interfaces/msg/rune__type_support.cpp"
   "rosidl_typesupport_cpp/buff_interfaces/msg/rune_info__type_support.cpp"
   "rosidl_typesupport_cpp/buff_interfaces/msg/time_info__type_support.cpp"
+  "rosidl_typesupport_cpp/buff_interfaces/msg/velocity__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/rune_info__type_support_c.cpp.o.d"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp.o"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp.o.d"
+  "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.o"
+  "CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp.o.d"
   "libbuff_interfaces__rosidl_typesupport_fastrtps_c.pdb"
   "libbuff_interfaces__rosidl_typesupport_fastrtps_c.so"
   "rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h"
@@ -29,6 +31,8 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/rune_info__type_support_c.cpp"
   "rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_c.h"
   "rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/time_info__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/velocity__type_support_c.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

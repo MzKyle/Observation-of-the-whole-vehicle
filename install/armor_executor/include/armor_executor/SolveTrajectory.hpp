@@ -29,6 +29,7 @@ public:
 
     enum ARMOR_NUM
     {
+        ARMOR_NUM_BALANCE = 2,
         ARMOR_NUM_OUTPOST = 3,
         ARMOR_NUM_NORMAL = 4
     };

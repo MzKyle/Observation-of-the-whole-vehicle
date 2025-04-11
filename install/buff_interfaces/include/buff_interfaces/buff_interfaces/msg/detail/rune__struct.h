@@ -31,21 +31,23 @@ typedef struct buff_interfaces__msg__Rune
 {
   std_msgs__msg__Header header;
   bool tracking;
-  /// 位置
+  /// xyz位置
   geometry_msgs__msg__Point position;
-  /// 速度
+  /// xyz速度
   geometry_msgs__msg__Vector3 velocity;
   /// 极坐标
   /// 表示从原点到扇叶位置的距离
   double r;
-  /// 从参考轴（通常是 x 轴正方向）逆时针旋转到扇叶位置向量的角度
+  /// 极角
   double theta;
-  /// 运动参数
-  /// 加速度
+  /// 运动参数   spd = a*sin(w*t)+b || spd > 0 ==> clockwise
+  /// 振幅
   double a;
   /// 角速度
   double w;
+  /// y值偏移量
   double b;
+  /// 相位偏移量
   double c;
   int32_t offset_id;
   int64_t t_offset;

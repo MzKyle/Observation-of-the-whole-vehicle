@@ -41,6 +41,7 @@ RMSerialDriver::RMSerialDriver(const rclcpp::NodeOptions & options)
   task_pub_ = this->create_publisher<std_msgs::msg::String>("/task_mode", 10);
   latency_pub_ = this->create_publisher<std_msgs::msg::Float64>("/latency", 10);
   marker_pub_ = this->create_publisher<visualization_msgs::msg::Marker>("/aiming_point", 10);
+  velocity_pub_ = this->create_publisher<auto_aim_interfaces::msg::Velocity>("/current_velocity", 10);
 
   aim_time_info_pub_ =
     this->create_publisher<auto_aim_interfaces::msg::TimeInfo>("/time_info/aim", 10);

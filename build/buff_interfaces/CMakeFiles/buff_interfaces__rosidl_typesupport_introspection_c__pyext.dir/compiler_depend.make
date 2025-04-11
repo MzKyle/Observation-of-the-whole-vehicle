@@ -271,8 +271,15 @@ CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl
   rosidl_generator_c/buff_interfaces/msg/detail/rune_info__functions.h \
   rosidl_generator_c/buff_interfaces/msg/detail/time_info__type_support.h \
   rosidl_generator_c/buff_interfaces/msg/detail/time_info__struct.h \
-  rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.h
+  rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.h \
+  rosidl_generator_c/buff_interfaces/msg/detail/velocity__type_support.h \
+  rosidl_generator_c/buff_interfaces/msg/detail/velocity__struct.h \
+  rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.h
 
+
+rosidl_generator_c/buff_interfaces/msg/detail/velocity__struct.h:
+
+rosidl_generator_c/buff_interfaces/msg/detail/velocity__type_support.h:
 
 rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.h:
 
@@ -511,6 +518,8 @@ rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_int
 /usr/include/python3.10/objimpl.h:
 
 /usr/include/python3.10/patchlevel.h:
+
+rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.h:
 
 /usr/include/asm-generic/int-ll64.h:
 

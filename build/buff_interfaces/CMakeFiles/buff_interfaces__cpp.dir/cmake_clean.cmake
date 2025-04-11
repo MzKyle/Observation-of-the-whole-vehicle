@@ -32,9 +32,14 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__struct.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__traits.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__type_support.hpp"
+  "rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__builder.hpp"
+  "rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__struct.hpp"
+  "rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__traits.hpp"
+  "rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__type_support.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/rune.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/rune_info.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/time_info.hpp"
+  "rosidl_generator_cpp/buff_interfaces/msg/velocity.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

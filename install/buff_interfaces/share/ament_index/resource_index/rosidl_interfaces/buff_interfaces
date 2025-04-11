@@ -12,3 +12,5 @@ msg/RuneInfo.idl
 msg/RuneInfo.msg
 msg/TimeInfo.idl
 msg/TimeInfo.msg
+msg/Velocity.idl
+msg/Velocity.msg

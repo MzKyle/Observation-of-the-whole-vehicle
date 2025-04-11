@@ -384,6 +384,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/buff_interfaces/msg" TYPE FILE FILES "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_adapter/buff_interfaces/msg/Velocity.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/buff_interfaces/msg" TYPE FILE FILES "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces/msg/Blade.msg")
 endif()
 
@@ -409,6 +413,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/buff_interfaces/msg" TYPE FILE FILES "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces/msg/TimeInfo.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/buff_interfaces/msg" TYPE FILE FILES "/home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces/msg/Velocity.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

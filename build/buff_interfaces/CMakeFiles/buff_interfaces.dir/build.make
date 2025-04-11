@@ -73,6 +73,7 @@ CMakeFiles/buff_interfaces: /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_int
 CMakeFiles/buff_interfaces: /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces/msg/Rune.msg
 CMakeFiles/buff_interfaces: /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces/msg/RuneInfo.msg
 CMakeFiles/buff_interfaces: /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces/msg/TimeInfo.msg
+CMakeFiles/buff_interfaces: /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces/msg/Velocity.msg
 CMakeFiles/buff_interfaces: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/buff_interfaces: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/buff_interfaces: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
