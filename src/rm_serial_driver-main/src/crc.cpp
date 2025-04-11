@@ -1,6 +1,3 @@
-// Copyright (c) 2022 ChenJun
-// Licensed under the Apache-2.0 License.
-
 #include "rm_serial_driver/crc.hpp"
 
 #include <cstdint>

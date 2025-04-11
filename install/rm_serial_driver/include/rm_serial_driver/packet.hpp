@@ -10,47 +10,47 @@ namespace rm_serial_driver
 struct ReceivePacket
 {
   uint8_t header = 0x5A;
+  struct __attribute__((packed))  {
+    float yaw;
+    float pit;
+    float rol;
+  } eulr;
+  uint8_t notice;
+  float current_v; // m/s
+  float yaw;
+  float pitch;
+  float roll;
+
   uint8_t detect_color : 1;  // 0-red 1-blue
   uint8_t task_mode : 2;     // 0-auto 1-aim 2-buff
-  bool reset_tracker : 1;
-  uint8_t is_play : 1;
-  bool change_target : 1;
-  uint8_t reserved : 2;
-  float roll;
-  float pitch;
-  float yaw;
-  float aim_x;
-  float aim_y;
-  float aim_z;
-  uint16_t game_time;  // (s) game time [0, 450]
-  uint32_t timestamp;  // (ms) board time
+
+  uint32_t  event_data; // 重要事件数据        
+  uint16_t time;         
+        
+  uint32_t rfid;        //增益 
+  uint16_t base_hp;      //基地血量
+  uint16_t sentry_hp;     //哨兵血量       
+  uint16_t  outpost_hp; //前哨战
+  uint16_t  projectile_allowance_17mm;    //允许发弹量
+
+  // float aim_x;
+  // float aim_y;
+  // float aim_z;
   uint16_t checksum = 0;
 } __attribute__((packed));
 
 struct SendPacket
 {
-  uint8_t header = 0xA5;
-  uint8_t state : 2;       // 0-untracking 1-tracking-aim 2-tracking-buff
-  uint8_t id : 3;          // aim: 0-outpost 6-guard 7-base
-  uint8_t armors_num : 3;  // 3-outpost 4-normal
-  float x;                 // aim: robot-center || buff: rune-center
-  float y;                 // aim: robot-center || buff: rune-center
-  float z;                 // aim: robot-center || buff: rune-center
-  float yaw;               // aim: robot-yaw || buff: rune-theta
-  // spd = a*sin(w*t)+b || spd > 0 ==> clockwise
-  float vx;  // aim: robot-vx || buff: rune spin speed param - a
-  float vy;  // aim: robot-vy || buff: rune spin speed param - b
-  float vz;  // aim: robot-vz || buff: rune spin speed param - w
-  float v_yaw;
-  float r1;
-  float r2;
-  float dz;
+  //uint8_t header = 0xA5;
+   /* 控制命令 */
+  float yaw; 
   float pitch;
-
-  float wz=0;
-  uint8_t notice=5;
-  uint32_t cap_timestamp;  // (ms) frame capture time
-  uint16_t t_offset;       // (ms) speed t offset
+  float roll=0;   
+  uint8_t notice=5;  
+  float vx; 
+  float vy; 
+  
+  float wz=0; 
   uint16_t checksum = 0;
 } __attribute__((packed));
 
