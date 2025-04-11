@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/rune__type_support.cpp.o.d"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/rune_info__type_support.cpp.o"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/rune_info__type_support.cpp.o.d"
+  "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/send__type_support.cpp.o"
+  "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/send__type_support.cpp.o.d"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/time_info__type_support.cpp.o"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/time_info__type_support.cpp.o.d"
   "CMakeFiles/buff_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/buff_interfaces/msg/velocity__type_support.cpp.o"
@@ -23,6 +25,7 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_cpp/buff_interfaces/msg/debug_blade_array__type_support.cpp"
   "rosidl_typesupport_cpp/buff_interfaces/msg/rune__type_support.cpp"
   "rosidl_typesupport_cpp/buff_interfaces/msg/rune_info__type_support.cpp"
+  "rosidl_typesupport_cpp/buff_interfaces/msg/send__type_support.cpp"
   "rosidl_typesupport_cpp/buff_interfaces/msg/time_info__type_support.cpp"
   "rosidl_typesupport_cpp/buff_interfaces/msg/velocity__type_support.cpp"
 )

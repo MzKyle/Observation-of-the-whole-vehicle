@@ -10,6 +10,8 @@ msg/Rune.idl
 msg/Rune.msg
 msg/RuneInfo.idl
 msg/RuneInfo.msg
+msg/Send.idl
+msg/Send.msg
 msg/TimeInfo.idl
 msg/TimeInfo.msg
 msg/Velocity.idl

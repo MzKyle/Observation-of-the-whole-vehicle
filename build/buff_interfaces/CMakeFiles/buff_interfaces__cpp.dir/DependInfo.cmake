@@ -39,6 +39,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/detail/rune_info__struct.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
   "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/detail/rune_info__traits.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
   "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/detail/rune_info__type_support.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
+  "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/detail/send__builder.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
+  "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/detail/send__struct.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
+  "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/detail/send__traits.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
+  "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/detail/send__type_support.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
   "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__builder.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
   "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__struct.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
   "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__traits.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
@@ -49,6 +53,7 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__type_support.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
   "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/rune.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
   "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/rune_info.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
+  "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/send.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
   "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/time_info.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
   "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/velocity.hpp" "/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_cpp/buff_interfaces/msg/blade.hpp"
   )

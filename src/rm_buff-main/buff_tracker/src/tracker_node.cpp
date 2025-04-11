@@ -1,6 +1,3 @@
-// Copyright (C) 2024 Zheng Yu
-// Licensed under the MIT License.
-
 #include "buff_tracker/tracker_node.hpp"
 
 namespace rm_buff
@@ -23,6 +20,12 @@ BuffTrackerNode::BuffTrackerNode(const rclcpp::NodeOptions & options)
   tracker_->robot_z_ground = this->declare_parameter("tracker.robot_z_ground", 200.0);
   tracker_->distance = this->declare_parameter("tracker.distance", 6626.0);
   tracker_->max_distance_diff = this->declare_parameter("tracker.max_distance_diff", 905.0);
+
+  float k = this->declare_parameter("tracker.k", 0.092);
+  int bias_time = this->declare_parameter("tracker.bias_time", 100);
+  float s_bias = this->declare_parameter("tracker.s_bias", 0.19133);
+  float z_bias = this->declare_parameter("tracker.z_bias", 0.21265);
+  gaf_solver = std::make_unique<SolveTrajectory>(k, bias_time, s_bias, z_bias);
 
   // visulization Initialize
   blade_marker_ = visualization_msgs::msg::Marker();
@@ -267,6 +270,9 @@ BuffTrackerNode::BuffTrackerNode(const rclcpp::NodeOptions & options)
   task_sub_ = this->create_subscription<std_msgs::msg::String>(
     "/task_mode", 10, std::bind(&BuffTrackerNode::taskCallback, this, std::placeholders::_1));
 
+  send_pub_ = this->create_publisher<buff_interfaces::msg::Send>(
+      "/tracker/send", rclcpp::SensorDataQoS());
+
   // Create publishers
   rune_publisher_ = this->create_publisher<buff_interfaces::msg::Rune>("tracker/rune", 10);
   rune_info_publisher_ =
@@ -332,6 +338,7 @@ void BuffTrackerNode::bladesCallback(const buff_interfaces::msg::BladeArray::Sha
   rune_info_msg.header.stamp = time;
   rune_info_msg.header.frame_id = target_frame_;
   buff_interfaces::msg::Rune rune_msg;
+  buff_interfaces::msg::Send send_msg;
   rune_msg.header.stamp = time;
   rune_msg.header.frame_id = target_frame_;
   geometry_msgs::msg::PoseArray pnp_result_msg;
@@ -409,6 +416,21 @@ void BuffTrackerNode::bladesCallback(const buff_interfaces::msg::BladeArray::Sha
       rune_info_msg.predicted_speed =
         rune_msg.a * sin(1.0 * rune_msg.t_offset / 1000.0 * rune_msg.w) + rune_msg.b;
       rune_msg.offset_id = tracker_->blade_id;
+
+
+      float pitch=0, yaw=0, aim_x=0, aim_y=0, aim_z=0;
+      auto msg = std::make_shared<buff_interfaces::msg::Rune>(rune_msg);
+
+      gaf_solver->autoSolveTrajectory(pitch, yaw, aim_x, aim_y, aim_z, msg);
+      //gaf_solver->setFireCallback([&](bool is_fire) { send_msg.is_fire = is_fire; });
+
+      send_msg.position.x = aim_x;
+      send_msg.position.y = aim_y;
+      send_msg.position.z = aim_z;
+      send_msg.v_yaw = 0;
+      send_msg.pitch = pitch;
+      send_msg.yaw = yaw;
+
 
       // Publish visualization
       center_marker_.header.stamp = time;

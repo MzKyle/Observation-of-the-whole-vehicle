@@ -4,6 +4,7 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/rune.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/debug_blade.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/velocity.h
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/send.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/time_info.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/rosidl_generator_c__visibility_control.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/blade_array.h
@@ -18,12 +19,16 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__functions.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__struct.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__functions.h
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__type_support.h
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__functions.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__functions.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__type_support.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__functions.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__functions.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__type_support.h
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__struct.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__struct.h
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__functions.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__struct.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__functions.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__functions.h
@@ -47,6 +52,7 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__rosidl_typesupport_fastrtps_c.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/velocity__rosidl_typesupport_fastrtps_c.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__rosidl_typesupport_fastrtps_c.h
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__rosidl_typesupport_fastrtps_c.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_c.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__rosidl_typesupport_fastrtps_c.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h
@@ -58,6 +64,7 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/velocity__type_support.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__rosidl_typesupport_introspection_c.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__type_support.c
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__type_support.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__type_support.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__rosidl_typesupport_introspection_c.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__type_support.c
@@ -69,6 +76,7 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/velocity__rosidl_typesupport_introspection_c.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__rosidl_typesupport_introspection_c.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__rosidl_typesupport_introspection_c.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__type_support.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/lib/libbuff_interfaces__rosidl_typesupport_introspection_c.so
 /home/kyle/RM/tracker_2024/install/buff_interfaces/lib/libbuff_interfaces__rosidl_typesupport_c.so
@@ -80,6 +88,7 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/time_info.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/debug_blade.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/blade_array.hpp
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__builder.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__traits.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__builder.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__traits.hpp
@@ -87,6 +96,7 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__struct.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__traits.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__struct.hpp
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__struct.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__struct.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__builder.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__type_support.hpp
@@ -96,6 +106,7 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__builder.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__builder.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__traits.hpp
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__traits.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/velocity__type_support.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__builder.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__type_support.hpp
@@ -104,6 +115,7 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__builder.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__struct.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__struct.hpp
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__type_support.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__type_support.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__type_support.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__traits.hpp
@@ -113,11 +125,13 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__struct.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__traits.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/velocity.hpp
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/send.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__rosidl_typesupport_fastrtps_cpp.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_cpp.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__rosidl_typesupport_fastrtps_cpp.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/velocity__rosidl_typesupport_fastrtps_cpp.hpp
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__rosidl_typesupport_fastrtps_cpp.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__rosidl_typesupport_fastrtps_cpp.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_cpp.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__rosidl_typesupport_fastrtps_cpp.hpp
@@ -137,6 +151,8 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__type_support.cpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__rosidl_typesupport_introspection_cpp.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__type_support.cpp
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__type_support.cpp
+/home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__rosidl_typesupport_introspection_cpp.hpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__type_support.cpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__type_support.cpp
 /home/kyle/RM/tracker_2024/install/buff_interfaces/lib/libbuff_interfaces__rosidl_typesupport_introspection_cpp.so
@@ -159,12 +175,14 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_rune_info_s.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_time_info_s.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_blade_array_s.c
+/home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_send_s.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_debug_blade_s.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/__init__.py
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_blade_s.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_rune_s.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_rune_info.py
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_debug_blade_array.py
+/home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_send.py
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_velocity.py
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_debug_blade_array_s.c
 /home/kyle/RM/tracker_2024/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_blade.py
@@ -184,6 +202,7 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/msg/RuneInfo.idl
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/msg/TimeInfo.idl
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/msg/Velocity.idl
+/home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/msg/Send.idl
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/msg/Blade.msg
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/msg/BladeArray.msg
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/msg/DebugBlade.msg
@@ -192,6 +211,7 @@
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/msg/RuneInfo.msg
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/msg/TimeInfo.msg
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/msg/Velocity.msg
+/home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/msg/Send.msg
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/ament_index/resource_index/package_run_dependencies/buff_interfaces
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/ament_index/resource_index/parent_prefix_path/buff_interfaces
 /home/kyle/RM/tracker_2024/install/buff_interfaces/share/buff_interfaces/environment/ament_prefix_path.sh

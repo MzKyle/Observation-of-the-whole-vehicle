@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/buff_interfaces/msg/_rune_info.py"
   "../rosidl_generator_py/buff_interfaces/msg/_rune_info_s.c"
   "../rosidl_generator_py/buff_interfaces/msg/_rune_s.c"
+  "../rosidl_generator_py/buff_interfaces/msg/_send.py"
+  "../rosidl_generator_py/buff_interfaces/msg/_send_s.c"
   "../rosidl_generator_py/buff_interfaces/msg/_time_info.py"
   "../rosidl_generator_py/buff_interfaces/msg/_time_info_s.c"
   "../rosidl_generator_py/buff_interfaces/msg/_velocity.py"

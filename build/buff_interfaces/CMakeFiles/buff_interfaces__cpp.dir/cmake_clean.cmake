@@ -28,6 +28,10 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/buff_interfaces/msg/detail/rune_info__struct.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/detail/rune_info__traits.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/detail/rune_info__type_support.hpp"
+  "rosidl_generator_cpp/buff_interfaces/msg/detail/send__builder.hpp"
+  "rosidl_generator_cpp/buff_interfaces/msg/detail/send__struct.hpp"
+  "rosidl_generator_cpp/buff_interfaces/msg/detail/send__traits.hpp"
+  "rosidl_generator_cpp/buff_interfaces/msg/detail/send__type_support.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__builder.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__struct.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__traits.hpp"
@@ -38,6 +42,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__type_support.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/rune.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/rune_info.hpp"
+  "rosidl_generator_cpp/buff_interfaces/msg/send.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/time_info.hpp"
   "rosidl_generator_cpp/buff_interfaces/msg/velocity.hpp"
 )

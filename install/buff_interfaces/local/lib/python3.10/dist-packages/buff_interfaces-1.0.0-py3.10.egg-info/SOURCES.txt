@@ -11,5 +11,6 @@ buff_interfaces/msg/_debug_blade.py
 buff_interfaces/msg/_debug_blade_array.py
 buff_interfaces/msg/_rune.py
 buff_interfaces/msg/_rune_info.py
+buff_interfaces/msg/_send.py
 buff_interfaces/msg/_time_info.py
 buff_interfaces/msg/_velocity.py

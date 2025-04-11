@@ -6,3 +6,4 @@
 /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/RuneInfo.idl
 /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/TimeInfo.idl
 /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/Velocity.idl
+/home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/Send.idl

@@ -12,6 +12,9 @@
 #include <buff_interfaces/msg/blade_array.hpp>
 #include <buff_interfaces/msg/rune.hpp>
 #include <buff_interfaces/msg/rune_info.hpp>
+#include "buff_interfaces/msg/send.hpp"
+#include <buff_interfaces/msg/velocity.hpp>
+
 #include <geometry_msgs/msg/pose_array.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/string.hpp>
@@ -27,6 +30,7 @@
 #include "buff_tracker/extended_kalman_filter.hpp"
 #include "buff_tracker/gauss_newton_solver.hpp"
 #include "buff_tracker/tracker.hpp"
+#include "buff_executor/solvetrajectory.hpp"
 
 namespace rm_buff
 {
@@ -47,6 +51,7 @@ private:
   double lost_time_threshold_;//丢失时间阈值，用于判断是否丢失目标
 
   std::unique_ptr<Tracker> tracker_;
+  std::unique_ptr<SolveTrajectory> gaf_solver;
 
   // param
   //噪声
@@ -76,10 +81,17 @@ private:
   double r_w_;
   double r_c_;
 
+
+  rclcpp::Subscription<buff_interfaces::msg::Velocity>::SharedPtr velocity_sub_;
+
+
+
   //  task subscriber
   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr task_sub_; //任务订阅者，用于订阅任务模式消息
   std::string task_mode_;//当前的任务模式
   void taskCallback(const std_msgs::msg::String::SharedPtr task_msg);
+
+  rclcpp::Publisher<buff_interfaces::msg::Send>::SharedPtr send_pub_;
 
   // Subscriber with tf2 message_filter
   std::string target_frame_;

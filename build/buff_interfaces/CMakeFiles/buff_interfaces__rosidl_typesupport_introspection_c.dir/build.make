@@ -85,6 +85,7 @@ rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_type
 rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h: rosidl_adapter/buff_interfaces/msg/RuneInfo.idl
 rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h: rosidl_adapter/buff_interfaces/msg/TimeInfo.idl
 rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h: rosidl_adapter/buff_interfaces/msg/Velocity.idl
+rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h: rosidl_adapter/buff_interfaces/msg/Send.idl
 rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -171,6 +172,9 @@ rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/time_info__rosidl_
 rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__rosidl_typesupport_introspection_c.h
 
+rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__type_support.c: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__type_support.c
 
@@ -194,6 +198,9 @@ rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/time_info__type_su
 
 rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__type_support.c: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__type_support.c
+
+rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c
 
 CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__type_support.c.o: CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__type_support.c.o: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__type_support.c
@@ -307,6 +314,20 @@ CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__type_support.c -o CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__type_support.c.s
 
+CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.o: CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.o: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c
+CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.o: CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyle/RM/tracker_2024/build/buff_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.o -MF CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.o.d -o CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.o -c /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c
+
+CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c > CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.i
+
+CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c -o CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.s
+
 # Object files for target buff_interfaces__rosidl_typesupport_introspection_c
 buff_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/blade__type_support.c.o" \
@@ -316,7 +337,8 @@ buff_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/rune__type_support.c.o" \
 "CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/rune_info__type_support.c.o" \
 "CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/time_info__type_support.c.o" \
-"CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__type_support.c.o"
+"CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__type_support.c.o" \
+"CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.o"
 
 # External object files for target buff_interfaces__rosidl_typesupport_introspection_c
 buff_interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
@@ -329,6 +351,7 @@ libbuff_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/buff_inter
 libbuff_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/rune_info__type_support.c.o
 libbuff_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/time_info__type_support.c.o
 libbuff_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__type_support.c.o
+libbuff_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c.o
 libbuff_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/build.make
 libbuff_interfaces__rosidl_typesupport_introspection_c.so: libbuff_interfaces__rosidl_generator_c.so
 libbuff_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
@@ -341,7 +364,7 @@ libbuff_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/l
 libbuff_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libbuff_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libbuff_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyle/RM/tracker_2024/build/buff_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C shared library libbuff_interfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyle/RM/tracker_2024/build/buff_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libbuff_interfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -364,6 +387,8 @@ CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosid
 CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/rune__type_support.c
 CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/rune_info__rosidl_typesupport_introspection_c.h
 CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/rune_info__type_support.c
+CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__rosidl_typesupport_introspection_c.h
+CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/send__type_support.c
 CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/time_info__rosidl_typesupport_introspection_c.h
 CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/time_info__type_support.c
 CMakeFiles/buff_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/buff_interfaces/msg/detail/velocity__rosidl_typesupport_introspection_c.h

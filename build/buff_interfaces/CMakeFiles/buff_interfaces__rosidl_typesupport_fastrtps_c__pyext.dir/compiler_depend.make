@@ -274,8 +274,16 @@ CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gene
   rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.h \
   rosidl_generator_c/buff_interfaces/msg/detail/velocity__type_support.h \
   rosidl_generator_c/buff_interfaces/msg/detail/velocity__struct.h \
-  rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.h
+  rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.h \
+  rosidl_generator_c/buff_interfaces/msg/detail/send__type_support.h \
+  rosidl_generator_c/buff_interfaces/msg/detail/send__struct.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h \
+  rosidl_generator_c/buff_interfaces/msg/detail/send__functions.h
 
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h:
+
+rosidl_generator_c/buff_interfaces/msg/detail/send__struct.h:
 
 rosidl_generator_c/buff_interfaces/msg/detail/velocity__struct.h:
 
@@ -601,6 +609,8 @@ rosidl_generator_c/buff_interfaces/msg/detail/debug_blade__struct.h:
 
 /usr/include/errno.h:
 
+rosidl_generator_c/buff_interfaces/msg/detail/send__type_support.h:
+
 /usr/include/python3.10/cpython/fileutils.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
@@ -774,6 +784,8 @@ rosidl_generator_c/buff_interfaces/msg/detail/blade_array__type_support.h:
 /usr/include/python3.10/compile.h:
 
 /usr/include/python3.10/sysmodule.h:
+
+rosidl_generator_c/buff_interfaces/msg/detail/send__functions.h:
 
 /usr/include/python3.10/cpython/sysmodule.h:
 

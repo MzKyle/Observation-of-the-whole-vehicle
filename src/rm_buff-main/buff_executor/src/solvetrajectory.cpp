@@ -5,7 +5,7 @@
 #include <vector>
 #include <iostream>
 
-#include "solvetrajectory.hpp"
+#include "buff_executor/solvetrajectory.hpp"
 
 namespace rm_buff
 {
@@ -26,6 +26,8 @@ void SolveTrajectory::init(const buff_interfaces::msg::Velocity::SharedPtr veloc
 @param angle:rachouxiang
 @return z:m
 */
+
+
 float SolveTrajectory::monoDirectionalAirResistanceModel(float s, float v, float angle)
 {
     float z, t;
@@ -44,6 +46,8 @@ float SolveTrajectory::monoDirectionalAirResistanceModel(float s, float v, float
 @param angle:rad 角度
 @return z:m
 */
+
+
 // 完整弹道模型
 float SolveTrajectory::completeAirResistanceModel(float s, float v, float angle)
 {
@@ -156,9 +160,9 @@ std::pair<float, float> SolveTrajectory::calculatePitchAndYaw(int idx, const buf
     aim_y = tar_position[idx].y  + msg->velocity.y * timeDelay;
     aim_z = tar_position[idx].z;
 
-    //瞄准选择策略
-    float yaw_x = use_target_center_for_yaw ? msg->position.x : aim_x;//瞄准机器人中心（适用于快速移动的目标）
-    float yaw_y = use_target_center_for_yaw ? msg->position.y : aim_y;//瞄准具体装甲板（适用于精致/慢速目标）
+
+    float yaw_x = use_target_center_for_yaw ? msg->position.x : aim_x;
+    float yaw_y = use_target_center_for_yaw ? msg->position.y : aim_y;
 
     //弹道解算
     float pitch = pitchTrajectoryCompensation(sqrt((aim_x) * (aim_x) + (aim_y) * (aim_y)) - s_bias,

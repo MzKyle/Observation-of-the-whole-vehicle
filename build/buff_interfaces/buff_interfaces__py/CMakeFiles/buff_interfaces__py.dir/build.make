@@ -77,6 +77,7 @@ buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_int
 buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_rune_info.py
 buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_time_info.py
 buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_velocity.py
+buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_send.py
 buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/__init__.py
 buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_blade_s.c
 buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_blade_array_s.c
@@ -86,6 +87,7 @@ buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_int
 buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_rune_info_s.c
 buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_time_info_s.c
 buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_velocity_s.c
+buff_interfaces__py/CMakeFiles/buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_send_s.c
 
 rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -108,6 +110,7 @@ rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fas
 rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/buff_interfaces/msg/RuneInfo.idl
 rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/buff_interfaces/msg/TimeInfo.idl
 rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/buff_interfaces/msg/Velocity.idl
+rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/buff_interfaces/msg/Send.idl
 rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -203,6 +206,9 @@ rosidl_generator_py/buff_interfaces/msg/_time_info.py: rosidl_generator_py/buff_
 rosidl_generator_py/buff_interfaces/msg/_velocity.py: rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/buff_interfaces/msg/_velocity.py
 
+rosidl_generator_py/buff_interfaces/msg/_send.py: rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/buff_interfaces/msg/_send.py
+
 rosidl_generator_py/buff_interfaces/msg/__init__.py: rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/buff_interfaces/msg/__init__.py
 
@@ -230,6 +236,9 @@ rosidl_generator_py/buff_interfaces/msg/_time_info_s.c: rosidl_generator_py/buff
 rosidl_generator_py/buff_interfaces/msg/_velocity_s.c: rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/buff_interfaces/msg/_velocity_s.c
 
+rosidl_generator_py/buff_interfaces/msg/_send_s.c: rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/buff_interfaces/msg/_send_s.c
+
 buff_interfaces__py: buff_interfaces__py/CMakeFiles/buff_interfaces__py
 buff_interfaces__py: rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_c.c
 buff_interfaces__py: rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -247,6 +256,8 @@ buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_rune.py
 buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_rune_info.py
 buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_rune_info_s.c
 buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_rune_s.c
+buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_send.py
+buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_send_s.c
 buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_time_info.py
 buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_time_info_s.c
 buff_interfaces__py: rosidl_generator_py/buff_interfaces/msg/_velocity.py

@@ -717,6 +717,16 @@ CMakeFiles/buff_tracker.dir/src/tracker_node.cpp.o: \
  /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__builder.hpp \
  /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__traits.hpp \
  /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__type_support.hpp \
+ /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/send.hpp \
+ /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__struct.hpp \
+ /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__builder.hpp \
+ /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__traits.hpp \
+ /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/send__type_support.hpp \
+ /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/velocity.hpp \
+ /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/velocity__struct.hpp \
+ /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/velocity__builder.hpp \
+ /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/velocity__traits.hpp \
+ /home/kyle/RM/tracker_2024/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/velocity__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__builder.hpp \
@@ -1101,6 +1111,7 @@ CMakeFiles/buff_tracker.dir/src/tracker_node.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp \
  /opt/ros/humble/include/angles/angles/angles.h \
+ /home/kyle/RM/tracker_2024/install/buff_executor/include/buff_executor/solvetrajectory.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /usr/include/console_bridge/console.h \

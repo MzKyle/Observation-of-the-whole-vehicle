@@ -233,4 +233,8 @@ CMakeFiles/buff_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gene
  /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.h \
  /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/velocity__type_support.h \
  /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/velocity__struct.h \
- /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.h
+ /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.h \
+ /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/send__type_support.h \
+ /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/send__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h \
+ /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.h

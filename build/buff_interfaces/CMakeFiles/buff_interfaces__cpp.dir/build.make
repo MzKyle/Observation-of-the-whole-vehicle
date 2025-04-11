@@ -106,6 +106,11 @@ CMakeFiles/buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail
 CMakeFiles/buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__struct.hpp
 CMakeFiles/buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__traits.hpp
 CMakeFiles/buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__type_support.hpp
+CMakeFiles/buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/send.hpp
+CMakeFiles/buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/send__builder.hpp
+CMakeFiles/buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/send__struct.hpp
+CMakeFiles/buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/send__traits.hpp
+CMakeFiles/buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/send__type_support.hpp
 CMakeFiles/buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/buff_interfaces/msg/blade.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -131,6 +136,7 @@ rosidl_generator_cpp/buff_interfaces/msg/blade.hpp: rosidl_adapter/buff_interfac
 rosidl_generator_cpp/buff_interfaces/msg/blade.hpp: rosidl_adapter/buff_interfaces/msg/RuneInfo.idl
 rosidl_generator_cpp/buff_interfaces/msg/blade.hpp: rosidl_adapter/buff_interfaces/msg/TimeInfo.idl
 rosidl_generator_cpp/buff_interfaces/msg/blade.hpp: rosidl_adapter/buff_interfaces/msg/Velocity.idl
+rosidl_generator_cpp/buff_interfaces/msg/blade.hpp: rosidl_adapter/buff_interfaces/msg/Send.idl
 rosidl_generator_cpp/buff_interfaces/msg/blade.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/buff_interfaces/msg/blade.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/buff_interfaces/msg/blade.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -313,6 +319,21 @@ rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__traits.hpp: rosidl_gen
 rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__type_support.hpp: rosidl_generator_cpp/buff_interfaces/msg/blade.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__type_support.hpp
 
+rosidl_generator_cpp/buff_interfaces/msg/send.hpp: rosidl_generator_cpp/buff_interfaces/msg/blade.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/buff_interfaces/msg/send.hpp
+
+rosidl_generator_cpp/buff_interfaces/msg/detail/send__builder.hpp: rosidl_generator_cpp/buff_interfaces/msg/blade.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/buff_interfaces/msg/detail/send__builder.hpp
+
+rosidl_generator_cpp/buff_interfaces/msg/detail/send__struct.hpp: rosidl_generator_cpp/buff_interfaces/msg/blade.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/buff_interfaces/msg/detail/send__struct.hpp
+
+rosidl_generator_cpp/buff_interfaces/msg/detail/send__traits.hpp: rosidl_generator_cpp/buff_interfaces/msg/blade.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/buff_interfaces/msg/detail/send__traits.hpp
+
+rosidl_generator_cpp/buff_interfaces/msg/detail/send__type_support.hpp: rosidl_generator_cpp/buff_interfaces/msg/blade.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/buff_interfaces/msg/detail/send__type_support.hpp
+
 buff_interfaces__cpp: CMakeFiles/buff_interfaces__cpp
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/blade.hpp
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/blade_array.hpp
@@ -342,6 +363,10 @@ buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/rune_info_
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/rune_info__struct.hpp
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/rune_info__traits.hpp
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/rune_info__type_support.hpp
+buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/send__builder.hpp
+buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/send__struct.hpp
+buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/send__traits.hpp
+buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/send__type_support.hpp
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__builder.hpp
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__struct.hpp
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/time_info__traits.hpp
@@ -352,6 +377,7 @@ buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/detail/velocity__type_support.hpp
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/rune.hpp
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/rune_info.hpp
+buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/send.hpp
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/time_info.hpp
 buff_interfaces__cpp: rosidl_generator_cpp/buff_interfaces/msg/velocity.hpp
 buff_interfaces__cpp: CMakeFiles/buff_interfaces__cpp.dir/build.make

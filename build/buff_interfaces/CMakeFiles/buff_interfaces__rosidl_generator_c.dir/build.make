@@ -90,6 +90,7 @@ rosidl_generator_c/buff_interfaces/msg/blade.h: rosidl_adapter/buff_interfaces/m
 rosidl_generator_c/buff_interfaces/msg/blade.h: rosidl_adapter/buff_interfaces/msg/RuneInfo.idl
 rosidl_generator_c/buff_interfaces/msg/blade.h: rosidl_adapter/buff_interfaces/msg/TimeInfo.idl
 rosidl_generator_c/buff_interfaces/msg/blade.h: rosidl_adapter/buff_interfaces/msg/Velocity.idl
+rosidl_generator_c/buff_interfaces/msg/blade.h: rosidl_adapter/buff_interfaces/msg/Send.idl
 rosidl_generator_c/buff_interfaces/msg/blade.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_c/buff_interfaces/msg/blade.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_c/buff_interfaces/msg/blade.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -248,6 +249,18 @@ rosidl_generator_c/buff_interfaces/msg/detail/velocity__struct.h: rosidl_generat
 rosidl_generator_c/buff_interfaces/msg/detail/velocity__type_support.h: rosidl_generator_c/buff_interfaces/msg/blade.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/buff_interfaces/msg/detail/velocity__type_support.h
 
+rosidl_generator_c/buff_interfaces/msg/send.h: rosidl_generator_c/buff_interfaces/msg/blade.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/buff_interfaces/msg/send.h
+
+rosidl_generator_c/buff_interfaces/msg/detail/send__functions.h: rosidl_generator_c/buff_interfaces/msg/blade.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/buff_interfaces/msg/detail/send__functions.h
+
+rosidl_generator_c/buff_interfaces/msg/detail/send__struct.h: rosidl_generator_c/buff_interfaces/msg/blade.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/buff_interfaces/msg/detail/send__struct.h
+
+rosidl_generator_c/buff_interfaces/msg/detail/send__type_support.h: rosidl_generator_c/buff_interfaces/msg/blade.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/buff_interfaces/msg/detail/send__type_support.h
+
 rosidl_generator_c/buff_interfaces/msg/detail/blade__functions.c: rosidl_generator_c/buff_interfaces/msg/blade.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/buff_interfaces/msg/detail/blade__functions.c
 
@@ -271,6 +284,9 @@ rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.c: rosidl_gen
 
 rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.c: rosidl_generator_c/buff_interfaces/msg/blade.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.c
+
+rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c: rosidl_generator_c/buff_interfaces/msg/blade.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c
 
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/blade__functions.c.o: CMakeFiles/buff_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/blade__functions.c.o: rosidl_generator_c/buff_interfaces/msg/detail/blade__functions.c
@@ -384,6 +400,20 @@ CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_inter
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.c -o CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.c.s
 
+CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.o: CMakeFiles/buff_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.o: rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c
+CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.o: CMakeFiles/buff_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyle/RM/tracker_2024/build/buff_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.o -MF CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.o.d -o CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.o -c /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c
+
+CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c > CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.i
+
+CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kyle/RM/tracker_2024/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c -o CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.s
+
 # Object files for target buff_interfaces__rosidl_generator_c
 buff_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/blade__functions.c.o" \
@@ -393,7 +423,8 @@ buff_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/rune__functions.c.o" \
 "CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/rune_info__functions.c.o" \
 "CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.c.o" \
-"CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.c.o"
+"CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.c.o" \
+"CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.o"
 
 # External object files for target buff_interfaces__rosidl_generator_c
 buff_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -406,6 +437,7 @@ libbuff_interfaces__rosidl_generator_c.so: CMakeFiles/buff_interfaces__rosidl_ge
 libbuff_interfaces__rosidl_generator_c.so: CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/rune_info__functions.c.o
 libbuff_interfaces__rosidl_generator_c.so: CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.c.o
 libbuff_interfaces__rosidl_generator_c.so: CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/velocity__functions.c.o
+libbuff_interfaces__rosidl_generator_c.so: CMakeFiles/buff_interfaces__rosidl_generator_c.dir/rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c.o
 libbuff_interfaces__rosidl_generator_c.so: CMakeFiles/buff_interfaces__rosidl_generator_c.dir/build.make
 libbuff_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 libbuff_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
@@ -413,7 +445,7 @@ libbuff_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interf
 libbuff_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libbuff_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libbuff_interfaces__rosidl_generator_c.so: CMakeFiles/buff_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyle/RM/tracker_2024/build/buff_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C shared library libbuff_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyle/RM/tracker_2024/build/buff_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libbuff_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/buff_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -452,6 +484,10 @@ CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bu
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/detail/rune_info__functions.h
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/detail/rune_info__struct.h
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/detail/rune_info__type_support.h
+CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/detail/send__functions.c
+CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/detail/send__functions.h
+CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/detail/send__struct.h
+CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/detail/send__type_support.h
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.c
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/detail/time_info__functions.h
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/detail/time_info__struct.h
@@ -462,6 +498,7 @@ CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bu
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/detail/velocity__type_support.h
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/rune.h
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/rune_info.h
+CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/send.h
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/time_info.h
 CMakeFiles/buff_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/buff_interfaces/msg/velocity.h
 	cd /home/kyle/RM/tracker_2024/build/buff_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces /home/kyle/RM/tracker_2024/src/rm_buff-main/buff_interfaces /home/kyle/RM/tracker_2024/build/buff_interfaces /home/kyle/RM/tracker_2024/build/buff_interfaces /home/kyle/RM/tracker_2024/build/buff_interfaces/CMakeFiles/buff_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
