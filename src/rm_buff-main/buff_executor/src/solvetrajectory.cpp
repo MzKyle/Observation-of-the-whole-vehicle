@@ -7,14 +7,14 @@
 
 #include "solvetrajectory.hpp"
 
-namespace rm_auto_aim
+namespace rm_buff
 {
 SolveTrajectory::SolveTrajectory(const float &k, const int &bias_time, const float &s_bias, const float &z_bias)
 : k(k), bias_time(bias_time), s_bias(s_bias), z_bias(z_bias)
 {}
 
 
-void SolveTrajectory::init(const auto_aim_interfaces::msg::Velocity::SharedPtr velocity_msg)
+void SolveTrajectory::init(const buff_interfaces::msg::Velocity::SharedPtr velocity_msg)
 {
     current_v = velocity_msg->velocity;
 }
@@ -124,7 +124,7 @@ bool SolveTrajectory::shouldFire(float tmp_yaw, float v_yaw, float timeDelay) {
 //策略1.true fale 交替策略
 //策略2.fasle true 平均策略
 //策略3.false false 单一固定半径策略
-// void SolveTrajectory::calculateArmorPosition(const auto_aim_interfaces::msg::Target::SharedPtr& msg, bool use_1, bool use_average_radius) {
+// void SolveTrajectory::calculateArmorPosition(const buff_interfaces::msg::Target::SharedPtr& msg, bool use_1, bool use_average_radius) {
 //     std::vector<float> tmp_yaws;
 //     min_yaw_in_cycle = std::numeric_limits<float>::max();
 //     max_yaw_in_cycle = std::numeric_limits<float>::min();
@@ -150,7 +150,7 @@ bool SolveTrajectory::shouldFire(float tmp_yaw, float v_yaw, float timeDelay) {
 //     }
 // }
 
-std::pair<float, float> SolveTrajectory::calculatePitchAndYaw(int idx, const auto_aim_interfaces::msg::Target::SharedPtr& msg, float timeDelay, float s_bias, float z_bias, float current_v, bool use_target_center_for_yaw,float& aim_x, float& aim_y, float& aim_z) {
+std::pair<float, float> SolveTrajectory::calculatePitchAndYaw(int idx, const buff_interfaces::msg::Rune::SharedPtr& msg, float timeDelay, float s_bias, float z_bias, float current_v, bool use_target_center_for_yaw,float& aim_x, float& aim_y, float& aim_z) {
     // 目标位置预测（运动补偿）
     aim_x = tar_position[idx].x  + msg->velocity.x * timeDelay;
     aim_y = tar_position[idx].y  + msg->velocity.y * timeDelay;
@@ -183,7 +183,7 @@ std::pair<float, float> SolveTrajectory::calculatePitchAndYaw(int idx, const aut
 
 
 
-// int SolveTrajectory::selectArmor(const auto_aim_interfaces::msg::Target::SharedPtr& msg, bool select_by_min_yaw) {
+// int SolveTrajectory::selectArmor(const buff_interfaces::msg::Target::SharedPtr& msg, bool select_by_min_yaw) {
 //     int selected_armor_idx = -1;
 //     if (select_by_min_yaw) {
 //         // 最小角度差选择
@@ -210,7 +210,7 @@ std::pair<float, float> SolveTrajectory::calculatePitchAndYaw(int idx, const aut
 //     return selected_armor_idx;
 // }
 
-// void SolveTrajectory::fireLogicIsTop(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const auto_aim_interfaces::msg::Target::SharedPtr& msg) {//转速快时使用
+// void SolveTrajectory::fireLogicIsTop(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const buff_interfaces::msg::Target::SharedPtr& msg) {//转速快时使用
 //     // tar_yaw = msg->yaw;
 //     // 时间延迟计算（系统延迟+飞行时间）
 //     float timeDelay = bias_time/1000.0 + fly_time;
@@ -260,7 +260,7 @@ std::pair<float, float> SolveTrajectory::calculatePitchAndYaw(int idx, const aut
 // }
 
 
-// void SolveTrajectory::fireLogicDefault(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const auto_aim_interfaces::msg::Target::SharedPtr& msg) {
+// void SolveTrajectory::fireLogicDefault(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const buff_interfaces::msg::Target::SharedPtr& msg) {
 //     // 线性预测
 //     float timeDelay = bias_time/1000.0 + fly_time;
 //     tar_yaw += msg->v_yaw * timeDelay;
@@ -297,7 +297,7 @@ std::pair<float, float> SolveTrajectory::calculatePitchAndYaw(int idx, const aut
 // @param aim_y:传出aim_y  打击目标的y
 // @param aim_z:传出aim_z  打击目标的z
 // */
-// void SolveTrajectory::autoSolveTrajectory(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const auto_aim_interfaces::msg::Target::SharedPtr msg)
+// void SolveTrajectory::autoSolveTrajectory(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const buff_interfaces::msg::Target::SharedPtr msg)
 // {
 
 //     if(msg->v_yaw > 6.0f){

@@ -10,29 +10,29 @@ typedef unsigned char uint8_t;
 #include "buff_interfaces/msg/rune.hpp"
 #include "buff_interfaces/msg/velocity.hpp"
 
-namespace rm_auto_aim
+namespace rm_buff
 {
 class SolveTrajectory
 {
 public:
-    enum ARMOR_ID
-    {
-        ARMOR_OUTPOST = 0,
-        ARMOR_HERO = 1,
-        ARMOR_ENGINEER = 2,
-        ARMOR_INFANTRY3 = 3,
-        ARMOR_INFANTRY4 = 4,
-        ARMOR_INFANTRY5 = 5,
-        ARMOR_GUARD = 6,
-        ARMOR_BASE = 7
-    };
+    // enum ARMOR_ID
+    // {
+    //     ARMOR_OUTPOST = 0,
+    //     ARMOR_HERO = 1,
+    //     ARMOR_ENGINEER = 2,
+    //     ARMOR_INFANTRY3 = 3,
+    //     ARMOR_INFANTRY4 = 4,
+    //     ARMOR_INFANTRY5 = 5,
+    //     ARMOR_GUARD = 6,
+    //     ARMOR_BASE = 7
+    // };
 
-    enum ARMOR_NUM
-    {
-        ARMOR_NUM_BALANCE = 2,
-        ARMOR_NUM_OUTPOST = 3,
-        ARMOR_NUM_NORMAL = 4
-    };
+    // enum ARMOR_NUM
+    // {
+    //     ARMOR_NUM_BALANCE = 2,
+    //     ARMOR_NUM_OUTPOST = 3,
+    //     ARMOR_NUM_NORMAL = 4
+    // };
 
     enum BULLET_TYPE
     {
@@ -40,13 +40,13 @@ public:
         BULLET_42 = 1
     };
 
-    //用于存储目标装甲板的信息
+    //用于存储目标扇叶的信息
     struct tar_pos
     {
-        float x;           //装甲板在世界坐标系下的x
-        float y;           //装甲板在世界坐标系下的y
-        float z;           //装甲板在世界坐标系下的z
-        float yaw;         //装甲板坐标系相对于世界坐标系的yaw角
+        float x;
+        float y;
+        float z;
+        float yaw;
     };
 
     SolveTrajectory(const float &k, const int &bias_time, const float &s_bias, const float &z_bias);
@@ -73,7 +73,7 @@ public:
     float min_yaw_in_cycle;
     float max_yaw_in_cycle;
 
-    void init(const auto_aim_interfaces::msg::Velocity::SharedPtr velocity_msg);
+    void init(const buff_interfaces::msg::Velocity::SharedPtr velocity_msg);
 
     //单方向空气阻力模型
     float monoDirectionalAirResistanceModel(float s, float v, float angle);
@@ -89,18 +89,18 @@ public:
         fireCallback = callback;
     }
 
-    void calculateArmorPosition(const auto_aim_interfaces::msg::Target::SharedPtr& msg, bool use_1, bool use_average_radius);
+ //   void calculateArmorPosition(const buff_interfaces::msg::Target::SharedPtr& msg, bool use_1, bool use_average_radius);
 
-    std::pair<float, float> calculatePitchAndYaw(int idx, const auto_aim_interfaces::msg::Target::SharedPtr& msg, float timeDelay, float s_bias, float z_bias, float current_v, bool use_target_center_for_yaw,float& aim_x, float& aim_y, float& aim_z);
+    std::pair<float, float> calculatePitchAndYaw(int idx, const buff_interfaces::msg::Rune::SharedPtr& msg, float timeDelay, float s_bias, float z_bias, float current_v, bool use_target_center_for_yaw,float& aim_x, float& aim_y, float& aim_z);
 
-    int selectArmor(const auto_aim_interfaces::msg::Target::SharedPtr& msg, bool select_by_min_yaw);
+ //   int selectArmor(const buff_interfaces::msg::Target::SharedPtr& msg, bool select_by_min_yaw);
 
-    void fireLogicIsTop(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const auto_aim_interfaces::msg::Target::SharedPtr& msg);
+  //  void fireLogicIsTop(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const buff_interfaces::msg::Target::SharedPtr& msg);
 
-    void fireLogicDefault(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const auto_aim_interfaces::msg::Target::SharedPtr& msg);
+ //   void fireLogicDefault(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const buff_interfaces::msg::Target::SharedPtr& msg);
 
     //根据最优决策得出被击打装甲板 自动解算弹道
-    void autoSolveTrajectory(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const auto_aim_interfaces::msg::Target::SharedPtr msg);
+    void autoSolveTrajectory(float& pitch, float& yaw, float& aim_x, float& aim_y, float& aim_z, const buff_interfaces::msg::Rune::SharedPtr msg);
 private:
     FireCallback fireCallback;
 
