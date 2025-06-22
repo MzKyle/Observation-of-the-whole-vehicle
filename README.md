@@ -80,7 +80,8 @@ ros2 launch rm_vision_bringup vision_bringup.launch.py
 
   - 单独运行子模块
 
-    ```Shell
+
+```Shell
 source install/setup.bash
 ros2 launch auto_aim_bringup auto_aim.launch.py 
 ```
