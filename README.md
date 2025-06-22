@@ -17,7 +17,7 @@ ros2 run camera_calibration cameracalibrator --size 7x10 --square 0.015 image:=/
 ### 4.IMU与相机多传感修正：目标不动，本车动，看position的变化
 ### 5.打静止装甲板，修正到目标中心
 ### 6.不同距离下打旋转装甲板
-
+### 7.自启动脚本 auto.sh
 
 # 使用
 ### 安装ROS
